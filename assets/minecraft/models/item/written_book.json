@@ -1,0 +1,6 @@
+{
+	"parent": "item/book",
+	"textures": {
+		"book": "item/book/written_book"
+	}
+}

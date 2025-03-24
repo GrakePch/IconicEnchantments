@@ -1,0 +1,2595 @@
+{
+"model": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "aqua_affinity",
+"levels": 1
+}
+],
+"on_true": {
+"type": "model",
+"model": "item/enchanted_book/aqua_affinity_1"
+},
+"on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "aqua_affinity",
+"levels": {
+"min": 2
+}
+}
+],
+"on_true": {
+"type": "model",
+"model": "item/enchanted_book/aqua_affinity_impossible"
+},
+"on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "bane_of_arthropods",
+"levels": 1
+}
+],
+"on_true": {
+"type": "model",
+"model": "item/enchanted_book/bane_of_arthropods_1"
+},
+"on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "bane_of_arthropods",
+"levels": 2
+}
+],
+"on_true": {
+"type": "model",
+"model": "item/enchanted_book/bane_of_arthropods_2"
+},
+"on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "bane_of_arthropods",
+"levels": 3
+}
+],
+"on_true": {
+"type": "model",
+"model": "item/enchanted_book/bane_of_arthropods_3"
+},
+"on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "bane_of_arthropods",
+"levels": 4
+}
+],
+"on_true": {
+"type": "model",
+"model": "item/enchanted_book/bane_of_arthropods_4"
+},
+"on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "bane_of_arthropods",
+"levels": 5
+}
+],
+"on_true": {
+"type": "model",
+"model": "item/enchanted_book/bane_of_arthropods_5"
+},
+"on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "bane_of_arthropods",
+"levels": {
+"min": 6
+}
+}
+],
+"on_true": {
+"type": "model",
+"model": "item/enchanted_book/bane_of_arthropods_impossible"
+},
+"on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "binding_curse",
+"levels": 1
+}
+],
+"on_true": {
+"type": "model",
+"model": "item/enchanted_book/curse_of_binding_1"
+},
+"on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "binding_curse",
+"levels": {
+"min": 2
+}
+}
+],
+"on_true": {
+"type": "model",
+"model": "item/enchanted_book/curse_of_binding_impossible"
+},
+"on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "blast_protection",
+"levels": 1
+}
+],
+"on_true": {
+"type": "model",
+"model": "item/enchanted_book/blast_protection_1"
+},
+"on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "blast_protection",
+"levels": 2
+}
+],
+"on_true": {
+"type": "model",
+"model": "item/enchanted_book/blast_protection_2"
+},
+"on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "blast_protection",
+"levels": 3
+}
+],
+"on_true": {
+"type": "model",
+"model": "item/enchanted_book/blast_protection_3"
+},
+"on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "blast_protection",
+"levels": 4
+}
+],
+"on_true": {
+"type": "model",
+"model": "item/enchanted_book/blast_protection_4"
+},
+"on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "blast_protection",
+"levels": {
+"min": 5
+}
+}
+],
+"on_true": {
+"type": "model",
+"model": "item/enchanted_book/blast_protection_impossible"
+},
+"on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "channeling",
+"levels": 1
+}
+],
+"on_true": {
+"type": "model",
+"model": "item/enchanted_book/channeling_1"
+},
+"on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "channeling",
+"levels": {
+"min": 2
+}
+}
+],
+"on_true": {
+"type": "model",
+"model": "item/enchanted_book/channeling_impossible"
+},
+"on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "depth_strider",
+"levels": 1
+}
+],
+"on_true": {
+"type": "model",
+"model": "item/enchanted_book/depth_strider_1"
+},
+"on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "depth_strider",
+"levels": 2
+}
+],
+"on_true": {
+"type": "model",
+"model": "item/enchanted_book/depth_strider_2"
+},
+"on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "depth_strider",
+"levels": 3
+}
+],
+"on_true": {
+"type": "model",
+"model": "item/enchanted_book/depth_strider_3"
+},
+"on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "depth_strider",
+"levels": {
+"min": 4
+}
+}
+],
+"on_true": {
+"type": "model",
+"model": "item/enchanted_book/depth_strider_impossible"
+},
+"on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "efficiency",
+"levels": 1
+}
+],
+"on_true": {
+"type": "model",
+"model": "item/enchanted_book/efficiency_1"
+},
+"on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "efficiency",
+"levels": 2
+}
+],
+"on_true": {
+"type": "model",
+"model": "item/enchanted_book/efficiency_2"
+},
+"on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "efficiency",
+"levels": 3
+}
+],
+"on_true": {
+"type": "model",
+"model": "item/enchanted_book/efficiency_3"
+},
+"on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "efficiency",
+"levels": 4
+}
+],
+"on_true": {
+"type": "model",
+"model": "item/enchanted_book/efficiency_4"
+},
+"on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "efficiency",
+"levels": 5
+}
+],
+"on_true": {
+"type": "model",
+"model": "item/enchanted_book/efficiency_5"
+},
+"on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "efficiency",
+"levels": {
+"min": 6
+}
+}
+],
+"on_true": {
+"type": "model",
+"model": "item/enchanted_book/efficiency_impossible"
+},
+"on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "feather_falling",
+"levels": 1
+}
+],
+"on_true": {
+"type": "model",
+"model": "item/enchanted_book/feather_falling_1"
+},
+"on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "feather_falling",
+"levels": 2
+}
+],
+"on_true": {
+"type": "model",
+"model": "item/enchanted_book/feather_falling_2"
+},
+"on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "feather_falling",
+"levels": 3
+}
+],
+"on_true": {
+"type": "model",
+"model": "item/enchanted_book/feather_falling_3"
+},
+"on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "feather_falling",
+"levels": 4
+}
+],
+"on_true": {
+"type": "model",
+"model": "item/enchanted_book/feather_falling_4"
+},
+"on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "feather_falling",
+"levels": {
+"min": 5
+}
+}
+],
+"on_true": {
+"type": "model",
+"model": "item/enchanted_book/feather_falling_impossible"
+},
+"on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "fire_aspect",
+"levels": 1
+}
+],
+"on_true": {
+"type": "model",
+"model": "item/enchanted_book/fire_aspect_1"
+},
+"on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "fire_aspect",
+"levels": 2
+}
+],
+"on_true": {
+"type": "model",
+"model": "item/enchanted_book/fire_aspect_2"
+},
+"on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "fire_aspect",
+"levels": {
+"min": 3
+}
+}
+],
+"on_true": {
+"type": "model",
+"model": "item/enchanted_book/fire_aspect_impossible"
+},
+"on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "fire_protection",
+"levels": 1
+}
+],
+"on_true": {
+"type": "model",
+"model": "item/enchanted_book/fire_protection_1"
+},
+"on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "fire_protection",
+"levels": 2
+}
+],
+"on_true": {
+"type": "model",
+"model": "item/enchanted_book/fire_protection_2"
+},
+"on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "fire_protection",
+"levels": 3
+}
+],
+"on_true": {
+"type": "model",
+"model": "item/enchanted_book/fire_protection_3"
+},
+"on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "fire_protection",
+"levels": 4
+}
+],
+"on_true": {
+"type": "model",
+"model": "item/enchanted_book/fire_protection_4"
+},
+"on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "fire_protection",
+"levels": {
+"min": 5
+}
+}
+],
+"on_true": {
+"type": "model",
+"model": "item/enchanted_book/fire_protection_impossible"
+},
+"on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "flame",
+"levels": 1
+}
+],
+"on_true": {
+"type": "model",
+"model": "item/enchanted_book/flame_1"
+},
+"on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "flame",
+"levels": {
+"min": 2
+}
+}
+],
+"on_true": {
+"type": "model",
+"model": "item/enchanted_book/flame_impossible"
+},
+"on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "fortune",
+"levels": 1
+}
+],
+"on_true": {
+"type": "model",
+"model": "item/enchanted_book/fortune_1"
+},
+"on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "fortune",
+"levels": 2
+}
+],
+"on_true": {
+"type": "model",
+"model": "item/enchanted_book/fortune_2"
+},
+"on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "fortune",
+"levels": 3
+}
+],
+"on_true": {
+"type": "model",
+"model": "item/enchanted_book/fortune_3"
+},
+"on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "fortune",
+"levels": {
+"min": 4
+}
+}
+],
+"on_true": {
+"type": "model",
+"model": "item/enchanted_book/fortune_impossible"
+},
+"on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "frost_walker",
+"levels": 1
+}
+],
+"on_true": {
+"type": "model",
+"model": "item/enchanted_book/frost_walker_1"
+},
+"on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "frost_walker",
+"levels": 2
+}
+],
+"on_true": {
+"type": "model",
+"model": "item/enchanted_book/frost_walker_2"
+},
+"on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "frost_walker",
+"levels": {
+"min": 3
+}
+}
+],
+"on_true": {
+"type": "model",
+"model": "item/enchanted_book/frost_walker_impossible"
+},
+"on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "impaling",
+"levels": 1
+}
+],
+"on_true": {
+"type": "model",
+"model": "item/enchanted_book/impaling_1"
+},
+"on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "impaling",
+"levels": 2
+}
+],
+"on_true": {
+"type": "model",
+"model": "item/enchanted_book/impaling_2"
+},
+"on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "impaling",
+"levels": 3
+}
+],
+"on_true": {
+"type": "model",
+"model": "item/enchanted_book/impaling_3"
+},
+"on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "impaling",
+"levels": 4
+}
+],
+"on_true": {
+"type": "model",
+"model": "item/enchanted_book/impaling_4"
+},
+"on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "impaling",
+"levels": 5
+}
+],
+"on_true": {
+"type": "model",
+"model": "item/enchanted_book/impaling_5"
+},
+"on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "impaling",
+"levels": {
+"min": 6
+}
+}
+],
+"on_true": {
+"type": "model",
+"model": "item/enchanted_book/impaling_impossible"
+},
+"on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "infinity",
+"levels": 1
+}
+],
+"on_true": {
+"type": "model",
+"model": "item/enchanted_book/infinity_1"
+},
+"on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "infinity",
+"levels": {
+"min": 2
+}
+}
+],
+"on_true": {
+"type": "model",
+"model": "item/enchanted_book/infinity_impossible"
+},
+"on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "knockback",
+"levels": 1
+}
+],
+"on_true": {
+"type": "model",
+"model": "item/enchanted_book/knockback_1"
+},
+"on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "knockback",
+"levels": 2
+}
+],
+"on_true": {
+"type": "model",
+"model": "item/enchanted_book/knockback_2"
+},
+"on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "knockback",
+"levels": {
+"min": 3
+}
+}
+],
+"on_true": {
+"type": "model",
+"model": "item/enchanted_book/knockback_impossible"
+},
+"on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "looting",
+"levels": 1
+}
+],
+"on_true": {
+"type": "model",
+"model": "item/enchanted_book/looting_1"
+},
+"on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "looting",
+"levels": 2
+}
+],
+"on_true": {
+"type": "model",
+"model": "item/enchanted_book/looting_2"
+},
+"on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "looting",
+"levels": 3
+}
+],
+"on_true": {
+"type": "model",
+"model": "item/enchanted_book/looting_3"
+},
+"on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "looting",
+"levels": {
+"min": 4
+}
+}
+],
+"on_true": {
+"type": "model",
+"model": "item/enchanted_book/looting_impossible"
+},
+"on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "loyalty",
+"levels": 1
+}
+],
+"on_true": {
+"type": "model",
+"model": "item/enchanted_book/loyalty_1"
+},
+"on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "loyalty",
+"levels": 2
+}
+],
+"on_true": {
+"type": "model",
+"model": "item/enchanted_book/loyalty_2"
+},
+"on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "loyalty",
+"levels": 3
+}
+],
+"on_true": {
+"type": "model",
+"model": "item/enchanted_book/loyalty_3"
+},
+"on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "loyalty",
+"levels": {
+"min": 4
+}
+}
+],
+"on_true": {
+"type": "model",
+"model": "item/enchanted_book/loyalty_impossible"
+},
+"on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "luck_of_the_sea",
+"levels": 1
+}
+],
+"on_true": {
+"type": "model",
+"model": "item/enchanted_book/luck_of_the_sea_1"
+},
+"on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "luck_of_the_sea",
+"levels": 2
+}
+],
+"on_true": {
+"type": "model",
+"model": "item/enchanted_book/luck_of_the_sea_2"
+},
+"on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "luck_of_the_sea",
+"levels": 3
+}
+],
+"on_true": {
+"type": "model",
+"model": "item/enchanted_book/luck_of_the_sea_3"
+},
+"on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "luck_of_the_sea",
+"levels": {
+"min": 4
+}
+}
+],
+"on_true": {
+"type": "model",
+"model": "item/enchanted_book/luck_of_the_sea_impossible"
+},
+"on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "lure",
+"levels": 1
+}
+],
+"on_true": {
+"type": "model",
+"model": "item/enchanted_book/lure_1"
+},
+"on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "lure",
+"levels": 2
+}
+],
+"on_true": {
+"type": "model",
+"model": "item/enchanted_book/lure_2"
+},
+"on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "lure",
+"levels": 3
+}
+],
+"on_true": {
+"type": "model",
+"model": "item/enchanted_book/lure_3"
+},
+"on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "lure",
+"levels": {
+"min": 4
+}
+}
+],
+"on_true": {
+"type": "model",
+"model": "item/enchanted_book/lure_impossible"
+},
+"on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "mending",
+"levels": 1
+}
+],
+"on_true": {
+"type": "model",
+"model": "item/enchanted_book/mending_1"
+},
+"on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "mending",
+"levels": {
+"min": 2
+}
+}
+],
+"on_true": {
+"type": "model",
+"model": "item/enchanted_book/mending_impossible"
+},
+"on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "multishot",
+"levels": 1
+}
+],
+"on_true": {
+"type": "model",
+"model": "item/enchanted_book/multishot_1"
+},
+"on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "multishot",
+"levels": {
+"min": 2
+}
+}
+],
+"on_true": {
+"type": "model",
+"model": "item/enchanted_book/multishot_impossible"
+},
+"on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "piercing",
+"levels": 1
+}
+],
+"on_true": {
+"type": "model",
+"model": "item/enchanted_book/piercing_1"
+},
+"on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "piercing",
+"levels": 2
+}
+],
+"on_true": {
+"type": "model",
+"model": "item/enchanted_book/piercing_2"
+},
+"on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "piercing",
+"levels": 3
+}
+],
+"on_true": {
+"type": "model",
+"model": "item/enchanted_book/piercing_3"
+},
+"on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "piercing",
+"levels": 4
+}
+],
+"on_true": {
+"type": "model",
+"model": "item/enchanted_book/piercing_4"
+},
+"on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "piercing",
+"levels": {
+"min": 5
+}
+}
+],
+"on_true": {
+"type": "model",
+"model": "item/enchanted_book/piercing_impossible"
+},
+"on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "power",
+"levels": 1
+}
+],
+"on_true": {
+"type": "model",
+"model": "item/enchanted_book/power_1"
+},
+"on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "power",
+"levels": 2
+}
+],
+"on_true": {
+"type": "model",
+"model": "item/enchanted_book/power_2"
+},
+"on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "power",
+"levels": 3
+}
+],
+"on_true": {
+"type": "model",
+"model": "item/enchanted_book/power_3"
+},
+"on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "power",
+"levels": 4
+}
+],
+"on_true": {
+"type": "model",
+"model": "item/enchanted_book/power_4"
+},
+"on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "power",
+"levels": 5
+}
+],
+"on_true": {
+"type": "model",
+"model": "item/enchanted_book/power_5"
+},
+"on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "power",
+"levels": {
+"min": 6
+}
+}
+],
+"on_true": {
+"type": "model",
+"model": "item/enchanted_book/power_impossible"
+},
+"on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "projectile_protection",
+"levels": 1
+}
+],
+"on_true": {
+"type": "model",
+"model": "item/enchanted_book/projectile_protection_1"
+},
+"on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "projectile_protection",
+"levels": 2
+}
+],
+"on_true": {
+"type": "model",
+"model": "item/enchanted_book/projectile_protection_2"
+},
+"on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "projectile_protection",
+"levels": 3
+}
+],
+"on_true": {
+"type": "model",
+"model": "item/enchanted_book/projectile_protection_3"
+},
+"on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "projectile_protection",
+"levels": 4
+}
+],
+"on_true": {
+"type": "model",
+"model": "item/enchanted_book/projectile_protection_4"
+},
+"on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "projectile_protection",
+"levels": {
+"min": 5
+}
+}
+],
+"on_true": {
+"type": "model",
+"model": "item/enchanted_book/projectile_protection_impossible"
+},
+"on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "protection",
+"levels": 1
+}
+],
+"on_true": {
+"type": "model",
+"model": "item/enchanted_book/protection_1"
+},
+"on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "protection",
+"levels": 2
+}
+],
+"on_true": {
+"type": "model",
+"model": "item/enchanted_book/protection_2"
+},
+"on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "protection",
+"levels": 3
+}
+],
+"on_true": {
+"type": "model",
+"model": "item/enchanted_book/protection_3"
+},
+"on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "protection",
+"levels": 4
+}
+],
+"on_true": {
+"type": "model",
+"model": "item/enchanted_book/protection_4"
+},
+"on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "protection",
+"levels": {
+"min": 5
+}
+}
+],
+"on_true": {
+"type": "model",
+"model": "item/enchanted_book/protection_impossible"
+},
+"on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "punch",
+"levels": 1
+}
+],
+"on_true": {
+"type": "model",
+"model": "item/enchanted_book/punch_1"
+},
+"on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "punch",
+"levels": 2
+}
+],
+"on_true": {
+"type": "model",
+"model": "item/enchanted_book/punch_2"
+},
+"on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "punch",
+"levels": {
+"min": 3
+}
+}
+],
+"on_true": {
+"type": "model",
+"model": "item/enchanted_book/punch_impossible"
+},
+"on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "quick_charge",
+"levels": 1
+}
+],
+"on_true": {
+"type": "model",
+"model": "item/enchanted_book/quick_charge_1"
+},
+"on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "quick_charge",
+"levels": 2
+}
+],
+"on_true": {
+"type": "model",
+"model": "item/enchanted_book/quick_charge_2"
+},
+"on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "quick_charge",
+"levels": 3
+}
+],
+"on_true": {
+"type": "model",
+"model": "item/enchanted_book/quick_charge_3"
+},
+"on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "quick_charge",
+"levels": {
+"min": 4
+}
+}
+],
+"on_true": {
+"type": "model",
+"model": "item/enchanted_book/quick_charge_impossible"
+},
+"on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "respiration",
+"levels": 1
+}
+],
+"on_true": {
+"type": "model",
+"model": "item/enchanted_book/respiration_1"
+},
+"on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "respiration",
+"levels": 2
+}
+],
+"on_true": {
+"type": "model",
+"model": "item/enchanted_book/respiration_2"
+},
+"on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "respiration",
+"levels": 3
+}
+],
+"on_true": {
+"type": "model",
+"model": "item/enchanted_book/respiration_3"
+},
+"on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "respiration",
+"levels": {
+"min": 4
+}
+}
+],
+"on_true": {
+"type": "model",
+"model": "item/enchanted_book/respiration_impossible"
+},
+"on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "riptide",
+"levels": 1
+}
+],
+"on_true": {
+"type": "model",
+"model": "item/enchanted_book/riptide_1"
+},
+"on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "riptide",
+"levels": 2
+}
+],
+"on_true": {
+"type": "model",
+"model": "item/enchanted_book/riptide_2"
+},
+"on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "riptide",
+"levels": 3
+}
+],
+"on_true": {
+"type": "model",
+"model": "item/enchanted_book/riptide_3"
+},
+"on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "riptide",
+"levels": {
+"min": 4
+}
+}
+],
+"on_true": {
+"type": "model",
+"model": "item/enchanted_book/riptide_impossible"
+},
+"on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "sharpness",
+"levels": 1
+}
+],
+"on_true": {
+"type": "model",
+"model": "item/enchanted_book/sharpness_1"
+},
+"on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "sharpness",
+"levels": 2
+}
+],
+"on_true": {
+"type": "model",
+"model": "item/enchanted_book/sharpness_2"
+},
+"on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "sharpness",
+"levels": 3
+}
+],
+"on_true": {
+"type": "model",
+"model": "item/enchanted_book/sharpness_3"
+},
+"on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "sharpness",
+"levels": 4
+}
+],
+"on_true": {
+"type": "model",
+"model": "item/enchanted_book/sharpness_4"
+},
+"on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "sharpness",
+"levels": 5
+}
+],
+"on_true": {
+"type": "model",
+"model": "item/enchanted_book/sharpness_5"
+},
+"on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "sharpness",
+"levels": {
+"min": 6
+}
+}
+],
+"on_true": {
+"type": "model",
+"model": "item/enchanted_book/sharpness_impossible"
+},
+"on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "silk_touch",
+"levels": 1
+}
+],
+"on_true": {
+"type": "model",
+"model": "item/enchanted_book/silk_touch_1"
+},
+"on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "silk_touch",
+"levels": {
+"min": 2
+}
+}
+],
+"on_true": {
+"type": "model",
+"model": "item/enchanted_book/silk_touch_impossible"
+},
+"on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "smite",
+"levels": 1
+}
+],
+"on_true": {
+"type": "model",
+"model": "item/enchanted_book/smite_1"
+},
+"on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "smite",
+"levels": 2
+}
+],
+"on_true": {
+"type": "model",
+"model": "item/enchanted_book/smite_2"
+},
+"on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "smite",
+"levels": 3
+}
+],
+"on_true": {
+"type": "model",
+"model": "item/enchanted_book/smite_3"
+},
+"on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "smite",
+"levels": 4
+}
+],
+"on_true": {
+"type": "model",
+"model": "item/enchanted_book/smite_4"
+},
+"on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "smite",
+"levels": 5
+}
+],
+"on_true": {
+"type": "model",
+"model": "item/enchanted_book/smite_5"
+},
+"on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "smite",
+"levels": {
+"min": 6
+}
+}
+],
+"on_true": {
+"type": "model",
+"model": "item/enchanted_book/smite_impossible"
+},
+"on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "soul_speed",
+"levels": 1
+}
+],
+"on_true": {
+"type": "model",
+"model": "item/enchanted_book/soul_speed_1"
+},
+"on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "soul_speed",
+"levels": 2
+}
+],
+"on_true": {
+"type": "model",
+"model": "item/enchanted_book/soul_speed_2"
+},
+"on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "soul_speed",
+"levels": 3
+}
+],
+"on_true": {
+"type": "model",
+"model": "item/enchanted_book/soul_speed_3"
+},
+"on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "soul_speed",
+"levels": {
+"min": 4
+}
+}
+],
+"on_true": {
+"type": "model",
+"model": "item/enchanted_book/soul_speed_impossible"
+},
+"on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "sweeping_edge",
+"levels": 1
+}
+],
+"on_true": {
+"type": "model",
+"model": "item/enchanted_book/sweeping_edge_1"
+},
+"on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "sweeping_edge",
+"levels": 2
+}
+],
+"on_true": {
+"type": "model",
+"model": "item/enchanted_book/sweeping_edge_2"
+},
+"on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "sweeping_edge",
+"levels": 3
+}
+],
+"on_true": {
+"type": "model",
+"model": "item/enchanted_book/sweeping_edge_3"
+},
+"on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "sweeping_edge",
+"levels": {
+"min": 4
+}
+}
+],
+"on_true": {
+"type": "model",
+"model": "item/enchanted_book/sweeping_edge_impossible"
+},
+"on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "swift_sneak",
+"levels": 1
+}
+],
+"on_true": {
+"type": "model",
+"model": "item/enchanted_book/swift_sneak_1"
+},
+"on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "swift_sneak",
+"levels": 2
+}
+],
+"on_true": {
+"type": "model",
+"model": "item/enchanted_book/swift_sneak_2"
+},
+"on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "swift_sneak",
+"levels": 3
+}
+],
+"on_true": {
+"type": "model",
+"model": "item/enchanted_book/swift_sneak_3"
+},
+"on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "swift_sneak",
+"levels": {
+"min": 4
+}
+}
+],
+"on_true": {
+"type": "model",
+"model": "item/enchanted_book/swift_sneak_impossible"
+},
+"on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "thorns",
+"levels": 1
+}
+],
+"on_true": {
+"type": "model",
+"model": "item/enchanted_book/thorns_1"
+},
+"on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "thorns",
+"levels": 2
+}
+],
+"on_true": {
+"type": "model",
+"model": "item/enchanted_book/thorns_2"
+},
+"on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "thorns",
+"levels": 3
+}
+],
+"on_true": {
+"type": "model",
+"model": "item/enchanted_book/thorns_3"
+},
+"on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "thorns",
+"levels": {
+"min": 4
+}
+}
+],
+"on_true": {
+"type": "model",
+"model": "item/enchanted_book/thorns_impossible"
+},
+"on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "unbreaking",
+"levels": 1
+}
+],
+"on_true": {
+"type": "model",
+"model": "item/enchanted_book/unbreaking_1"
+},
+"on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "unbreaking",
+"levels": 2
+}
+],
+"on_true": {
+"type": "model",
+"model": "item/enchanted_book/unbreaking_2"
+},
+"on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "unbreaking",
+"levels": 3
+}
+],
+"on_true": {
+"type": "model",
+"model": "item/enchanted_book/unbreaking_3"
+},
+"on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "unbreaking",
+"levels": {
+"min": 4
+}
+}
+],
+"on_true": {
+"type": "model",
+"model": "item/enchanted_book/unbreaking_impossible"
+},
+"on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "vanishing_curse",
+"levels": 1
+}
+],
+"on_true": {
+"type": "model",
+"model": "item/enchanted_book/curse_of_vanishing_1"
+},
+"on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "vanishing_curse",
+"levels": {
+"min": 2
+}
+}
+],
+"on_true": {
+"type": "model",
+"model": "item/enchanted_book/curse_of_vanishing_impossible"
+},
+"on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "density",
+"levels": 1
+}
+],
+"on_true": {
+"type": "model",
+"model": "item/enchanted_book/density_1"
+},
+"on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "density",
+"levels": 2
+}
+],
+"on_true": {
+"type": "model",
+"model": "item/enchanted_book/density_2"
+},
+"on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "density",
+"levels": 3
+}
+],
+"on_true": {
+"type": "model",
+"model": "item/enchanted_book/density_3"
+},
+"on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "density",
+"levels": 4
+}
+],
+"on_true": {
+"type": "model",
+"model": "item/enchanted_book/density_4"
+},
+"on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "density",
+"levels": 5
+}
+],
+"on_true": {
+"type": "model",
+"model": "item/enchanted_book/density_5"
+},
+"on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "density",
+"levels": {
+"min": 6
+}
+}
+],
+"on_true": {
+"type": "model",
+"model": "item/enchanted_book/density_impossible"
+},
+"on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "breach",
+"levels": 1
+}
+],
+"on_true": {
+"type": "model",
+"model": "item/enchanted_book/breach_1"
+},
+"on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "breach",
+"levels": 2
+}
+],
+"on_true": {
+"type": "model",
+"model": "item/enchanted_book/breach_2"
+},
+"on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "breach",
+"levels": 3
+}
+],
+"on_true": {
+"type": "model",
+"model": "item/enchanted_book/breach_3"
+},
+"on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "breach",
+"levels": 4
+}
+],
+"on_true": {
+"type": "model",
+"model": "item/enchanted_book/breach_4"
+},
+"on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "breach",
+"levels": {
+"min": 5
+}
+}
+],
+"on_true": {
+"type": "model",
+"model": "item/enchanted_book/breach_impossible"
+},
+"on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "wind_burst",
+"levels": 1
+}
+],
+"on_true": {
+"type": "model",
+"model": "item/enchanted_book/wind_burst_1"
+},
+"on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "wind_burst",
+"levels": 2
+}
+],
+"on_true": {
+"type": "model",
+"model": "item/enchanted_book/wind_burst_2"
+},
+"on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "wind_burst",
+"levels": 3
+}
+],
+"on_true": {
+"type": "model",
+"model": "item/enchanted_book/wind_burst_3"
+},
+"on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "wind_burst",
+"levels": {
+"min": 4
+}
+}
+],
+"on_true": {
+"type": "model",
+"model": "item/enchanted_book/wind_burst_impossible"
+},
+"on_false": {
+"type": "model",
+"model": "item/enchanted_book"
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
