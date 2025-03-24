@@ -71,19 +71,55 @@ template_case = {
 
 ref = res_json["model"]
 
+# Enchantments have higher priority
+important_ench = [
+    "curse_of_binding",
+    "curse_of_vanishing",
+]
+
+max_top_level = max(enchantments_top_level.values())
+
+order_ench = []  # (enchantment, top_level, is_impossible)[]
+
+# Push important enchantments first
+for ench in important_ench:
+    top_level = enchantments_top_level[ench]
+    order_ench.append((ench, top_level+1, True))
+    for lvl in range(top_level, 0, -1):
+        order_ench.append((ench, lvl, False))
+
+order_ench_not_im = []
 for ench, top_level in enchantments_top_level.items():
+    if ench in important_ench: continue
+    order_ench_not_im.append((ench, top_level+1, True))
+    for lvl in range(top_level, 0, -1):
+        order_ench_not_im.append((ench, lvl, False))
+
+# For non-important enchantments, sort by: impossible first, then by level descending
+order_ench_not_im.sort(key=lambda x: (x[2], x[1]), reverse=True)
+
+order_ench = order_ench + order_ench_not_im
+        
+# for el in order_ench:
+#     print(el)
+# exit()
+
+# Filter out the important enchantments first
+
+for ench, lvl, is_impossible in order_ench:
     ench_id = ench_name_to_id.get(ench, ench)
-    for lvl in range(1, top_level + 1):
-        new_cond = c.deepcopy(template_case)
-        new_cond["value"][0]["enchantments"] = ench_id
-        new_cond["value"][0]["levels"] = lvl
-        new_cond["on_true"]["model"] = path_model + ench + "_" + str(lvl)
-        ref.update(new_cond)
-        ref = ref["on_false"]
     new_cond = c.deepcopy(template_case)
     new_cond["value"][0]["enchantments"] = ench_id
-    new_cond["value"][0]["levels"] = {"min": top_level + 1}
-    new_cond["on_true"]["model"] = path_model + ench + "_impossible"
+    
+    if is_impossible:
+        new_cond["value"][0]["levels"] = {"min": lvl}
+        new_cond["on_true"]["model"] = path_model + ench + "_impossible"
+        print("Model added: " + ench + "_impossible")
+    else:
+        new_cond["value"][0]["levels"] = lvl
+        new_cond["on_true"]["model"] = path_model + ench + "_" + str(lvl)
+        print("Model added: " + ench + "_" + str(lvl))
+        
     ref.update(new_cond)
     ref = ref["on_false"]
 
