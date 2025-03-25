@@ -10,6 +10,13 @@ template_model = {
 		"seal": "item/enchanted_book/seal/level_"
 	}
 }
+template_model_multiple = {
+	"parent": "item/enchanted_book/_multiple__no_icon",
+	"textures": {
+		"book": "item/enchanted_book/cover/",
+		"seal": "item/enchanted_book/seal/level_"
+	}
+}
 
 enchantments_top_level = {
     "aqua_affinity": 1,
@@ -70,15 +77,32 @@ for ench, top_level in enchantments_top_level.items():
         res["textures"]["book"] += ench
         res["textures"]["seal"] += str(lvl)
         save_as(f"{ench}_{lvl}", res)
+        
+        res = c.deepcopy(template_model_multiple)
+        res["textures"]["book"] += ench
+        res["textures"]["seal"] += str(lvl)
+        save_as(f"_multiple_{ench}_{lvl}", res)
+        
+        
     
     # Level at the top level
     res = c.deepcopy(template_model)
     res["textures"]["book"] += ench
     res["textures"]["seal"] += "top_" + str(top_level)
     save_as(f"{ench}_{top_level}", res)
+    
+    res = c.deepcopy(template_model_multiple)
+    res["textures"]["book"] += ench
+    res["textures"]["seal"] += "top_" + str(top_level)
+    save_as(f"_multiple_{ench}_{top_level}", res)
         
     # Level exceeding the top level
     res = c.deepcopy(template_model)
     res["textures"]["book"] += ench
     res["textures"]["seal"] += "impossible"
     save_as(f"{ench}_impossible", res)
+    
+    res = c.deepcopy(template_model_multiple)
+    res["textures"]["book"] += ench
+    res["textures"]["seal"] += "impossible"
+    save_as(f"_multiple_{ench}_impossible", res)

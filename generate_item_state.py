@@ -64,12 +64,10 @@ template_case = {
     "type": "condition",
     "property": "component",
     "predicate": "stored_enchantments",
-    "value": [{"enchantments": None, "levels": None}],
-    "on_true": {"type": "model", "model": None},
+    "value": [{"enchantments": None}],
+    "on_true": {},
     "on_false": {},
 }
-
-ref = res_json["model"]
 
 # Enchantments have higher priority
 important_ench = [
@@ -99,32 +97,37 @@ for ench, top_level in enchantments_top_level.items():
 order_ench_not_im.sort(key=lambda x: (x[2], x[1]), reverse=True)
 
 order_ench = order_ench + order_ench_not_im
-        
-# for el in order_ench:
-#     print(el)
-# exit()
 
-# Filter out the important enchantments first
+ref = res_json["model"]
 
 for ench, lvl, is_impossible in order_ench:
     ench_id = ench_name_to_id.get(ench, ench)
     new_cond = c.deepcopy(template_case)
     new_cond["value"][0]["enchantments"] = ench_id
-    
+    base_name = ""
     if is_impossible:
+        base_name = ench + "_impossible"
         new_cond["value"][0]["levels"] = {"min": lvl}
-        new_cond["on_true"]["model"] = path_model + ench + "_impossible"
-        print("Model added: " + ench + "_impossible")
     else:
+        base_name = ench + "_" + str(lvl)
         new_cond["value"][0]["levels"] = lvl
-        new_cond["on_true"]["model"] = path_model + ench + "_" + str(lvl)
-        print("Model added: " + ench + "_" + str(lvl))
+    
+    ref_inner = new_cond["on_true"]
+    for ench2 in enchantments_top_level.keys():
+        if ench2 == ench: continue
+        inner_cond = c.deepcopy(template_case)
+        inner_cond["value"][0]["enchantments"] = ench_name_to_id.get(ench2, ench2)
+        inner_cond["on_true"].update({"type": "model", "model": path_model + "_multiple_" + base_name})
+        ref_inner.update(inner_cond)
+        ref_inner = ref_inner["on_false"]
+    ref_inner.update({"type": "model", "model": path_model + base_name})
         
     ref.update(new_cond)
+    print("Model added: " + base_name)
     ref = ref["on_false"]
 
 ref.update({"type": "model", "model": file_fallback})
 
 with open(save_to, "w") as f:
-    json.dump(res_json, f, indent=0, ensure_ascii=True)
+    json.dump(res_json, f, indent=1, ensure_ascii=True)
     print(f"Generated: {save_to}")
