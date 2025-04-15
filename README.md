@@ -13,7 +13,7 @@ Show enchantments as icons on the enchanted books! 1.21.5+ WITHOUT CIT or Optifi
 For the feature that shows icons in the tooltips, currently, the following languages are supported:  
 - English (US)
 - 简体中文（中国大陆）
-- LOLCAT
+- LOLCAT (Thanks to [@Mistera91](https://github.com/Mistera91))
 
 Language support requests are welcome! Open an issue [here](https://github.com/GrakePch/IconicEnchantments/issues)!
 
