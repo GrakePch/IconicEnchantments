@@ -129,5 +129,5 @@ for ench, lvl, is_impossible in order_ench:
 ref.update({"type": "model", "model": file_fallback})
 
 with open(save_to, "w") as f:
-    json.dump(res_json, f, indent=1, ensure_ascii=True)
+    json.dump(res_json, f, indent=0, ensure_ascii=True)
     print(f"Generated: {save_to}")
