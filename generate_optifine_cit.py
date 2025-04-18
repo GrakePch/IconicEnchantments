@@ -1,10 +1,10 @@
-import json
-import copy as c
+import os
 
-save_to = "assets/minecraft/items/enchanted_book.json"
+path = "assets/minecraft/optifine/cit/enchanted_book"
+path_model = "minecraft:item/enchanted_book/"
 
-path_model = "item/enchanted_book/"
-file_fallback = "item/enchanted_book"
+# Ensure the directory exists
+os.makedirs(path, exist_ok=True)
 
 # Some enchantments have different id from name.
 ench_name_to_id = {
@@ -58,24 +58,11 @@ enchantments_top_level = {
     "wind_burst": 3,
 }
 
-res_json = {"model": {}}
-
-template_case = {
-    "type": "condition",
-    "property": "component",
-    "predicate": "stored_enchantments",
-    "value": [{"enchantments": None}],
-    "on_true": {},
-    "on_false": {},
-}
-
 # Enchantments have higher priority
 important_ench = [
     "curse_of_binding",
     "curse_of_vanishing",
 ]
-
-max_top_level = max(enchantments_top_level.values())
 
 order_ench = []  # (enchantment, top_level, is_impossible)[]
 
@@ -98,36 +85,23 @@ order_ench_not_im.sort(key=lambda x: (x[2], x[1]), reverse=True)
 
 order_ench = order_ench + order_ench_not_im
 
-ref = res_json["model"]
-
 for ench, lvl, is_impossible in order_ench:
     ench_id = ench_name_to_id.get(ench, ench)
-    new_cond = c.deepcopy(template_case)
-    new_cond["value"][0]["enchantments"] = ench_id
     base_name = ""
+    level="0"
     if is_impossible:
         base_name = ench + "_impossible"
-        new_cond["value"][0]["levels"] = {"min": lvl}
+        level = str(lvl)+"+"
     else:
         base_name = ench + "_" + str(lvl)
-        new_cond["value"][0]["levels"] = lvl
-    
-    ref_inner = new_cond["on_true"]
-    for ench2 in enchantments_top_level.keys():
-        if ench2 == ench: continue
-        inner_cond = c.deepcopy(template_case)
-        inner_cond["value"][0]["enchantments"] = ench_name_to_id.get(ench2, ench2)
-        inner_cond["on_true"].update({"type": "model", "model": path_model + "_multiple_" + base_name})
-        ref_inner.update(inner_cond)
-        ref_inner = ref_inner["on_false"]
-    ref_inner.update({"type": "model", "model": path_model + base_name})
-        
-    ref.update(new_cond)
-    print("Model added: " + base_name)
-    ref = ref["on_false"]
+        level = str(lvl)
+    file_name = base_name + ".properties"
+    file_ctnt = f"""type=item
+items=enchanted_book
+enchantments={ench_id}
+enchantmentLevels={level}
+model={path_model}{base_name}.json"""
+    with open(path + "/" + file_name, "w") as f:
+        f.write(file_ctnt)
+        print("Generated: " + file_name)
 
-ref.update({"type": "model", "model": file_fallback})
-
-with open(save_to, "w") as f:
-    json.dump(res_json, f, indent=0, ensure_ascii=True)
-    print(f"Generated: {save_to}")
