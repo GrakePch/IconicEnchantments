@@ -1,7 +1,0 @@
-{
-  "parent": "item/enchanted_book/_multiple__no_icon",
-  "textures": {
-    "book": "item/enchanted_book/cover/respiration",
-    "seal": "item/enchanted_book/seal/level_2"
-  }
-}

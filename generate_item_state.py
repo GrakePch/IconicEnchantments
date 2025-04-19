@@ -5,6 +5,8 @@ save_to = "assets/minecraft/items/enchanted_book.json"
 
 path_model = "item/enchanted_book/"
 file_fallback = "item/enchanted_book"
+path_model_in_gui = "item/enchanted_book/in_gui/"
+file_fallback_in_gui = "item/enchanted_book/in_gui/_no_icon"
 
 # Some enchantments have different id from name.
 ench_name_to_id = {
@@ -121,15 +123,15 @@ for ench, lvl, is_impossible in order_ench:
         inner_cond["value"][0]["enchantments"] = ench_name_to_id.get(ench2, ench2)
         inner_cond["on_true"].update({
             "type": "select", "property": "display_context",
-            "cases": [{"when": "gui", "model": {"type": "model", "model": file_fallback}}],
-            "fallback": {"type": "model", "model": path_model + "_multiple_" + base_name}
+            "cases": [{"when": "gui", "model": {"type": "model", "model": path_model_in_gui + "thick/" + base_name}}],
+            "fallback": {"type": "model", "model": path_model + "thick/" + base_name}
         })
         # print(f" + {ench2.ljust(24)} => _multiple_{base_name}")
         ref_inner.update(inner_cond)
         ref_inner = ref_inner["on_false"]
     ref_inner.update({
         "type": "select", "property": "display_context",
-        "cases": [{"when": "gui", "model": {"type": "model", "model": file_fallback}}],
+        "cases": [{"when": "gui", "model": {"type": "model", "model": path_model_in_gui + base_name}}],
         "fallback": {"type": "model", "model": path_model + base_name}
     })
     # print(f"   {'[Else]'.ljust(24)} => {base_name}")
@@ -138,7 +140,11 @@ for ench, lvl, is_impossible in order_ench:
     print("Model added: " + base_name)
     ref = ref["on_false"]
 
-ref.update({"type": "model", "model": file_fallback})
+ref.update({
+    "type": "select", "property": "display_context",
+    "cases": [{"when": "gui", "model": {"type": "model", "model": file_fallback_in_gui}}],
+    "fallback": {"type": "model", "model": file_fallback}
+})
 
 with open(save_to, "w") as f:
     json.dump(res_json, f, indent=0, ensure_ascii=True)

@@ -10,12 +10,24 @@ template_model = {
 		"seal": "item/enchanted_book/seal/level_"
 	}
 }
-template_model_multiple = {
-	"parent": "item/enchanted_book/_multiple__no_icon",
+template_model_thick = {
+	"parent": "item/enchanted_book/thick/_no_icon",
 	"textures": {
 		"book": "item/enchanted_book/cover/",
 		"seal": "item/enchanted_book/seal/level_"
 	}
+}
+template_model_in_gui = {
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "item/enchanted_book/in_gui/"
+    }
+}
+template_model_in_gui_thick = {
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "item/enchanted_book/in_gui/thick/"
+    }
 }
 
 enchantments_top_level = {
@@ -78,10 +90,18 @@ for ench, top_level in enchantments_top_level.items():
         res["textures"]["seal"] += str(lvl)
         save_as(f"{ench}_{lvl}", res)
         
-        res = c.deepcopy(template_model_multiple)
+        res = c.deepcopy(template_model_thick)
         res["textures"]["book"] += ench
         res["textures"]["seal"] += str(lvl)
-        save_as(f"_multiple_{ench}_{lvl}", res)
+        save_as(f"thick/{ench}_{lvl}", res)
+        
+        res = c.deepcopy(template_model_in_gui)
+        res["textures"]["layer0"] += f"{ench}_{lvl}"
+        save_as(f"in_gui/{ench}_{lvl}", res)
+        
+        res = c.deepcopy(template_model_in_gui_thick)
+        res["textures"]["layer0"] += f"{ench}_{lvl}"
+        save_as(f"in_gui/thick/{ench}_{lvl}", res)
         
         
     
@@ -91,10 +111,18 @@ for ench, top_level in enchantments_top_level.items():
     res["textures"]["seal"] += "top_" + str(top_level)
     save_as(f"{ench}_{top_level}", res)
     
-    res = c.deepcopy(template_model_multiple)
+    res = c.deepcopy(template_model_thick)
     res["textures"]["book"] += ench
     res["textures"]["seal"] += "top_" + str(top_level)
-    save_as(f"_multiple_{ench}_{top_level}", res)
+    save_as(f"thick/{ench}_{top_level}", res)
+    
+    res = c.deepcopy(template_model_in_gui)
+    res["textures"]["layer0"] += f"{ench}_top_{top_level}"
+    save_as(f"in_gui/{ench}_{top_level}", res)
+    
+    res = c.deepcopy(template_model_in_gui_thick)
+    res["textures"]["layer0"] += f"{ench}_top_{top_level}"
+    save_as(f"in_gui/thick/{ench}_{top_level}", res)
         
     # Level exceeding the top level
     res = c.deepcopy(template_model)
@@ -102,7 +130,15 @@ for ench, top_level in enchantments_top_level.items():
     res["textures"]["seal"] += "impossible"
     save_as(f"{ench}_impossible", res)
     
-    res = c.deepcopy(template_model_multiple)
+    res = c.deepcopy(template_model_thick)
     res["textures"]["book"] += ench
     res["textures"]["seal"] += "impossible"
-    save_as(f"_multiple_{ench}_impossible", res)
+    save_as(f"thick/{ench}_impossible", res)
+    
+    res = c.deepcopy(template_model_in_gui)
+    res["textures"]["layer0"] += f"{ench}_impossible"
+    save_as(f"in_gui/{ench}_impossible", res)
+    
+    res = c.deepcopy(template_model_in_gui_thick)
+    res["textures"]["layer0"] += f"{ench}_impossible"
+    save_as(f"in_gui/thick/{ench}_impossible", res)

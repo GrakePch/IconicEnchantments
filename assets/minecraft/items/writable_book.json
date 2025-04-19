@@ -1,0 +1,19 @@
+{
+  "model": {
+    "type": "select",
+    "property": "display_context",
+    "cases": [
+      {
+        "when": "gui",
+        "model": {
+          "type": "model",
+          "model": "item/in_gui/writable_book"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "model",
+      "model": "item/writable_book"
+    }
+  }
+}
