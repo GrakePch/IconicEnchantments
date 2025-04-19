@@ -101,6 +101,7 @@ order_ench = order_ench + order_ench_not_im
 ref = res_json["model"]
 
 for ench, lvl, is_impossible in order_ench:
+    # print(f"Lv.{lvl} {ench}")
     ench_id = ench_name_to_id.get(ench, ench)
     new_cond = c.deepcopy(template_case)
     new_cond["value"][0]["enchantments"] = ench_id
@@ -113,14 +114,25 @@ for ench, lvl, is_impossible in order_ench:
         new_cond["value"][0]["levels"] = lvl
     
     ref_inner = new_cond["on_true"]
+    # Thicker book when multiple enchantments
     for ench2 in enchantments_top_level.keys():
         if ench2 == ench: continue
         inner_cond = c.deepcopy(template_case)
         inner_cond["value"][0]["enchantments"] = ench_name_to_id.get(ench2, ench2)
-        inner_cond["on_true"].update({"type": "model", "model": path_model + "_multiple_" + base_name})
+        inner_cond["on_true"].update({
+            "type": "select", "property": "display_context",
+            "cases": [{"when": "gui", "model": {"type": "model", "model": file_fallback}}],
+            "fallback": {"type": "model", "model": path_model + "_multiple_" + base_name}
+        })
+        # print(f" + {ench2.ljust(24)} => _multiple_{base_name}")
         ref_inner.update(inner_cond)
         ref_inner = ref_inner["on_false"]
-    ref_inner.update({"type": "model", "model": path_model + base_name})
+    ref_inner.update({
+        "type": "select", "property": "display_context",
+        "cases": [{"when": "gui", "model": {"type": "model", "model": file_fallback}}],
+        "fallback": {"type": "model", "model": path_model + base_name}
+    })
+    # print(f"   {'[Else]'.ljust(24)} => {base_name}")
         
     ref.update(new_cond)
     print("Model added: " + base_name)
