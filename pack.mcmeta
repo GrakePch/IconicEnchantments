@@ -1,7 +1,7 @@
 {
   "pack": {
     "pack_format": 34,
-    "supported_formats": [34, 54],
-    "description": "§6Iconic Enchantments [Beta]§r §f\nJE 1.21+ §7By GrakePCH"
+    "supported_formats": [34, 46],
+    "description": "§6Iconic Enchantments§r §f\nJE 1.21-1.21.4 §7By GrakePCH"
   }
 }
