@@ -4,7 +4,7 @@
 
 ---
 
-## 2D Textures in GUI for better visibility (1.21.5+)
+## 2D Textures in GUI for Better Visibility (1.21.5+)
 
 ![books in GUI](https://github.com/GrakePch/IconicEnchantments/blob/main/images/all_books_combined.png?raw=true)
 
@@ -14,7 +14,7 @@ Exhibit your collections with item frames!
 
 ![books on item frames](https://github.com/GrakePch/IconicEnchantments/blob/main/images/on_item_frame.png?raw=true)
 
-## Feature Comparison between 1.21.5+ & before 1.21.5
+## Feature Comparison between 1.21.5+ & Before 1.21.5
 
 |Features                       |1.21.5+|Before 1.21.5|
 |---                            |---|---|
@@ -36,12 +36,12 @@ Language support requests are welcome! Open an issue [here](https://github.com/G
 
 ![icons in tooltips](https://github.com/GrakePch/IconicEnchantments/blob/main/images/tooltips.png?raw=true)
 
-## Books with Multiple Enchantments get thicker (1.21.5+)
+## Books with Multiple Enchantments Get Thicker (1.21.5+)
 
 The cover displays an enchantment based on the order of: curse > enchantment with impossible level > enchantment with the highest level. Within the same level, roughly alphabetical order of the names of the enchantments.
 
 ![Thicker book](https://github.com/GrakePch/IconicEnchantments/blob/main/images/thicker_book.png?raw=true)
 
-## 2D textures in GUI, 3D models otherwise (1.21.5+)
+## 2D Textures in GUI, 3D Models Otherwise (1.21.5+)
 
 ![2D & 3D](https://github.com/GrakePch/IconicEnchantments/blob/main/images/in_gui_and_else.png?raw=true)
