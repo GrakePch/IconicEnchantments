@@ -1,1 +1,1 @@
-7z a -tzip "IconicEnchantments1.1.zip" "assets" "pack.mcmeta" "pack.png" "LICENSE"
+7z a -tzip "IconicEnchantments2.0.zip" "assets" "pack.mcmeta" "pack.png" "LICENSE"
