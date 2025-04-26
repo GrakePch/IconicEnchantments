@@ -1,6 +1,6 @@
 # Iconic Enchantments 3D
 
-3D enchanted books with unified icon design! 1.21.5+ WITHOUT CIT or Optifine! Also has 3D models!
+3D enchanted books with unified icon design! 1.21.5+ WITHOUT CIT or Optifine!
 
 ---
 
@@ -8,7 +8,7 @@
 
 ![books in GUI](https://github.com/GrakePch/IconicEnchantments/blob/main/images/all_books_combined.png?raw=true)
 
-## 3D Models Decorate Your World
+## 3D Models to Decorate Your World
 
 Exhibit your collections with item frames!
 
