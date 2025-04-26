@@ -1,14 +1,31 @@
-# Iconic Enchantments
+# Iconic Enchantments 3D
 
-Show enchantments as icons on the enchanted books! 1.21.5+ WITHOUT CIT or Optifine! Also has 3D models!
+3D enchanted books with unified icon design! 1.21.5+ WITHOUT CIT or Optifine! Also has 3D models!
 
 ---
 
-# The Design Philosophy
+## 2D Textures in GUI for Better Visibility (1.21.5+)
+
+![books in GUI](https://github.com/GrakePch/IconicEnchantments/blob/main/images/all_books_combined.png?raw=true)
+
+## 3D Models Decorate Your World
+
+Exhibit your collections with item frames!
+
+![books on item frames](https://github.com/GrakePch/IconicEnchantments/blob/main/images/on_item_frame.png?raw=true)
+
+## Feature Comparison between 1.21.5+ & Before 1.21.5
+
+|Features                       |1.21.5+|Before 1.21.5|
+|---                            |---|---|
+|Prerequisite Mod               |No |CIT Resewn/Optifine|
+|2D textures in GUI             |Yes|No |
+|Variable thickness of 3D books |Yes|No |
+|Special cover displays priority|Yes|No |
+|Basic 3D model                 |Yes|Yes|
+|Icons in tooltips              |Yes|Yes|
 
 ## Unified Icon Design
-
-![books in GUI](https://github.com/GrakePch/IconicEnchantments/blob/main/images/all_books.png?raw=true)
 
 For the feature that shows icons in the tooltips, currently, the following languages are supported:  
 - English (US)
@@ -19,12 +36,24 @@ Language support requests are welcome! Open an issue [here](https://github.com/G
 
 ![icons in tooltips](https://github.com/GrakePch/IconicEnchantments/blob/main/images/tooltips.png?raw=true)
 
-## 3D Models Decorate Your Base
+## Books with Multiple Enchantments Get Thicker (1.21.5+)
 
-Exhibit your collections with item frames!
-
-![books on item frames](https://github.com/GrakePch/IconicEnchantments/blob/main/images/on_item_frame.png?raw=true)
-
-## Thicker Book with Multiple Enchantments
+The cover displays an enchantment based on the order of: curse > enchantment with impossible level > enchantment with the highest level. Within the same level, roughly alphabetical order of the names of the enchantments.
 
 ![Thicker book](https://github.com/GrakePch/IconicEnchantments/blob/main/images/thicker_book.png?raw=true)
+
+## 2D Textures in GUI, 3D Models Otherwise (1.21.5+)
+
+![2D and 3D](https://github.com/GrakePch/IconicEnchantments/blob/main/images/in_gui_and_else.png?raw=true)
+
+## Better Pose to Hold Books in Hand and on Head
+
+Grab the book like a human. Wear the book like a librarian.
+
+![in hand and on head](https://github.com/GrakePch/IconicEnchantments/blob/main/images/in_hand_and_on_head.png?raw=true)
+
+## Different Levels, Different Colors
+
+It will always be red when reaching the maximum acquirable level in the survival mode. When higher than that, it will always be purple.
+
+![different levels](https://github.com/GrakePch/IconicEnchantments/blob/main/images/different_levels.png?raw=true)
