@@ -90,10 +90,10 @@ for ench, lvl, is_impossible in order_ench:
     base_name = ""
     level="0"
     if is_impossible:
-        base_name = ench + "_impossible"
-        level = str(lvl)+"+"
+        base_name = f"{ench_id}_{lvl}"
+        level = str(lvl)+"-"
     else:
-        base_name = ench + "_" + str(lvl)
+        base_name = f"{ench_id}_{lvl}"
         level = str(lvl)
     file_name = base_name + ".properties"
     file_ctnt = f"""type=item

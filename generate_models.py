@@ -18,6 +18,12 @@ template_model_multiple = {
 	}
 }
 
+# Some enchantments have different id from name.
+ench_name_to_id = {
+    "curse_of_binding": "binding_curse",
+    "curse_of_vanishing": "vanishing_curse",
+}
+
 enchantments_top_level = {
     "aqua_affinity": 1,
     "bane_of_arthropods": 5,
@@ -70,18 +76,19 @@ def save_as(file_name, data):
         print(f"Generated: {file_name}.json")
 
 for ench, top_level in enchantments_top_level.items():
+    ench_id = ench_name_to_id.get(ench, ench)
     
     # Level below the top level
     for lvl in range(1, top_level):
         res = c.deepcopy(template_model)
         res["textures"]["book"] += ench
         res["textures"]["seal"] += str(lvl)
-        save_as(f"{ench}_{lvl}", res)
+        save_as(f"{ench_id}_{lvl}", res)
         
         res = c.deepcopy(template_model_multiple)
         res["textures"]["book"] += ench
         res["textures"]["seal"] += str(lvl)
-        save_as(f"_multiple_{ench}_{lvl}", res)
+        save_as(f"_multiple_{ench_id}_{lvl}", res)
         
         
     
@@ -89,20 +96,20 @@ for ench, top_level in enchantments_top_level.items():
     res = c.deepcopy(template_model)
     res["textures"]["book"] += ench
     res["textures"]["seal"] += "top_" + str(top_level)
-    save_as(f"{ench}_{top_level}", res)
+    save_as(f"{ench_id}_{top_level}", res)
     
     res = c.deepcopy(template_model_multiple)
     res["textures"]["book"] += ench
     res["textures"]["seal"] += "top_" + str(top_level)
-    save_as(f"_multiple_{ench}_{top_level}", res)
+    save_as(f"_multiple_{ench_id}_{top_level}", res)
         
     # Level exceeding the top level
     res = c.deepcopy(template_model)
     res["textures"]["book"] += ench
     res["textures"]["seal"] += "impossible"
-    save_as(f"{ench}_impossible", res)
+    save_as(f"{ench_id}_{top_level+1}", res)
     
     res = c.deepcopy(template_model_multiple)
     res["textures"]["book"] += ench
     res["textures"]["seal"] += "impossible"
-    save_as(f"_multiple_{ench}_impossible", res)
+    save_as(f"_multiple_{ench_id}_{top_level+1}", res)

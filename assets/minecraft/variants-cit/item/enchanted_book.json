@@ -1,0 +1,12 @@
+{
+  "type": "stored_enchantment",
+  "items": "enchanted_book",
+  "modelPrefix": "item/enchanted_book/",
+  "fallback": "item/enchanted_book",
+  "parameters": {
+    "levelSeparator": "_"
+  },
+  "special": {
+    "multi": "item/enchanted_book/_multiple__no_icon"
+  }
+}
