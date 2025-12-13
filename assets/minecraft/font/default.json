@@ -300,6 +300,13 @@
 			"ascent":8,
 			"height":8,
 			"chars":["\uefe6"]
+		},
+		{
+			"type":"bitmap",
+			"file":"minecraft:font/enchantment/lunge.png",
+			"ascent":8,
+			"height":8,
+			"chars":["\uefe7"]
 		}
   ]
 }

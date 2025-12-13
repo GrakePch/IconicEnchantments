@@ -74,6 +74,7 @@ enchantments_top_level = {
     "density": 5,
     "breach": 4,
     "wind_burst": 3,
+    "lunge": 3,
 }
 
 def save_as(file_name, data):

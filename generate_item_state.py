@@ -58,6 +58,7 @@ enchantments_top_level = {
     "density": 5,
     "breach": 4,
     "wind_burst": 3,
+    "lunge": 3,
 }
 
 res_json = {"model": {}}

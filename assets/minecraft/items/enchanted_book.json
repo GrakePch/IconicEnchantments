@@ -1078,6 +1078,32 @@
 }
 },
 "on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "lunge"
+}
+],
+"on_true": {
+"type": "select",
+"property": "display_context",
+"cases": [
+{
+"when": "gui",
+"model": {
+"type": "model",
+"model": "item/enchanted_book/in_gui/thick/curse_of_binding_impossible"
+}
+}
+],
+"fallback": {
+"type": "model",
+"model": "item/enchanted_book/thick/curse_of_binding_impossible"
+}
+},
+"on_false": {
 "type": "select",
 "property": "display_context",
 "cases": [
@@ -1092,6 +1118,7 @@
 "fallback": {
 "type": "model",
 "model": "item/enchanted_book/curse_of_binding_impossible"
+}
 }
 }
 }
@@ -2212,6 +2239,32 @@
 }
 },
 "on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "lunge"
+}
+],
+"on_true": {
+"type": "select",
+"property": "display_context",
+"cases": [
+{
+"when": "gui",
+"model": {
+"type": "model",
+"model": "item/enchanted_book/in_gui/thick/curse_of_binding_1"
+}
+}
+],
+"fallback": {
+"type": "model",
+"model": "item/enchanted_book/thick/curse_of_binding_1"
+}
+},
+"on_false": {
 "type": "select",
 "property": "display_context",
 "cases": [
@@ -2226,6 +2279,7 @@
 "fallback": {
 "type": "model",
 "model": "item/enchanted_book/curse_of_binding_1"
+}
 }
 }
 }
@@ -3328,6 +3382,32 @@
 "value": [
 {
 "enchantments": "wind_burst"
+}
+],
+"on_true": {
+"type": "select",
+"property": "display_context",
+"cases": [
+{
+"when": "gui",
+"model": {
+"type": "model",
+"model": "item/enchanted_book/in_gui/thick/curse_of_vanishing_impossible"
+}
+}
+],
+"fallback": {
+"type": "model",
+"model": "item/enchanted_book/thick/curse_of_vanishing_impossible"
+}
+},
+"on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "lunge"
 }
 ],
 "on_true": {
@@ -3404,6 +3484,7 @@
 }
 }
 }
+}
 },
 "on_false": {
 "type": "condition",
@@ -4482,6 +4563,32 @@
 }
 },
 "on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "lunge"
+}
+],
+"on_true": {
+"type": "select",
+"property": "display_context",
+"cases": [
+{
+"when": "gui",
+"model": {
+"type": "model",
+"model": "item/enchanted_book/in_gui/thick/curse_of_vanishing_1"
+}
+}
+],
+"fallback": {
+"type": "model",
+"model": "item/enchanted_book/thick/curse_of_vanishing_1"
+}
+},
+"on_false": {
 "type": "select",
 "property": "display_context",
 "cases": [
@@ -4496,6 +4603,7 @@
 "fallback": {
 "type": "model",
 "model": "item/enchanted_book/curse_of_vanishing_1"
+}
 }
 }
 }
@@ -5598,6 +5706,32 @@
 "value": [
 {
 "enchantments": "wind_burst"
+}
+],
+"on_true": {
+"type": "select",
+"property": "display_context",
+"cases": [
+{
+"when": "gui",
+"model": {
+"type": "model",
+"model": "item/enchanted_book/in_gui/thick/bane_of_arthropods_impossible"
+}
+}
+],
+"fallback": {
+"type": "model",
+"model": "item/enchanted_book/thick/bane_of_arthropods_impossible"
+}
+},
+"on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "lunge"
 }
 ],
 "on_true": {
@@ -5674,6 +5808,7 @@
 }
 }
 }
+}
 },
 "on_false": {
 "type": "condition",
@@ -6734,6 +6869,32 @@
 "value": [
 {
 "enchantments": "wind_burst"
+}
+],
+"on_true": {
+"type": "select",
+"property": "display_context",
+"cases": [
+{
+"when": "gui",
+"model": {
+"type": "model",
+"model": "item/enchanted_book/in_gui/thick/efficiency_impossible"
+}
+}
+],
+"fallback": {
+"type": "model",
+"model": "item/enchanted_book/thick/efficiency_impossible"
+}
+},
+"on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "lunge"
 }
 ],
 "on_true": {
@@ -6810,6 +6971,7 @@
 }
 }
 }
+}
 },
 "on_false": {
 "type": "condition",
@@ -7870,6 +8032,32 @@
 "value": [
 {
 "enchantments": "wind_burst"
+}
+],
+"on_true": {
+"type": "select",
+"property": "display_context",
+"cases": [
+{
+"when": "gui",
+"model": {
+"type": "model",
+"model": "item/enchanted_book/in_gui/thick/impaling_impossible"
+}
+}
+],
+"fallback": {
+"type": "model",
+"model": "item/enchanted_book/thick/impaling_impossible"
+}
+},
+"on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "lunge"
 }
 ],
 "on_true": {
@@ -7946,6 +8134,7 @@
 }
 }
 }
+}
 },
 "on_false": {
 "type": "condition",
@@ -9006,6 +9195,32 @@
 "value": [
 {
 "enchantments": "wind_burst"
+}
+],
+"on_true": {
+"type": "select",
+"property": "display_context",
+"cases": [
+{
+"when": "gui",
+"model": {
+"type": "model",
+"model": "item/enchanted_book/in_gui/thick/power_impossible"
+}
+}
+],
+"fallback": {
+"type": "model",
+"model": "item/enchanted_book/thick/power_impossible"
+}
+},
+"on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "lunge"
 }
 ],
 "on_true": {
@@ -9082,6 +9297,7 @@
 }
 }
 }
+}
 },
 "on_false": {
 "type": "condition",
@@ -10142,6 +10358,32 @@
 "value": [
 {
 "enchantments": "wind_burst"
+}
+],
+"on_true": {
+"type": "select",
+"property": "display_context",
+"cases": [
+{
+"when": "gui",
+"model": {
+"type": "model",
+"model": "item/enchanted_book/in_gui/thick/sharpness_impossible"
+}
+}
+],
+"fallback": {
+"type": "model",
+"model": "item/enchanted_book/thick/sharpness_impossible"
+}
+},
+"on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "lunge"
 }
 ],
 "on_true": {
@@ -10218,6 +10460,7 @@
 }
 }
 }
+}
 },
 "on_false": {
 "type": "condition",
@@ -11278,6 +11521,32 @@
 "value": [
 {
 "enchantments": "wind_burst"
+}
+],
+"on_true": {
+"type": "select",
+"property": "display_context",
+"cases": [
+{
+"when": "gui",
+"model": {
+"type": "model",
+"model": "item/enchanted_book/in_gui/thick/smite_impossible"
+}
+}
+],
+"fallback": {
+"type": "model",
+"model": "item/enchanted_book/thick/smite_impossible"
+}
+},
+"on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "lunge"
 }
 ],
 "on_true": {
@@ -11354,6 +11623,7 @@
 }
 }
 }
+}
 },
 "on_false": {
 "type": "condition",
@@ -12434,6 +12704,32 @@
 }
 },
 "on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "lunge"
+}
+],
+"on_true": {
+"type": "select",
+"property": "display_context",
+"cases": [
+{
+"when": "gui",
+"model": {
+"type": "model",
+"model": "item/enchanted_book/in_gui/thick/density_impossible"
+}
+}
+],
+"fallback": {
+"type": "model",
+"model": "item/enchanted_book/thick/density_impossible"
+}
+},
+"on_false": {
 "type": "select",
 "property": "display_context",
 "cases": [
@@ -12448,6 +12744,7 @@
 "fallback": {
 "type": "model",
 "model": "item/enchanted_book/density_impossible"
+}
 }
 }
 }
@@ -13550,6 +13847,32 @@
 "value": [
 {
 "enchantments": "wind_burst"
+}
+],
+"on_true": {
+"type": "select",
+"property": "display_context",
+"cases": [
+{
+"when": "gui",
+"model": {
+"type": "model",
+"model": "item/enchanted_book/in_gui/thick/blast_protection_impossible"
+}
+}
+],
+"fallback": {
+"type": "model",
+"model": "item/enchanted_book/thick/blast_protection_impossible"
+}
+},
+"on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "lunge"
 }
 ],
 "on_true": {
@@ -13626,6 +13949,7 @@
 }
 }
 }
+}
 },
 "on_false": {
 "type": "condition",
@@ -14686,6 +15010,32 @@
 "value": [
 {
 "enchantments": "wind_burst"
+}
+],
+"on_true": {
+"type": "select",
+"property": "display_context",
+"cases": [
+{
+"when": "gui",
+"model": {
+"type": "model",
+"model": "item/enchanted_book/in_gui/thick/feather_falling_impossible"
+}
+}
+],
+"fallback": {
+"type": "model",
+"model": "item/enchanted_book/thick/feather_falling_impossible"
+}
+},
+"on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "lunge"
 }
 ],
 "on_true": {
@@ -14762,6 +15112,7 @@
 }
 }
 }
+}
 },
 "on_false": {
 "type": "condition",
@@ -15822,6 +16173,32 @@
 "value": [
 {
 "enchantments": "wind_burst"
+}
+],
+"on_true": {
+"type": "select",
+"property": "display_context",
+"cases": [
+{
+"when": "gui",
+"model": {
+"type": "model",
+"model": "item/enchanted_book/in_gui/thick/fire_protection_impossible"
+}
+}
+],
+"fallback": {
+"type": "model",
+"model": "item/enchanted_book/thick/fire_protection_impossible"
+}
+},
+"on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "lunge"
 }
 ],
 "on_true": {
@@ -15898,6 +16275,7 @@
 }
 }
 }
+}
 },
 "on_false": {
 "type": "condition",
@@ -16958,6 +17336,32 @@
 "value": [
 {
 "enchantments": "wind_burst"
+}
+],
+"on_true": {
+"type": "select",
+"property": "display_context",
+"cases": [
+{
+"when": "gui",
+"model": {
+"type": "model",
+"model": "item/enchanted_book/in_gui/thick/piercing_impossible"
+}
+}
+],
+"fallback": {
+"type": "model",
+"model": "item/enchanted_book/thick/piercing_impossible"
+}
+},
+"on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "lunge"
 }
 ],
 "on_true": {
@@ -17034,6 +17438,7 @@
 }
 }
 }
+}
 },
 "on_false": {
 "type": "condition",
@@ -18094,6 +18499,32 @@
 "value": [
 {
 "enchantments": "wind_burst"
+}
+],
+"on_true": {
+"type": "select",
+"property": "display_context",
+"cases": [
+{
+"when": "gui",
+"model": {
+"type": "model",
+"model": "item/enchanted_book/in_gui/thick/projectile_protection_impossible"
+}
+}
+],
+"fallback": {
+"type": "model",
+"model": "item/enchanted_book/thick/projectile_protection_impossible"
+}
+},
+"on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "lunge"
 }
 ],
 "on_true": {
@@ -18170,6 +18601,7 @@
 }
 }
 }
+}
 },
 "on_false": {
 "type": "condition",
@@ -19230,6 +19662,32 @@
 "value": [
 {
 "enchantments": "wind_burst"
+}
+],
+"on_true": {
+"type": "select",
+"property": "display_context",
+"cases": [
+{
+"when": "gui",
+"model": {
+"type": "model",
+"model": "item/enchanted_book/in_gui/thick/protection_impossible"
+}
+}
+],
+"fallback": {
+"type": "model",
+"model": "item/enchanted_book/thick/protection_impossible"
+}
+},
+"on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "lunge"
 }
 ],
 "on_true": {
@@ -19306,6 +19764,7 @@
 }
 }
 }
+}
 },
 "on_false": {
 "type": "condition",
@@ -20386,6 +20845,32 @@
 }
 },
 "on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "lunge"
+}
+],
+"on_true": {
+"type": "select",
+"property": "display_context",
+"cases": [
+{
+"when": "gui",
+"model": {
+"type": "model",
+"model": "item/enchanted_book/in_gui/thick/breach_impossible"
+}
+}
+],
+"fallback": {
+"type": "model",
+"model": "item/enchanted_book/thick/breach_impossible"
+}
+},
+"on_false": {
 "type": "select",
 "property": "display_context",
 "cases": [
@@ -20400,6 +20885,7 @@
 "fallback": {
 "type": "model",
 "model": "item/enchanted_book/breach_impossible"
+}
 }
 }
 }
@@ -21502,6 +21988,32 @@
 "value": [
 {
 "enchantments": "wind_burst"
+}
+],
+"on_true": {
+"type": "select",
+"property": "display_context",
+"cases": [
+{
+"when": "gui",
+"model": {
+"type": "model",
+"model": "item/enchanted_book/in_gui/thick/depth_strider_impossible"
+}
+}
+],
+"fallback": {
+"type": "model",
+"model": "item/enchanted_book/thick/depth_strider_impossible"
+}
+},
+"on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "lunge"
 }
 ],
 "on_true": {
@@ -21578,6 +22090,7 @@
 }
 }
 }
+}
 },
 "on_false": {
 "type": "condition",
@@ -22638,6 +23151,32 @@
 "value": [
 {
 "enchantments": "wind_burst"
+}
+],
+"on_true": {
+"type": "select",
+"property": "display_context",
+"cases": [
+{
+"when": "gui",
+"model": {
+"type": "model",
+"model": "item/enchanted_book/in_gui/thick/fortune_impossible"
+}
+}
+],
+"fallback": {
+"type": "model",
+"model": "item/enchanted_book/thick/fortune_impossible"
+}
+},
+"on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "lunge"
 }
 ],
 "on_true": {
@@ -22714,6 +23253,7 @@
 }
 }
 }
+}
 },
 "on_false": {
 "type": "condition",
@@ -23774,6 +24314,32 @@
 "value": [
 {
 "enchantments": "wind_burst"
+}
+],
+"on_true": {
+"type": "select",
+"property": "display_context",
+"cases": [
+{
+"when": "gui",
+"model": {
+"type": "model",
+"model": "item/enchanted_book/in_gui/thick/looting_impossible"
+}
+}
+],
+"fallback": {
+"type": "model",
+"model": "item/enchanted_book/thick/looting_impossible"
+}
+},
+"on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "lunge"
 }
 ],
 "on_true": {
@@ -23850,6 +24416,7 @@
 }
 }
 }
+}
 },
 "on_false": {
 "type": "condition",
@@ -24910,6 +25477,32 @@
 "value": [
 {
 "enchantments": "wind_burst"
+}
+],
+"on_true": {
+"type": "select",
+"property": "display_context",
+"cases": [
+{
+"when": "gui",
+"model": {
+"type": "model",
+"model": "item/enchanted_book/in_gui/thick/loyalty_impossible"
+}
+}
+],
+"fallback": {
+"type": "model",
+"model": "item/enchanted_book/thick/loyalty_impossible"
+}
+},
+"on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "lunge"
 }
 ],
 "on_true": {
@@ -24986,6 +25579,7 @@
 }
 }
 }
+}
 },
 "on_false": {
 "type": "condition",
@@ -26046,6 +26640,32 @@
 "value": [
 {
 "enchantments": "wind_burst"
+}
+],
+"on_true": {
+"type": "select",
+"property": "display_context",
+"cases": [
+{
+"when": "gui",
+"model": {
+"type": "model",
+"model": "item/enchanted_book/in_gui/thick/luck_of_the_sea_impossible"
+}
+}
+],
+"fallback": {
+"type": "model",
+"model": "item/enchanted_book/thick/luck_of_the_sea_impossible"
+}
+},
+"on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "lunge"
 }
 ],
 "on_true": {
@@ -26122,6 +26742,7 @@
 }
 }
 }
+}
 },
 "on_false": {
 "type": "condition",
@@ -27182,6 +27803,32 @@
 "value": [
 {
 "enchantments": "wind_burst"
+}
+],
+"on_true": {
+"type": "select",
+"property": "display_context",
+"cases": [
+{
+"when": "gui",
+"model": {
+"type": "model",
+"model": "item/enchanted_book/in_gui/thick/lure_impossible"
+}
+}
+],
+"fallback": {
+"type": "model",
+"model": "item/enchanted_book/thick/lure_impossible"
+}
+},
+"on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "lunge"
 }
 ],
 "on_true": {
@@ -27258,6 +27905,7 @@
 }
 }
 }
+}
 },
 "on_false": {
 "type": "condition",
@@ -28318,6 +28966,32 @@
 "value": [
 {
 "enchantments": "wind_burst"
+}
+],
+"on_true": {
+"type": "select",
+"property": "display_context",
+"cases": [
+{
+"when": "gui",
+"model": {
+"type": "model",
+"model": "item/enchanted_book/in_gui/thick/quick_charge_impossible"
+}
+}
+],
+"fallback": {
+"type": "model",
+"model": "item/enchanted_book/thick/quick_charge_impossible"
+}
+},
+"on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "lunge"
 }
 ],
 "on_true": {
@@ -28394,6 +29068,7 @@
 }
 }
 }
+}
 },
 "on_false": {
 "type": "condition",
@@ -29454,6 +30129,32 @@
 "value": [
 {
 "enchantments": "wind_burst"
+}
+],
+"on_true": {
+"type": "select",
+"property": "display_context",
+"cases": [
+{
+"when": "gui",
+"model": {
+"type": "model",
+"model": "item/enchanted_book/in_gui/thick/respiration_impossible"
+}
+}
+],
+"fallback": {
+"type": "model",
+"model": "item/enchanted_book/thick/respiration_impossible"
+}
+},
+"on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "lunge"
 }
 ],
 "on_true": {
@@ -29530,6 +30231,7 @@
 }
 }
 }
+}
 },
 "on_false": {
 "type": "condition",
@@ -30590,6 +31292,32 @@
 "value": [
 {
 "enchantments": "wind_burst"
+}
+],
+"on_true": {
+"type": "select",
+"property": "display_context",
+"cases": [
+{
+"when": "gui",
+"model": {
+"type": "model",
+"model": "item/enchanted_book/in_gui/thick/riptide_impossible"
+}
+}
+],
+"fallback": {
+"type": "model",
+"model": "item/enchanted_book/thick/riptide_impossible"
+}
+},
+"on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "lunge"
 }
 ],
 "on_true": {
@@ -30666,6 +31394,7 @@
 }
 }
 }
+}
 },
 "on_false": {
 "type": "condition",
@@ -31726,6 +32455,32 @@
 "value": [
 {
 "enchantments": "wind_burst"
+}
+],
+"on_true": {
+"type": "select",
+"property": "display_context",
+"cases": [
+{
+"when": "gui",
+"model": {
+"type": "model",
+"model": "item/enchanted_book/in_gui/thick/soul_speed_impossible"
+}
+}
+],
+"fallback": {
+"type": "model",
+"model": "item/enchanted_book/thick/soul_speed_impossible"
+}
+},
+"on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "lunge"
 }
 ],
 "on_true": {
@@ -31802,6 +32557,7 @@
 }
 }
 }
+}
 },
 "on_false": {
 "type": "condition",
@@ -32862,6 +33618,32 @@
 "value": [
 {
 "enchantments": "wind_burst"
+}
+],
+"on_true": {
+"type": "select",
+"property": "display_context",
+"cases": [
+{
+"when": "gui",
+"model": {
+"type": "model",
+"model": "item/enchanted_book/in_gui/thick/sweeping_edge_impossible"
+}
+}
+],
+"fallback": {
+"type": "model",
+"model": "item/enchanted_book/thick/sweeping_edge_impossible"
+}
+},
+"on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "lunge"
 }
 ],
 "on_true": {
@@ -32938,6 +33720,7 @@
 }
 }
 }
+}
 },
 "on_false": {
 "type": "condition",
@@ -33998,6 +34781,32 @@
 "value": [
 {
 "enchantments": "wind_burst"
+}
+],
+"on_true": {
+"type": "select",
+"property": "display_context",
+"cases": [
+{
+"when": "gui",
+"model": {
+"type": "model",
+"model": "item/enchanted_book/in_gui/thick/swift_sneak_impossible"
+}
+}
+],
+"fallback": {
+"type": "model",
+"model": "item/enchanted_book/thick/swift_sneak_impossible"
+}
+},
+"on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "lunge"
 }
 ],
 "on_true": {
@@ -34074,6 +34883,7 @@
 }
 }
 }
+}
 },
 "on_false": {
 "type": "condition",
@@ -35134,6 +35944,32 @@
 "value": [
 {
 "enchantments": "wind_burst"
+}
+],
+"on_true": {
+"type": "select",
+"property": "display_context",
+"cases": [
+{
+"when": "gui",
+"model": {
+"type": "model",
+"model": "item/enchanted_book/in_gui/thick/thorns_impossible"
+}
+}
+],
+"fallback": {
+"type": "model",
+"model": "item/enchanted_book/thick/thorns_impossible"
+}
+},
+"on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "lunge"
 }
 ],
 "on_true": {
@@ -35210,6 +36046,7 @@
 }
 }
 }
+}
 },
 "on_false": {
 "type": "condition",
@@ -36270,6 +37107,32 @@
 "value": [
 {
 "enchantments": "wind_burst"
+}
+],
+"on_true": {
+"type": "select",
+"property": "display_context",
+"cases": [
+{
+"when": "gui",
+"model": {
+"type": "model",
+"model": "item/enchanted_book/in_gui/thick/unbreaking_impossible"
+}
+}
+],
+"fallback": {
+"type": "model",
+"model": "item/enchanted_book/thick/unbreaking_impossible"
+}
+},
+"on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "lunge"
 }
 ],
 "on_true": {
@@ -36346,6 +37209,7 @@
 }
 }
 }
+}
 },
 "on_false": {
 "type": "condition",
@@ -37426,6 +38290,32 @@
 }
 },
 "on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "lunge"
+}
+],
+"on_true": {
+"type": "select",
+"property": "display_context",
+"cases": [
+{
+"when": "gui",
+"model": {
+"type": "model",
+"model": "item/enchanted_book/in_gui/thick/wind_burst_impossible"
+}
+}
+],
+"fallback": {
+"type": "model",
+"model": "item/enchanted_book/thick/wind_burst_impossible"
+}
+},
+"on_false": {
 "type": "select",
 "property": "display_context",
 "cases": [
@@ -37440,6 +38330,1170 @@
 "fallback": {
 "type": "model",
 "model": "item/enchanted_book/wind_burst_impossible"
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+},
+"on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "lunge",
+"levels": {
+"min": 4
+}
+}
+],
+"on_true": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "aqua_affinity"
+}
+],
+"on_true": {
+"type": "select",
+"property": "display_context",
+"cases": [
+{
+"when": "gui",
+"model": {
+"type": "model",
+"model": "item/enchanted_book/in_gui/thick/lunge_impossible"
+}
+}
+],
+"fallback": {
+"type": "model",
+"model": "item/enchanted_book/thick/lunge_impossible"
+}
+},
+"on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "bane_of_arthropods"
+}
+],
+"on_true": {
+"type": "select",
+"property": "display_context",
+"cases": [
+{
+"when": "gui",
+"model": {
+"type": "model",
+"model": "item/enchanted_book/in_gui/thick/lunge_impossible"
+}
+}
+],
+"fallback": {
+"type": "model",
+"model": "item/enchanted_book/thick/lunge_impossible"
+}
+},
+"on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "binding_curse"
+}
+],
+"on_true": {
+"type": "select",
+"property": "display_context",
+"cases": [
+{
+"when": "gui",
+"model": {
+"type": "model",
+"model": "item/enchanted_book/in_gui/thick/lunge_impossible"
+}
+}
+],
+"fallback": {
+"type": "model",
+"model": "item/enchanted_book/thick/lunge_impossible"
+}
+},
+"on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "blast_protection"
+}
+],
+"on_true": {
+"type": "select",
+"property": "display_context",
+"cases": [
+{
+"when": "gui",
+"model": {
+"type": "model",
+"model": "item/enchanted_book/in_gui/thick/lunge_impossible"
+}
+}
+],
+"fallback": {
+"type": "model",
+"model": "item/enchanted_book/thick/lunge_impossible"
+}
+},
+"on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "channeling"
+}
+],
+"on_true": {
+"type": "select",
+"property": "display_context",
+"cases": [
+{
+"when": "gui",
+"model": {
+"type": "model",
+"model": "item/enchanted_book/in_gui/thick/lunge_impossible"
+}
+}
+],
+"fallback": {
+"type": "model",
+"model": "item/enchanted_book/thick/lunge_impossible"
+}
+},
+"on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "depth_strider"
+}
+],
+"on_true": {
+"type": "select",
+"property": "display_context",
+"cases": [
+{
+"when": "gui",
+"model": {
+"type": "model",
+"model": "item/enchanted_book/in_gui/thick/lunge_impossible"
+}
+}
+],
+"fallback": {
+"type": "model",
+"model": "item/enchanted_book/thick/lunge_impossible"
+}
+},
+"on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "efficiency"
+}
+],
+"on_true": {
+"type": "select",
+"property": "display_context",
+"cases": [
+{
+"when": "gui",
+"model": {
+"type": "model",
+"model": "item/enchanted_book/in_gui/thick/lunge_impossible"
+}
+}
+],
+"fallback": {
+"type": "model",
+"model": "item/enchanted_book/thick/lunge_impossible"
+}
+},
+"on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "feather_falling"
+}
+],
+"on_true": {
+"type": "select",
+"property": "display_context",
+"cases": [
+{
+"when": "gui",
+"model": {
+"type": "model",
+"model": "item/enchanted_book/in_gui/thick/lunge_impossible"
+}
+}
+],
+"fallback": {
+"type": "model",
+"model": "item/enchanted_book/thick/lunge_impossible"
+}
+},
+"on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "fire_aspect"
+}
+],
+"on_true": {
+"type": "select",
+"property": "display_context",
+"cases": [
+{
+"when": "gui",
+"model": {
+"type": "model",
+"model": "item/enchanted_book/in_gui/thick/lunge_impossible"
+}
+}
+],
+"fallback": {
+"type": "model",
+"model": "item/enchanted_book/thick/lunge_impossible"
+}
+},
+"on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "fire_protection"
+}
+],
+"on_true": {
+"type": "select",
+"property": "display_context",
+"cases": [
+{
+"when": "gui",
+"model": {
+"type": "model",
+"model": "item/enchanted_book/in_gui/thick/lunge_impossible"
+}
+}
+],
+"fallback": {
+"type": "model",
+"model": "item/enchanted_book/thick/lunge_impossible"
+}
+},
+"on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "flame"
+}
+],
+"on_true": {
+"type": "select",
+"property": "display_context",
+"cases": [
+{
+"when": "gui",
+"model": {
+"type": "model",
+"model": "item/enchanted_book/in_gui/thick/lunge_impossible"
+}
+}
+],
+"fallback": {
+"type": "model",
+"model": "item/enchanted_book/thick/lunge_impossible"
+}
+},
+"on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "fortune"
+}
+],
+"on_true": {
+"type": "select",
+"property": "display_context",
+"cases": [
+{
+"when": "gui",
+"model": {
+"type": "model",
+"model": "item/enchanted_book/in_gui/thick/lunge_impossible"
+}
+}
+],
+"fallback": {
+"type": "model",
+"model": "item/enchanted_book/thick/lunge_impossible"
+}
+},
+"on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "frost_walker"
+}
+],
+"on_true": {
+"type": "select",
+"property": "display_context",
+"cases": [
+{
+"when": "gui",
+"model": {
+"type": "model",
+"model": "item/enchanted_book/in_gui/thick/lunge_impossible"
+}
+}
+],
+"fallback": {
+"type": "model",
+"model": "item/enchanted_book/thick/lunge_impossible"
+}
+},
+"on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "impaling"
+}
+],
+"on_true": {
+"type": "select",
+"property": "display_context",
+"cases": [
+{
+"when": "gui",
+"model": {
+"type": "model",
+"model": "item/enchanted_book/in_gui/thick/lunge_impossible"
+}
+}
+],
+"fallback": {
+"type": "model",
+"model": "item/enchanted_book/thick/lunge_impossible"
+}
+},
+"on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "infinity"
+}
+],
+"on_true": {
+"type": "select",
+"property": "display_context",
+"cases": [
+{
+"when": "gui",
+"model": {
+"type": "model",
+"model": "item/enchanted_book/in_gui/thick/lunge_impossible"
+}
+}
+],
+"fallback": {
+"type": "model",
+"model": "item/enchanted_book/thick/lunge_impossible"
+}
+},
+"on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "knockback"
+}
+],
+"on_true": {
+"type": "select",
+"property": "display_context",
+"cases": [
+{
+"when": "gui",
+"model": {
+"type": "model",
+"model": "item/enchanted_book/in_gui/thick/lunge_impossible"
+}
+}
+],
+"fallback": {
+"type": "model",
+"model": "item/enchanted_book/thick/lunge_impossible"
+}
+},
+"on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "looting"
+}
+],
+"on_true": {
+"type": "select",
+"property": "display_context",
+"cases": [
+{
+"when": "gui",
+"model": {
+"type": "model",
+"model": "item/enchanted_book/in_gui/thick/lunge_impossible"
+}
+}
+],
+"fallback": {
+"type": "model",
+"model": "item/enchanted_book/thick/lunge_impossible"
+}
+},
+"on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "loyalty"
+}
+],
+"on_true": {
+"type": "select",
+"property": "display_context",
+"cases": [
+{
+"when": "gui",
+"model": {
+"type": "model",
+"model": "item/enchanted_book/in_gui/thick/lunge_impossible"
+}
+}
+],
+"fallback": {
+"type": "model",
+"model": "item/enchanted_book/thick/lunge_impossible"
+}
+},
+"on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "luck_of_the_sea"
+}
+],
+"on_true": {
+"type": "select",
+"property": "display_context",
+"cases": [
+{
+"when": "gui",
+"model": {
+"type": "model",
+"model": "item/enchanted_book/in_gui/thick/lunge_impossible"
+}
+}
+],
+"fallback": {
+"type": "model",
+"model": "item/enchanted_book/thick/lunge_impossible"
+}
+},
+"on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "lure"
+}
+],
+"on_true": {
+"type": "select",
+"property": "display_context",
+"cases": [
+{
+"when": "gui",
+"model": {
+"type": "model",
+"model": "item/enchanted_book/in_gui/thick/lunge_impossible"
+}
+}
+],
+"fallback": {
+"type": "model",
+"model": "item/enchanted_book/thick/lunge_impossible"
+}
+},
+"on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "mending"
+}
+],
+"on_true": {
+"type": "select",
+"property": "display_context",
+"cases": [
+{
+"when": "gui",
+"model": {
+"type": "model",
+"model": "item/enchanted_book/in_gui/thick/lunge_impossible"
+}
+}
+],
+"fallback": {
+"type": "model",
+"model": "item/enchanted_book/thick/lunge_impossible"
+}
+},
+"on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "multishot"
+}
+],
+"on_true": {
+"type": "select",
+"property": "display_context",
+"cases": [
+{
+"when": "gui",
+"model": {
+"type": "model",
+"model": "item/enchanted_book/in_gui/thick/lunge_impossible"
+}
+}
+],
+"fallback": {
+"type": "model",
+"model": "item/enchanted_book/thick/lunge_impossible"
+}
+},
+"on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "piercing"
+}
+],
+"on_true": {
+"type": "select",
+"property": "display_context",
+"cases": [
+{
+"when": "gui",
+"model": {
+"type": "model",
+"model": "item/enchanted_book/in_gui/thick/lunge_impossible"
+}
+}
+],
+"fallback": {
+"type": "model",
+"model": "item/enchanted_book/thick/lunge_impossible"
+}
+},
+"on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "power"
+}
+],
+"on_true": {
+"type": "select",
+"property": "display_context",
+"cases": [
+{
+"when": "gui",
+"model": {
+"type": "model",
+"model": "item/enchanted_book/in_gui/thick/lunge_impossible"
+}
+}
+],
+"fallback": {
+"type": "model",
+"model": "item/enchanted_book/thick/lunge_impossible"
+}
+},
+"on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "projectile_protection"
+}
+],
+"on_true": {
+"type": "select",
+"property": "display_context",
+"cases": [
+{
+"when": "gui",
+"model": {
+"type": "model",
+"model": "item/enchanted_book/in_gui/thick/lunge_impossible"
+}
+}
+],
+"fallback": {
+"type": "model",
+"model": "item/enchanted_book/thick/lunge_impossible"
+}
+},
+"on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "protection"
+}
+],
+"on_true": {
+"type": "select",
+"property": "display_context",
+"cases": [
+{
+"when": "gui",
+"model": {
+"type": "model",
+"model": "item/enchanted_book/in_gui/thick/lunge_impossible"
+}
+}
+],
+"fallback": {
+"type": "model",
+"model": "item/enchanted_book/thick/lunge_impossible"
+}
+},
+"on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "punch"
+}
+],
+"on_true": {
+"type": "select",
+"property": "display_context",
+"cases": [
+{
+"when": "gui",
+"model": {
+"type": "model",
+"model": "item/enchanted_book/in_gui/thick/lunge_impossible"
+}
+}
+],
+"fallback": {
+"type": "model",
+"model": "item/enchanted_book/thick/lunge_impossible"
+}
+},
+"on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "quick_charge"
+}
+],
+"on_true": {
+"type": "select",
+"property": "display_context",
+"cases": [
+{
+"when": "gui",
+"model": {
+"type": "model",
+"model": "item/enchanted_book/in_gui/thick/lunge_impossible"
+}
+}
+],
+"fallback": {
+"type": "model",
+"model": "item/enchanted_book/thick/lunge_impossible"
+}
+},
+"on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "respiration"
+}
+],
+"on_true": {
+"type": "select",
+"property": "display_context",
+"cases": [
+{
+"when": "gui",
+"model": {
+"type": "model",
+"model": "item/enchanted_book/in_gui/thick/lunge_impossible"
+}
+}
+],
+"fallback": {
+"type": "model",
+"model": "item/enchanted_book/thick/lunge_impossible"
+}
+},
+"on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "riptide"
+}
+],
+"on_true": {
+"type": "select",
+"property": "display_context",
+"cases": [
+{
+"when": "gui",
+"model": {
+"type": "model",
+"model": "item/enchanted_book/in_gui/thick/lunge_impossible"
+}
+}
+],
+"fallback": {
+"type": "model",
+"model": "item/enchanted_book/thick/lunge_impossible"
+}
+},
+"on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "sharpness"
+}
+],
+"on_true": {
+"type": "select",
+"property": "display_context",
+"cases": [
+{
+"when": "gui",
+"model": {
+"type": "model",
+"model": "item/enchanted_book/in_gui/thick/lunge_impossible"
+}
+}
+],
+"fallback": {
+"type": "model",
+"model": "item/enchanted_book/thick/lunge_impossible"
+}
+},
+"on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "silk_touch"
+}
+],
+"on_true": {
+"type": "select",
+"property": "display_context",
+"cases": [
+{
+"when": "gui",
+"model": {
+"type": "model",
+"model": "item/enchanted_book/in_gui/thick/lunge_impossible"
+}
+}
+],
+"fallback": {
+"type": "model",
+"model": "item/enchanted_book/thick/lunge_impossible"
+}
+},
+"on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "smite"
+}
+],
+"on_true": {
+"type": "select",
+"property": "display_context",
+"cases": [
+{
+"when": "gui",
+"model": {
+"type": "model",
+"model": "item/enchanted_book/in_gui/thick/lunge_impossible"
+}
+}
+],
+"fallback": {
+"type": "model",
+"model": "item/enchanted_book/thick/lunge_impossible"
+}
+},
+"on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "soul_speed"
+}
+],
+"on_true": {
+"type": "select",
+"property": "display_context",
+"cases": [
+{
+"when": "gui",
+"model": {
+"type": "model",
+"model": "item/enchanted_book/in_gui/thick/lunge_impossible"
+}
+}
+],
+"fallback": {
+"type": "model",
+"model": "item/enchanted_book/thick/lunge_impossible"
+}
+},
+"on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "sweeping_edge"
+}
+],
+"on_true": {
+"type": "select",
+"property": "display_context",
+"cases": [
+{
+"when": "gui",
+"model": {
+"type": "model",
+"model": "item/enchanted_book/in_gui/thick/lunge_impossible"
+}
+}
+],
+"fallback": {
+"type": "model",
+"model": "item/enchanted_book/thick/lunge_impossible"
+}
+},
+"on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "swift_sneak"
+}
+],
+"on_true": {
+"type": "select",
+"property": "display_context",
+"cases": [
+{
+"when": "gui",
+"model": {
+"type": "model",
+"model": "item/enchanted_book/in_gui/thick/lunge_impossible"
+}
+}
+],
+"fallback": {
+"type": "model",
+"model": "item/enchanted_book/thick/lunge_impossible"
+}
+},
+"on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "thorns"
+}
+],
+"on_true": {
+"type": "select",
+"property": "display_context",
+"cases": [
+{
+"when": "gui",
+"model": {
+"type": "model",
+"model": "item/enchanted_book/in_gui/thick/lunge_impossible"
+}
+}
+],
+"fallback": {
+"type": "model",
+"model": "item/enchanted_book/thick/lunge_impossible"
+}
+},
+"on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "unbreaking"
+}
+],
+"on_true": {
+"type": "select",
+"property": "display_context",
+"cases": [
+{
+"when": "gui",
+"model": {
+"type": "model",
+"model": "item/enchanted_book/in_gui/thick/lunge_impossible"
+}
+}
+],
+"fallback": {
+"type": "model",
+"model": "item/enchanted_book/thick/lunge_impossible"
+}
+},
+"on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "vanishing_curse"
+}
+],
+"on_true": {
+"type": "select",
+"property": "display_context",
+"cases": [
+{
+"when": "gui",
+"model": {
+"type": "model",
+"model": "item/enchanted_book/in_gui/thick/lunge_impossible"
+}
+}
+],
+"fallback": {
+"type": "model",
+"model": "item/enchanted_book/thick/lunge_impossible"
+}
+},
+"on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "density"
+}
+],
+"on_true": {
+"type": "select",
+"property": "display_context",
+"cases": [
+{
+"when": "gui",
+"model": {
+"type": "model",
+"model": "item/enchanted_book/in_gui/thick/lunge_impossible"
+}
+}
+],
+"fallback": {
+"type": "model",
+"model": "item/enchanted_book/thick/lunge_impossible"
+}
+},
+"on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "breach"
+}
+],
+"on_true": {
+"type": "select",
+"property": "display_context",
+"cases": [
+{
+"when": "gui",
+"model": {
+"type": "model",
+"model": "item/enchanted_book/in_gui/thick/lunge_impossible"
+}
+}
+],
+"fallback": {
+"type": "model",
+"model": "item/enchanted_book/thick/lunge_impossible"
+}
+},
+"on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "wind_burst"
+}
+],
+"on_true": {
+"type": "select",
+"property": "display_context",
+"cases": [
+{
+"when": "gui",
+"model": {
+"type": "model",
+"model": "item/enchanted_book/in_gui/thick/lunge_impossible"
+}
+}
+],
+"fallback": {
+"type": "model",
+"model": "item/enchanted_book/thick/lunge_impossible"
+}
+},
+"on_false": {
+"type": "select",
+"property": "display_context",
+"cases": [
+{
+"when": "gui",
+"model": {
+"type": "model",
+"model": "item/enchanted_book/in_gui/lunge_impossible"
+}
+}
+],
+"fallback": {
+"type": "model",
+"model": "item/enchanted_book/lunge_impossible"
+}
 }
 }
 }
@@ -38542,6 +40596,32 @@
 "value": [
 {
 "enchantments": "wind_burst"
+}
+],
+"on_true": {
+"type": "select",
+"property": "display_context",
+"cases": [
+{
+"when": "gui",
+"model": {
+"type": "model",
+"model": "item/enchanted_book/in_gui/thick/fire_aspect_impossible"
+}
+}
+],
+"fallback": {
+"type": "model",
+"model": "item/enchanted_book/thick/fire_aspect_impossible"
+}
+},
+"on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "lunge"
 }
 ],
 "on_true": {
@@ -38618,6 +40698,7 @@
 }
 }
 }
+}
 },
 "on_false": {
 "type": "condition",
@@ -39678,6 +41759,32 @@
 "value": [
 {
 "enchantments": "wind_burst"
+}
+],
+"on_true": {
+"type": "select",
+"property": "display_context",
+"cases": [
+{
+"when": "gui",
+"model": {
+"type": "model",
+"model": "item/enchanted_book/in_gui/thick/frost_walker_impossible"
+}
+}
+],
+"fallback": {
+"type": "model",
+"model": "item/enchanted_book/thick/frost_walker_impossible"
+}
+},
+"on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "lunge"
 }
 ],
 "on_true": {
@@ -39754,6 +41861,7 @@
 }
 }
 }
+}
 },
 "on_false": {
 "type": "condition",
@@ -40814,6 +42922,32 @@
 "value": [
 {
 "enchantments": "wind_burst"
+}
+],
+"on_true": {
+"type": "select",
+"property": "display_context",
+"cases": [
+{
+"when": "gui",
+"model": {
+"type": "model",
+"model": "item/enchanted_book/in_gui/thick/knockback_impossible"
+}
+}
+],
+"fallback": {
+"type": "model",
+"model": "item/enchanted_book/thick/knockback_impossible"
+}
+},
+"on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "lunge"
 }
 ],
 "on_true": {
@@ -40890,6 +43024,7 @@
 }
 }
 }
+}
 },
 "on_false": {
 "type": "condition",
@@ -41970,6 +44105,32 @@
 }
 },
 "on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "lunge"
+}
+],
+"on_true": {
+"type": "select",
+"property": "display_context",
+"cases": [
+{
+"when": "gui",
+"model": {
+"type": "model",
+"model": "item/enchanted_book/in_gui/thick/punch_impossible"
+}
+}
+],
+"fallback": {
+"type": "model",
+"model": "item/enchanted_book/thick/punch_impossible"
+}
+},
+"on_false": {
 "type": "select",
 "property": "display_context",
 "cases": [
@@ -41984,6 +44145,7 @@
 "fallback": {
 "type": "model",
 "model": "item/enchanted_book/punch_impossible"
+}
 }
 }
 }
@@ -43086,6 +45248,32 @@
 "value": [
 {
 "enchantments": "wind_burst"
+}
+],
+"on_true": {
+"type": "select",
+"property": "display_context",
+"cases": [
+{
+"when": "gui",
+"model": {
+"type": "model",
+"model": "item/enchanted_book/in_gui/thick/aqua_affinity_impossible"
+}
+}
+],
+"fallback": {
+"type": "model",
+"model": "item/enchanted_book/thick/aqua_affinity_impossible"
+}
+},
+"on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "lunge"
 }
 ],
 "on_true": {
@@ -43162,6 +45350,7 @@
 }
 }
 }
+}
 },
 "on_false": {
 "type": "condition",
@@ -44242,6 +46431,32 @@
 }
 },
 "on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "lunge"
+}
+],
+"on_true": {
+"type": "select",
+"property": "display_context",
+"cases": [
+{
+"when": "gui",
+"model": {
+"type": "model",
+"model": "item/enchanted_book/in_gui/thick/channeling_impossible"
+}
+}
+],
+"fallback": {
+"type": "model",
+"model": "item/enchanted_book/thick/channeling_impossible"
+}
+},
+"on_false": {
 "type": "select",
 "property": "display_context",
 "cases": [
@@ -44256,6 +46471,7 @@
 "fallback": {
 "type": "model",
 "model": "item/enchanted_book/channeling_impossible"
+}
 }
 }
 }
@@ -45378,6 +47594,32 @@
 }
 },
 "on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "lunge"
+}
+],
+"on_true": {
+"type": "select",
+"property": "display_context",
+"cases": [
+{
+"when": "gui",
+"model": {
+"type": "model",
+"model": "item/enchanted_book/in_gui/thick/flame_impossible"
+}
+}
+],
+"fallback": {
+"type": "model",
+"model": "item/enchanted_book/thick/flame_impossible"
+}
+},
+"on_false": {
 "type": "select",
 "property": "display_context",
 "cases": [
@@ -45392,6 +47634,7 @@
 "fallback": {
 "type": "model",
 "model": "item/enchanted_book/flame_impossible"
+}
 }
 }
 }
@@ -46514,6 +48757,32 @@
 }
 },
 "on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "lunge"
+}
+],
+"on_true": {
+"type": "select",
+"property": "display_context",
+"cases": [
+{
+"when": "gui",
+"model": {
+"type": "model",
+"model": "item/enchanted_book/in_gui/thick/infinity_impossible"
+}
+}
+],
+"fallback": {
+"type": "model",
+"model": "item/enchanted_book/thick/infinity_impossible"
+}
+},
+"on_false": {
 "type": "select",
 "property": "display_context",
 "cases": [
@@ -46528,6 +48797,7 @@
 "fallback": {
 "type": "model",
 "model": "item/enchanted_book/infinity_impossible"
+}
 }
 }
 }
@@ -47650,6 +49920,32 @@
 }
 },
 "on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "lunge"
+}
+],
+"on_true": {
+"type": "select",
+"property": "display_context",
+"cases": [
+{
+"when": "gui",
+"model": {
+"type": "model",
+"model": "item/enchanted_book/in_gui/thick/mending_impossible"
+}
+}
+],
+"fallback": {
+"type": "model",
+"model": "item/enchanted_book/thick/mending_impossible"
+}
+},
+"on_false": {
 "type": "select",
 "property": "display_context",
 "cases": [
@@ -47664,6 +49960,7 @@
 "fallback": {
 "type": "model",
 "model": "item/enchanted_book/mending_impossible"
+}
 }
 }
 }
@@ -48786,6 +51083,32 @@
 }
 },
 "on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "lunge"
+}
+],
+"on_true": {
+"type": "select",
+"property": "display_context",
+"cases": [
+{
+"when": "gui",
+"model": {
+"type": "model",
+"model": "item/enchanted_book/in_gui/thick/multishot_impossible"
+}
+}
+],
+"fallback": {
+"type": "model",
+"model": "item/enchanted_book/thick/multishot_impossible"
+}
+},
+"on_false": {
 "type": "select",
 "property": "display_context",
 "cases": [
@@ -48800,6 +51123,7 @@
 "fallback": {
 "type": "model",
 "model": "item/enchanted_book/multishot_impossible"
+}
 }
 }
 }
@@ -49922,6 +52246,32 @@
 }
 },
 "on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "lunge"
+}
+],
+"on_true": {
+"type": "select",
+"property": "display_context",
+"cases": [
+{
+"when": "gui",
+"model": {
+"type": "model",
+"model": "item/enchanted_book/in_gui/thick/silk_touch_impossible"
+}
+}
+],
+"fallback": {
+"type": "model",
+"model": "item/enchanted_book/thick/silk_touch_impossible"
+}
+},
+"on_false": {
 "type": "select",
 "property": "display_context",
 "cases": [
@@ -49936,6 +52286,7 @@
 "fallback": {
 "type": "model",
 "model": "item/enchanted_book/silk_touch_impossible"
+}
 }
 }
 }
@@ -51056,6 +53407,32 @@
 }
 },
 "on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "lunge"
+}
+],
+"on_true": {
+"type": "select",
+"property": "display_context",
+"cases": [
+{
+"when": "gui",
+"model": {
+"type": "model",
+"model": "item/enchanted_book/in_gui/thick/bane_of_arthropods_5"
+}
+}
+],
+"fallback": {
+"type": "model",
+"model": "item/enchanted_book/thick/bane_of_arthropods_5"
+}
+},
+"on_false": {
 "type": "select",
 "property": "display_context",
 "cases": [
@@ -51070,6 +53447,7 @@
 "fallback": {
 "type": "model",
 "model": "item/enchanted_book/bane_of_arthropods_5"
+}
 }
 }
 }
@@ -52190,6 +54568,32 @@
 }
 },
 "on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "lunge"
+}
+],
+"on_true": {
+"type": "select",
+"property": "display_context",
+"cases": [
+{
+"when": "gui",
+"model": {
+"type": "model",
+"model": "item/enchanted_book/in_gui/thick/efficiency_5"
+}
+}
+],
+"fallback": {
+"type": "model",
+"model": "item/enchanted_book/thick/efficiency_5"
+}
+},
+"on_false": {
 "type": "select",
 "property": "display_context",
 "cases": [
@@ -52204,6 +54608,7 @@
 "fallback": {
 "type": "model",
 "model": "item/enchanted_book/efficiency_5"
+}
 }
 }
 }
@@ -53324,6 +55729,32 @@
 }
 },
 "on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "lunge"
+}
+],
+"on_true": {
+"type": "select",
+"property": "display_context",
+"cases": [
+{
+"when": "gui",
+"model": {
+"type": "model",
+"model": "item/enchanted_book/in_gui/thick/impaling_5"
+}
+}
+],
+"fallback": {
+"type": "model",
+"model": "item/enchanted_book/thick/impaling_5"
+}
+},
+"on_false": {
 "type": "select",
 "property": "display_context",
 "cases": [
@@ -53338,6 +55769,7 @@
 "fallback": {
 "type": "model",
 "model": "item/enchanted_book/impaling_5"
+}
 }
 }
 }
@@ -54458,6 +56890,32 @@
 }
 },
 "on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "lunge"
+}
+],
+"on_true": {
+"type": "select",
+"property": "display_context",
+"cases": [
+{
+"when": "gui",
+"model": {
+"type": "model",
+"model": "item/enchanted_book/in_gui/thick/power_5"
+}
+}
+],
+"fallback": {
+"type": "model",
+"model": "item/enchanted_book/thick/power_5"
+}
+},
+"on_false": {
 "type": "select",
 "property": "display_context",
 "cases": [
@@ -54472,6 +56930,7 @@
 "fallback": {
 "type": "model",
 "model": "item/enchanted_book/power_5"
+}
 }
 }
 }
@@ -55592,6 +58051,32 @@
 }
 },
 "on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "lunge"
+}
+],
+"on_true": {
+"type": "select",
+"property": "display_context",
+"cases": [
+{
+"when": "gui",
+"model": {
+"type": "model",
+"model": "item/enchanted_book/in_gui/thick/sharpness_5"
+}
+}
+],
+"fallback": {
+"type": "model",
+"model": "item/enchanted_book/thick/sharpness_5"
+}
+},
+"on_false": {
 "type": "select",
 "property": "display_context",
 "cases": [
@@ -55606,6 +58091,7 @@
 "fallback": {
 "type": "model",
 "model": "item/enchanted_book/sharpness_5"
+}
 }
 }
 }
@@ -56726,6 +59212,32 @@
 }
 },
 "on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "lunge"
+}
+],
+"on_true": {
+"type": "select",
+"property": "display_context",
+"cases": [
+{
+"when": "gui",
+"model": {
+"type": "model",
+"model": "item/enchanted_book/in_gui/thick/smite_5"
+}
+}
+],
+"fallback": {
+"type": "model",
+"model": "item/enchanted_book/thick/smite_5"
+}
+},
+"on_false": {
 "type": "select",
 "property": "display_context",
 "cases": [
@@ -56740,6 +59252,7 @@
 "fallback": {
 "type": "model",
 "model": "item/enchanted_book/smite_5"
+}
 }
 }
 }
@@ -57860,6 +60373,32 @@
 }
 },
 "on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "lunge"
+}
+],
+"on_true": {
+"type": "select",
+"property": "display_context",
+"cases": [
+{
+"when": "gui",
+"model": {
+"type": "model",
+"model": "item/enchanted_book/in_gui/thick/density_5"
+}
+}
+],
+"fallback": {
+"type": "model",
+"model": "item/enchanted_book/thick/density_5"
+}
+},
+"on_false": {
 "type": "select",
 "property": "display_context",
 "cases": [
@@ -57874,6 +60413,7 @@
 "fallback": {
 "type": "model",
 "model": "item/enchanted_book/density_5"
+}
 }
 }
 }
@@ -58994,6 +61534,32 @@
 }
 },
 "on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "lunge"
+}
+],
+"on_true": {
+"type": "select",
+"property": "display_context",
+"cases": [
+{
+"when": "gui",
+"model": {
+"type": "model",
+"model": "item/enchanted_book/in_gui/thick/bane_of_arthropods_4"
+}
+}
+],
+"fallback": {
+"type": "model",
+"model": "item/enchanted_book/thick/bane_of_arthropods_4"
+}
+},
+"on_false": {
 "type": "select",
 "property": "display_context",
 "cases": [
@@ -59008,6 +61574,7 @@
 "fallback": {
 "type": "model",
 "model": "item/enchanted_book/bane_of_arthropods_4"
+}
 }
 }
 }
@@ -60128,6 +62695,32 @@
 }
 },
 "on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "lunge"
+}
+],
+"on_true": {
+"type": "select",
+"property": "display_context",
+"cases": [
+{
+"when": "gui",
+"model": {
+"type": "model",
+"model": "item/enchanted_book/in_gui/thick/blast_protection_4"
+}
+}
+],
+"fallback": {
+"type": "model",
+"model": "item/enchanted_book/thick/blast_protection_4"
+}
+},
+"on_false": {
 "type": "select",
 "property": "display_context",
 "cases": [
@@ -60142,6 +62735,7 @@
 "fallback": {
 "type": "model",
 "model": "item/enchanted_book/blast_protection_4"
+}
 }
 }
 }
@@ -61262,6 +63856,32 @@
 }
 },
 "on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "lunge"
+}
+],
+"on_true": {
+"type": "select",
+"property": "display_context",
+"cases": [
+{
+"when": "gui",
+"model": {
+"type": "model",
+"model": "item/enchanted_book/in_gui/thick/efficiency_4"
+}
+}
+],
+"fallback": {
+"type": "model",
+"model": "item/enchanted_book/thick/efficiency_4"
+}
+},
+"on_false": {
 "type": "select",
 "property": "display_context",
 "cases": [
@@ -61276,6 +63896,7 @@
 "fallback": {
 "type": "model",
 "model": "item/enchanted_book/efficiency_4"
+}
 }
 }
 }
@@ -62396,6 +65017,32 @@
 }
 },
 "on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "lunge"
+}
+],
+"on_true": {
+"type": "select",
+"property": "display_context",
+"cases": [
+{
+"when": "gui",
+"model": {
+"type": "model",
+"model": "item/enchanted_book/in_gui/thick/feather_falling_4"
+}
+}
+],
+"fallback": {
+"type": "model",
+"model": "item/enchanted_book/thick/feather_falling_4"
+}
+},
+"on_false": {
 "type": "select",
 "property": "display_context",
 "cases": [
@@ -62410,6 +65057,7 @@
 "fallback": {
 "type": "model",
 "model": "item/enchanted_book/feather_falling_4"
+}
 }
 }
 }
@@ -63530,6 +66178,32 @@
 }
 },
 "on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "lunge"
+}
+],
+"on_true": {
+"type": "select",
+"property": "display_context",
+"cases": [
+{
+"when": "gui",
+"model": {
+"type": "model",
+"model": "item/enchanted_book/in_gui/thick/fire_protection_4"
+}
+}
+],
+"fallback": {
+"type": "model",
+"model": "item/enchanted_book/thick/fire_protection_4"
+}
+},
+"on_false": {
 "type": "select",
 "property": "display_context",
 "cases": [
@@ -63544,6 +66218,7 @@
 "fallback": {
 "type": "model",
 "model": "item/enchanted_book/fire_protection_4"
+}
 }
 }
 }
@@ -64664,6 +67339,32 @@
 }
 },
 "on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "lunge"
+}
+],
+"on_true": {
+"type": "select",
+"property": "display_context",
+"cases": [
+{
+"when": "gui",
+"model": {
+"type": "model",
+"model": "item/enchanted_book/in_gui/thick/impaling_4"
+}
+}
+],
+"fallback": {
+"type": "model",
+"model": "item/enchanted_book/thick/impaling_4"
+}
+},
+"on_false": {
 "type": "select",
 "property": "display_context",
 "cases": [
@@ -64678,6 +67379,7 @@
 "fallback": {
 "type": "model",
 "model": "item/enchanted_book/impaling_4"
+}
 }
 }
 }
@@ -65798,6 +68500,32 @@
 }
 },
 "on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "lunge"
+}
+],
+"on_true": {
+"type": "select",
+"property": "display_context",
+"cases": [
+{
+"when": "gui",
+"model": {
+"type": "model",
+"model": "item/enchanted_book/in_gui/thick/piercing_4"
+}
+}
+],
+"fallback": {
+"type": "model",
+"model": "item/enchanted_book/thick/piercing_4"
+}
+},
+"on_false": {
 "type": "select",
 "property": "display_context",
 "cases": [
@@ -65812,6 +68540,7 @@
 "fallback": {
 "type": "model",
 "model": "item/enchanted_book/piercing_4"
+}
 }
 }
 }
@@ -66932,6 +69661,32 @@
 }
 },
 "on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "lunge"
+}
+],
+"on_true": {
+"type": "select",
+"property": "display_context",
+"cases": [
+{
+"when": "gui",
+"model": {
+"type": "model",
+"model": "item/enchanted_book/in_gui/thick/power_4"
+}
+}
+],
+"fallback": {
+"type": "model",
+"model": "item/enchanted_book/thick/power_4"
+}
+},
+"on_false": {
 "type": "select",
 "property": "display_context",
 "cases": [
@@ -66946,6 +69701,7 @@
 "fallback": {
 "type": "model",
 "model": "item/enchanted_book/power_4"
+}
 }
 }
 }
@@ -68066,6 +70822,32 @@
 }
 },
 "on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "lunge"
+}
+],
+"on_true": {
+"type": "select",
+"property": "display_context",
+"cases": [
+{
+"when": "gui",
+"model": {
+"type": "model",
+"model": "item/enchanted_book/in_gui/thick/projectile_protection_4"
+}
+}
+],
+"fallback": {
+"type": "model",
+"model": "item/enchanted_book/thick/projectile_protection_4"
+}
+},
+"on_false": {
 "type": "select",
 "property": "display_context",
 "cases": [
@@ -68080,6 +70862,7 @@
 "fallback": {
 "type": "model",
 "model": "item/enchanted_book/projectile_protection_4"
+}
 }
 }
 }
@@ -69200,6 +71983,32 @@
 }
 },
 "on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "lunge"
+}
+],
+"on_true": {
+"type": "select",
+"property": "display_context",
+"cases": [
+{
+"when": "gui",
+"model": {
+"type": "model",
+"model": "item/enchanted_book/in_gui/thick/protection_4"
+}
+}
+],
+"fallback": {
+"type": "model",
+"model": "item/enchanted_book/thick/protection_4"
+}
+},
+"on_false": {
 "type": "select",
 "property": "display_context",
 "cases": [
@@ -69214,6 +72023,7 @@
 "fallback": {
 "type": "model",
 "model": "item/enchanted_book/protection_4"
+}
 }
 }
 }
@@ -70334,6 +73144,32 @@
 }
 },
 "on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "lunge"
+}
+],
+"on_true": {
+"type": "select",
+"property": "display_context",
+"cases": [
+{
+"when": "gui",
+"model": {
+"type": "model",
+"model": "item/enchanted_book/in_gui/thick/sharpness_4"
+}
+}
+],
+"fallback": {
+"type": "model",
+"model": "item/enchanted_book/thick/sharpness_4"
+}
+},
+"on_false": {
 "type": "select",
 "property": "display_context",
 "cases": [
@@ -70348,6 +73184,7 @@
 "fallback": {
 "type": "model",
 "model": "item/enchanted_book/sharpness_4"
+}
 }
 }
 }
@@ -71468,6 +74305,32 @@
 }
 },
 "on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "lunge"
+}
+],
+"on_true": {
+"type": "select",
+"property": "display_context",
+"cases": [
+{
+"when": "gui",
+"model": {
+"type": "model",
+"model": "item/enchanted_book/in_gui/thick/smite_4"
+}
+}
+],
+"fallback": {
+"type": "model",
+"model": "item/enchanted_book/thick/smite_4"
+}
+},
+"on_false": {
 "type": "select",
 "property": "display_context",
 "cases": [
@@ -71482,6 +74345,7 @@
 "fallback": {
 "type": "model",
 "model": "item/enchanted_book/smite_4"
+}
 }
 }
 }
@@ -72602,6 +75466,32 @@
 }
 },
 "on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "lunge"
+}
+],
+"on_true": {
+"type": "select",
+"property": "display_context",
+"cases": [
+{
+"when": "gui",
+"model": {
+"type": "model",
+"model": "item/enchanted_book/in_gui/thick/density_4"
+}
+}
+],
+"fallback": {
+"type": "model",
+"model": "item/enchanted_book/thick/density_4"
+}
+},
+"on_false": {
 "type": "select",
 "property": "display_context",
 "cases": [
@@ -72616,6 +75506,7 @@
 "fallback": {
 "type": "model",
 "model": "item/enchanted_book/density_4"
+}
 }
 }
 }
@@ -73736,6 +76627,32 @@
 }
 },
 "on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "lunge"
+}
+],
+"on_true": {
+"type": "select",
+"property": "display_context",
+"cases": [
+{
+"when": "gui",
+"model": {
+"type": "model",
+"model": "item/enchanted_book/in_gui/thick/breach_4"
+}
+}
+],
+"fallback": {
+"type": "model",
+"model": "item/enchanted_book/thick/breach_4"
+}
+},
+"on_false": {
 "type": "select",
 "property": "display_context",
 "cases": [
@@ -73750,6 +76667,7 @@
 "fallback": {
 "type": "model",
 "model": "item/enchanted_book/breach_4"
+}
 }
 }
 }
@@ -74870,6 +77788,32 @@
 }
 },
 "on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "lunge"
+}
+],
+"on_true": {
+"type": "select",
+"property": "display_context",
+"cases": [
+{
+"when": "gui",
+"model": {
+"type": "model",
+"model": "item/enchanted_book/in_gui/thick/bane_of_arthropods_3"
+}
+}
+],
+"fallback": {
+"type": "model",
+"model": "item/enchanted_book/thick/bane_of_arthropods_3"
+}
+},
+"on_false": {
 "type": "select",
 "property": "display_context",
 "cases": [
@@ -74884,6 +77828,7 @@
 "fallback": {
 "type": "model",
 "model": "item/enchanted_book/bane_of_arthropods_3"
+}
 }
 }
 }
@@ -76004,6 +78949,32 @@
 }
 },
 "on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "lunge"
+}
+],
+"on_true": {
+"type": "select",
+"property": "display_context",
+"cases": [
+{
+"when": "gui",
+"model": {
+"type": "model",
+"model": "item/enchanted_book/in_gui/thick/blast_protection_3"
+}
+}
+],
+"fallback": {
+"type": "model",
+"model": "item/enchanted_book/thick/blast_protection_3"
+}
+},
+"on_false": {
 "type": "select",
 "property": "display_context",
 "cases": [
@@ -76018,6 +78989,7 @@
 "fallback": {
 "type": "model",
 "model": "item/enchanted_book/blast_protection_3"
+}
 }
 }
 }
@@ -77138,6 +80110,32 @@
 }
 },
 "on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "lunge"
+}
+],
+"on_true": {
+"type": "select",
+"property": "display_context",
+"cases": [
+{
+"when": "gui",
+"model": {
+"type": "model",
+"model": "item/enchanted_book/in_gui/thick/depth_strider_3"
+}
+}
+],
+"fallback": {
+"type": "model",
+"model": "item/enchanted_book/thick/depth_strider_3"
+}
+},
+"on_false": {
 "type": "select",
 "property": "display_context",
 "cases": [
@@ -77152,6 +80150,7 @@
 "fallback": {
 "type": "model",
 "model": "item/enchanted_book/depth_strider_3"
+}
 }
 }
 }
@@ -78272,6 +81271,32 @@
 }
 },
 "on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "lunge"
+}
+],
+"on_true": {
+"type": "select",
+"property": "display_context",
+"cases": [
+{
+"when": "gui",
+"model": {
+"type": "model",
+"model": "item/enchanted_book/in_gui/thick/efficiency_3"
+}
+}
+],
+"fallback": {
+"type": "model",
+"model": "item/enchanted_book/thick/efficiency_3"
+}
+},
+"on_false": {
 "type": "select",
 "property": "display_context",
 "cases": [
@@ -78286,6 +81311,7 @@
 "fallback": {
 "type": "model",
 "model": "item/enchanted_book/efficiency_3"
+}
 }
 }
 }
@@ -79406,6 +82432,32 @@
 }
 },
 "on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "lunge"
+}
+],
+"on_true": {
+"type": "select",
+"property": "display_context",
+"cases": [
+{
+"when": "gui",
+"model": {
+"type": "model",
+"model": "item/enchanted_book/in_gui/thick/feather_falling_3"
+}
+}
+],
+"fallback": {
+"type": "model",
+"model": "item/enchanted_book/thick/feather_falling_3"
+}
+},
+"on_false": {
 "type": "select",
 "property": "display_context",
 "cases": [
@@ -79420,6 +82472,7 @@
 "fallback": {
 "type": "model",
 "model": "item/enchanted_book/feather_falling_3"
+}
 }
 }
 }
@@ -80540,6 +83593,32 @@
 }
 },
 "on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "lunge"
+}
+],
+"on_true": {
+"type": "select",
+"property": "display_context",
+"cases": [
+{
+"when": "gui",
+"model": {
+"type": "model",
+"model": "item/enchanted_book/in_gui/thick/fire_protection_3"
+}
+}
+],
+"fallback": {
+"type": "model",
+"model": "item/enchanted_book/thick/fire_protection_3"
+}
+},
+"on_false": {
 "type": "select",
 "property": "display_context",
 "cases": [
@@ -80554,6 +83633,7 @@
 "fallback": {
 "type": "model",
 "model": "item/enchanted_book/fire_protection_3"
+}
 }
 }
 }
@@ -81674,6 +84754,32 @@
 }
 },
 "on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "lunge"
+}
+],
+"on_true": {
+"type": "select",
+"property": "display_context",
+"cases": [
+{
+"when": "gui",
+"model": {
+"type": "model",
+"model": "item/enchanted_book/in_gui/thick/fortune_3"
+}
+}
+],
+"fallback": {
+"type": "model",
+"model": "item/enchanted_book/thick/fortune_3"
+}
+},
+"on_false": {
 "type": "select",
 "property": "display_context",
 "cases": [
@@ -81688,6 +84794,7 @@
 "fallback": {
 "type": "model",
 "model": "item/enchanted_book/fortune_3"
+}
 }
 }
 }
@@ -82808,6 +85915,32 @@
 }
 },
 "on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "lunge"
+}
+],
+"on_true": {
+"type": "select",
+"property": "display_context",
+"cases": [
+{
+"when": "gui",
+"model": {
+"type": "model",
+"model": "item/enchanted_book/in_gui/thick/impaling_3"
+}
+}
+],
+"fallback": {
+"type": "model",
+"model": "item/enchanted_book/thick/impaling_3"
+}
+},
+"on_false": {
 "type": "select",
 "property": "display_context",
 "cases": [
@@ -82822,6 +85955,7 @@
 "fallback": {
 "type": "model",
 "model": "item/enchanted_book/impaling_3"
+}
 }
 }
 }
@@ -83942,6 +87076,32 @@
 }
 },
 "on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "lunge"
+}
+],
+"on_true": {
+"type": "select",
+"property": "display_context",
+"cases": [
+{
+"when": "gui",
+"model": {
+"type": "model",
+"model": "item/enchanted_book/in_gui/thick/looting_3"
+}
+}
+],
+"fallback": {
+"type": "model",
+"model": "item/enchanted_book/thick/looting_3"
+}
+},
+"on_false": {
 "type": "select",
 "property": "display_context",
 "cases": [
@@ -83956,6 +87116,7 @@
 "fallback": {
 "type": "model",
 "model": "item/enchanted_book/looting_3"
+}
 }
 }
 }
@@ -85076,6 +88237,32 @@
 }
 },
 "on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "lunge"
+}
+],
+"on_true": {
+"type": "select",
+"property": "display_context",
+"cases": [
+{
+"when": "gui",
+"model": {
+"type": "model",
+"model": "item/enchanted_book/in_gui/thick/loyalty_3"
+}
+}
+],
+"fallback": {
+"type": "model",
+"model": "item/enchanted_book/thick/loyalty_3"
+}
+},
+"on_false": {
 "type": "select",
 "property": "display_context",
 "cases": [
@@ -85090,6 +88277,7 @@
 "fallback": {
 "type": "model",
 "model": "item/enchanted_book/loyalty_3"
+}
 }
 }
 }
@@ -86210,6 +89398,32 @@
 }
 },
 "on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "lunge"
+}
+],
+"on_true": {
+"type": "select",
+"property": "display_context",
+"cases": [
+{
+"when": "gui",
+"model": {
+"type": "model",
+"model": "item/enchanted_book/in_gui/thick/luck_of_the_sea_3"
+}
+}
+],
+"fallback": {
+"type": "model",
+"model": "item/enchanted_book/thick/luck_of_the_sea_3"
+}
+},
+"on_false": {
 "type": "select",
 "property": "display_context",
 "cases": [
@@ -86224,6 +89438,7 @@
 "fallback": {
 "type": "model",
 "model": "item/enchanted_book/luck_of_the_sea_3"
+}
 }
 }
 }
@@ -87344,6 +90559,32 @@
 }
 },
 "on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "lunge"
+}
+],
+"on_true": {
+"type": "select",
+"property": "display_context",
+"cases": [
+{
+"when": "gui",
+"model": {
+"type": "model",
+"model": "item/enchanted_book/in_gui/thick/lure_3"
+}
+}
+],
+"fallback": {
+"type": "model",
+"model": "item/enchanted_book/thick/lure_3"
+}
+},
+"on_false": {
 "type": "select",
 "property": "display_context",
 "cases": [
@@ -87358,6 +90599,7 @@
 "fallback": {
 "type": "model",
 "model": "item/enchanted_book/lure_3"
+}
 }
 }
 }
@@ -88478,6 +91720,32 @@
 }
 },
 "on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "lunge"
+}
+],
+"on_true": {
+"type": "select",
+"property": "display_context",
+"cases": [
+{
+"when": "gui",
+"model": {
+"type": "model",
+"model": "item/enchanted_book/in_gui/thick/piercing_3"
+}
+}
+],
+"fallback": {
+"type": "model",
+"model": "item/enchanted_book/thick/piercing_3"
+}
+},
+"on_false": {
 "type": "select",
 "property": "display_context",
 "cases": [
@@ -88492,6 +91760,7 @@
 "fallback": {
 "type": "model",
 "model": "item/enchanted_book/piercing_3"
+}
 }
 }
 }
@@ -89612,6 +92881,32 @@
 }
 },
 "on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "lunge"
+}
+],
+"on_true": {
+"type": "select",
+"property": "display_context",
+"cases": [
+{
+"when": "gui",
+"model": {
+"type": "model",
+"model": "item/enchanted_book/in_gui/thick/power_3"
+}
+}
+],
+"fallback": {
+"type": "model",
+"model": "item/enchanted_book/thick/power_3"
+}
+},
+"on_false": {
 "type": "select",
 "property": "display_context",
 "cases": [
@@ -89626,6 +92921,7 @@
 "fallback": {
 "type": "model",
 "model": "item/enchanted_book/power_3"
+}
 }
 }
 }
@@ -90746,6 +94042,32 @@
 }
 },
 "on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "lunge"
+}
+],
+"on_true": {
+"type": "select",
+"property": "display_context",
+"cases": [
+{
+"when": "gui",
+"model": {
+"type": "model",
+"model": "item/enchanted_book/in_gui/thick/projectile_protection_3"
+}
+}
+],
+"fallback": {
+"type": "model",
+"model": "item/enchanted_book/thick/projectile_protection_3"
+}
+},
+"on_false": {
 "type": "select",
 "property": "display_context",
 "cases": [
@@ -90760,6 +94082,7 @@
 "fallback": {
 "type": "model",
 "model": "item/enchanted_book/projectile_protection_3"
+}
 }
 }
 }
@@ -91880,6 +95203,32 @@
 }
 },
 "on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "lunge"
+}
+],
+"on_true": {
+"type": "select",
+"property": "display_context",
+"cases": [
+{
+"when": "gui",
+"model": {
+"type": "model",
+"model": "item/enchanted_book/in_gui/thick/protection_3"
+}
+}
+],
+"fallback": {
+"type": "model",
+"model": "item/enchanted_book/thick/protection_3"
+}
+},
+"on_false": {
 "type": "select",
 "property": "display_context",
 "cases": [
@@ -91894,6 +95243,7 @@
 "fallback": {
 "type": "model",
 "model": "item/enchanted_book/protection_3"
+}
 }
 }
 }
@@ -93014,6 +96364,32 @@
 }
 },
 "on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "lunge"
+}
+],
+"on_true": {
+"type": "select",
+"property": "display_context",
+"cases": [
+{
+"when": "gui",
+"model": {
+"type": "model",
+"model": "item/enchanted_book/in_gui/thick/quick_charge_3"
+}
+}
+],
+"fallback": {
+"type": "model",
+"model": "item/enchanted_book/thick/quick_charge_3"
+}
+},
+"on_false": {
 "type": "select",
 "property": "display_context",
 "cases": [
@@ -93028,6 +96404,7 @@
 "fallback": {
 "type": "model",
 "model": "item/enchanted_book/quick_charge_3"
+}
 }
 }
 }
@@ -94148,6 +97525,32 @@
 }
 },
 "on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "lunge"
+}
+],
+"on_true": {
+"type": "select",
+"property": "display_context",
+"cases": [
+{
+"when": "gui",
+"model": {
+"type": "model",
+"model": "item/enchanted_book/in_gui/thick/respiration_3"
+}
+}
+],
+"fallback": {
+"type": "model",
+"model": "item/enchanted_book/thick/respiration_3"
+}
+},
+"on_false": {
 "type": "select",
 "property": "display_context",
 "cases": [
@@ -94162,6 +97565,7 @@
 "fallback": {
 "type": "model",
 "model": "item/enchanted_book/respiration_3"
+}
 }
 }
 }
@@ -95282,6 +98686,32 @@
 }
 },
 "on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "lunge"
+}
+],
+"on_true": {
+"type": "select",
+"property": "display_context",
+"cases": [
+{
+"when": "gui",
+"model": {
+"type": "model",
+"model": "item/enchanted_book/in_gui/thick/riptide_3"
+}
+}
+],
+"fallback": {
+"type": "model",
+"model": "item/enchanted_book/thick/riptide_3"
+}
+},
+"on_false": {
 "type": "select",
 "property": "display_context",
 "cases": [
@@ -95296,6 +98726,7 @@
 "fallback": {
 "type": "model",
 "model": "item/enchanted_book/riptide_3"
+}
 }
 }
 }
@@ -96416,6 +99847,32 @@
 }
 },
 "on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "lunge"
+}
+],
+"on_true": {
+"type": "select",
+"property": "display_context",
+"cases": [
+{
+"when": "gui",
+"model": {
+"type": "model",
+"model": "item/enchanted_book/in_gui/thick/sharpness_3"
+}
+}
+],
+"fallback": {
+"type": "model",
+"model": "item/enchanted_book/thick/sharpness_3"
+}
+},
+"on_false": {
 "type": "select",
 "property": "display_context",
 "cases": [
@@ -96430,6 +99887,7 @@
 "fallback": {
 "type": "model",
 "model": "item/enchanted_book/sharpness_3"
+}
 }
 }
 }
@@ -97550,6 +101008,32 @@
 }
 },
 "on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "lunge"
+}
+],
+"on_true": {
+"type": "select",
+"property": "display_context",
+"cases": [
+{
+"when": "gui",
+"model": {
+"type": "model",
+"model": "item/enchanted_book/in_gui/thick/smite_3"
+}
+}
+],
+"fallback": {
+"type": "model",
+"model": "item/enchanted_book/thick/smite_3"
+}
+},
+"on_false": {
 "type": "select",
 "property": "display_context",
 "cases": [
@@ -97564,6 +101048,7 @@
 "fallback": {
 "type": "model",
 "model": "item/enchanted_book/smite_3"
+}
 }
 }
 }
@@ -98684,6 +102169,32 @@
 }
 },
 "on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "lunge"
+}
+],
+"on_true": {
+"type": "select",
+"property": "display_context",
+"cases": [
+{
+"when": "gui",
+"model": {
+"type": "model",
+"model": "item/enchanted_book/in_gui/thick/soul_speed_3"
+}
+}
+],
+"fallback": {
+"type": "model",
+"model": "item/enchanted_book/thick/soul_speed_3"
+}
+},
+"on_false": {
 "type": "select",
 "property": "display_context",
 "cases": [
@@ -98698,6 +102209,7 @@
 "fallback": {
 "type": "model",
 "model": "item/enchanted_book/soul_speed_3"
+}
 }
 }
 }
@@ -99818,6 +103330,32 @@
 }
 },
 "on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "lunge"
+}
+],
+"on_true": {
+"type": "select",
+"property": "display_context",
+"cases": [
+{
+"when": "gui",
+"model": {
+"type": "model",
+"model": "item/enchanted_book/in_gui/thick/sweeping_edge_3"
+}
+}
+],
+"fallback": {
+"type": "model",
+"model": "item/enchanted_book/thick/sweeping_edge_3"
+}
+},
+"on_false": {
 "type": "select",
 "property": "display_context",
 "cases": [
@@ -99832,6 +103370,7 @@
 "fallback": {
 "type": "model",
 "model": "item/enchanted_book/sweeping_edge_3"
+}
 }
 }
 }
@@ -100952,6 +104491,32 @@
 }
 },
 "on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "lunge"
+}
+],
+"on_true": {
+"type": "select",
+"property": "display_context",
+"cases": [
+{
+"when": "gui",
+"model": {
+"type": "model",
+"model": "item/enchanted_book/in_gui/thick/swift_sneak_3"
+}
+}
+],
+"fallback": {
+"type": "model",
+"model": "item/enchanted_book/thick/swift_sneak_3"
+}
+},
+"on_false": {
 "type": "select",
 "property": "display_context",
 "cases": [
@@ -100966,6 +104531,7 @@
 "fallback": {
 "type": "model",
 "model": "item/enchanted_book/swift_sneak_3"
+}
 }
 }
 }
@@ -102086,6 +105652,32 @@
 }
 },
 "on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "lunge"
+}
+],
+"on_true": {
+"type": "select",
+"property": "display_context",
+"cases": [
+{
+"when": "gui",
+"model": {
+"type": "model",
+"model": "item/enchanted_book/in_gui/thick/thorns_3"
+}
+}
+],
+"fallback": {
+"type": "model",
+"model": "item/enchanted_book/thick/thorns_3"
+}
+},
+"on_false": {
 "type": "select",
 "property": "display_context",
 "cases": [
@@ -102100,6 +105692,7 @@
 "fallback": {
 "type": "model",
 "model": "item/enchanted_book/thorns_3"
+}
 }
 }
 }
@@ -103220,6 +106813,32 @@
 }
 },
 "on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "lunge"
+}
+],
+"on_true": {
+"type": "select",
+"property": "display_context",
+"cases": [
+{
+"when": "gui",
+"model": {
+"type": "model",
+"model": "item/enchanted_book/in_gui/thick/unbreaking_3"
+}
+}
+],
+"fallback": {
+"type": "model",
+"model": "item/enchanted_book/thick/unbreaking_3"
+}
+},
+"on_false": {
 "type": "select",
 "property": "display_context",
 "cases": [
@@ -103234,6 +106853,7 @@
 "fallback": {
 "type": "model",
 "model": "item/enchanted_book/unbreaking_3"
+}
 }
 }
 }
@@ -104354,6 +107974,32 @@
 }
 },
 "on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "lunge"
+}
+],
+"on_true": {
+"type": "select",
+"property": "display_context",
+"cases": [
+{
+"when": "gui",
+"model": {
+"type": "model",
+"model": "item/enchanted_book/in_gui/thick/density_3"
+}
+}
+],
+"fallback": {
+"type": "model",
+"model": "item/enchanted_book/thick/density_3"
+}
+},
+"on_false": {
 "type": "select",
 "property": "display_context",
 "cases": [
@@ -104368,6 +108014,7 @@
 "fallback": {
 "type": "model",
 "model": "item/enchanted_book/density_3"
+}
 }
 }
 }
@@ -105488,6 +109135,32 @@
 }
 },
 "on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "lunge"
+}
+],
+"on_true": {
+"type": "select",
+"property": "display_context",
+"cases": [
+{
+"when": "gui",
+"model": {
+"type": "model",
+"model": "item/enchanted_book/in_gui/thick/breach_3"
+}
+}
+],
+"fallback": {
+"type": "model",
+"model": "item/enchanted_book/thick/breach_3"
+}
+},
+"on_false": {
 "type": "select",
 "property": "display_context",
 "cases": [
@@ -105502,6 +109175,7 @@
 "fallback": {
 "type": "model",
 "model": "item/enchanted_book/breach_3"
+}
 }
 }
 }
@@ -106622,6 +110296,32 @@
 }
 },
 "on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "lunge"
+}
+],
+"on_true": {
+"type": "select",
+"property": "display_context",
+"cases": [
+{
+"when": "gui",
+"model": {
+"type": "model",
+"model": "item/enchanted_book/in_gui/thick/wind_burst_3"
+}
+}
+],
+"fallback": {
+"type": "model",
+"model": "item/enchanted_book/thick/wind_burst_3"
+}
+},
+"on_false": {
 "type": "select",
 "property": "display_context",
 "cases": [
@@ -106636,6 +110336,1168 @@
 "fallback": {
 "type": "model",
 "model": "item/enchanted_book/wind_burst_3"
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+},
+"on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "lunge",
+"levels": 3
+}
+],
+"on_true": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "aqua_affinity"
+}
+],
+"on_true": {
+"type": "select",
+"property": "display_context",
+"cases": [
+{
+"when": "gui",
+"model": {
+"type": "model",
+"model": "item/enchanted_book/in_gui/thick/lunge_3"
+}
+}
+],
+"fallback": {
+"type": "model",
+"model": "item/enchanted_book/thick/lunge_3"
+}
+},
+"on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "bane_of_arthropods"
+}
+],
+"on_true": {
+"type": "select",
+"property": "display_context",
+"cases": [
+{
+"when": "gui",
+"model": {
+"type": "model",
+"model": "item/enchanted_book/in_gui/thick/lunge_3"
+}
+}
+],
+"fallback": {
+"type": "model",
+"model": "item/enchanted_book/thick/lunge_3"
+}
+},
+"on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "binding_curse"
+}
+],
+"on_true": {
+"type": "select",
+"property": "display_context",
+"cases": [
+{
+"when": "gui",
+"model": {
+"type": "model",
+"model": "item/enchanted_book/in_gui/thick/lunge_3"
+}
+}
+],
+"fallback": {
+"type": "model",
+"model": "item/enchanted_book/thick/lunge_3"
+}
+},
+"on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "blast_protection"
+}
+],
+"on_true": {
+"type": "select",
+"property": "display_context",
+"cases": [
+{
+"when": "gui",
+"model": {
+"type": "model",
+"model": "item/enchanted_book/in_gui/thick/lunge_3"
+}
+}
+],
+"fallback": {
+"type": "model",
+"model": "item/enchanted_book/thick/lunge_3"
+}
+},
+"on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "channeling"
+}
+],
+"on_true": {
+"type": "select",
+"property": "display_context",
+"cases": [
+{
+"when": "gui",
+"model": {
+"type": "model",
+"model": "item/enchanted_book/in_gui/thick/lunge_3"
+}
+}
+],
+"fallback": {
+"type": "model",
+"model": "item/enchanted_book/thick/lunge_3"
+}
+},
+"on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "depth_strider"
+}
+],
+"on_true": {
+"type": "select",
+"property": "display_context",
+"cases": [
+{
+"when": "gui",
+"model": {
+"type": "model",
+"model": "item/enchanted_book/in_gui/thick/lunge_3"
+}
+}
+],
+"fallback": {
+"type": "model",
+"model": "item/enchanted_book/thick/lunge_3"
+}
+},
+"on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "efficiency"
+}
+],
+"on_true": {
+"type": "select",
+"property": "display_context",
+"cases": [
+{
+"when": "gui",
+"model": {
+"type": "model",
+"model": "item/enchanted_book/in_gui/thick/lunge_3"
+}
+}
+],
+"fallback": {
+"type": "model",
+"model": "item/enchanted_book/thick/lunge_3"
+}
+},
+"on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "feather_falling"
+}
+],
+"on_true": {
+"type": "select",
+"property": "display_context",
+"cases": [
+{
+"when": "gui",
+"model": {
+"type": "model",
+"model": "item/enchanted_book/in_gui/thick/lunge_3"
+}
+}
+],
+"fallback": {
+"type": "model",
+"model": "item/enchanted_book/thick/lunge_3"
+}
+},
+"on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "fire_aspect"
+}
+],
+"on_true": {
+"type": "select",
+"property": "display_context",
+"cases": [
+{
+"when": "gui",
+"model": {
+"type": "model",
+"model": "item/enchanted_book/in_gui/thick/lunge_3"
+}
+}
+],
+"fallback": {
+"type": "model",
+"model": "item/enchanted_book/thick/lunge_3"
+}
+},
+"on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "fire_protection"
+}
+],
+"on_true": {
+"type": "select",
+"property": "display_context",
+"cases": [
+{
+"when": "gui",
+"model": {
+"type": "model",
+"model": "item/enchanted_book/in_gui/thick/lunge_3"
+}
+}
+],
+"fallback": {
+"type": "model",
+"model": "item/enchanted_book/thick/lunge_3"
+}
+},
+"on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "flame"
+}
+],
+"on_true": {
+"type": "select",
+"property": "display_context",
+"cases": [
+{
+"when": "gui",
+"model": {
+"type": "model",
+"model": "item/enchanted_book/in_gui/thick/lunge_3"
+}
+}
+],
+"fallback": {
+"type": "model",
+"model": "item/enchanted_book/thick/lunge_3"
+}
+},
+"on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "fortune"
+}
+],
+"on_true": {
+"type": "select",
+"property": "display_context",
+"cases": [
+{
+"when": "gui",
+"model": {
+"type": "model",
+"model": "item/enchanted_book/in_gui/thick/lunge_3"
+}
+}
+],
+"fallback": {
+"type": "model",
+"model": "item/enchanted_book/thick/lunge_3"
+}
+},
+"on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "frost_walker"
+}
+],
+"on_true": {
+"type": "select",
+"property": "display_context",
+"cases": [
+{
+"when": "gui",
+"model": {
+"type": "model",
+"model": "item/enchanted_book/in_gui/thick/lunge_3"
+}
+}
+],
+"fallback": {
+"type": "model",
+"model": "item/enchanted_book/thick/lunge_3"
+}
+},
+"on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "impaling"
+}
+],
+"on_true": {
+"type": "select",
+"property": "display_context",
+"cases": [
+{
+"when": "gui",
+"model": {
+"type": "model",
+"model": "item/enchanted_book/in_gui/thick/lunge_3"
+}
+}
+],
+"fallback": {
+"type": "model",
+"model": "item/enchanted_book/thick/lunge_3"
+}
+},
+"on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "infinity"
+}
+],
+"on_true": {
+"type": "select",
+"property": "display_context",
+"cases": [
+{
+"when": "gui",
+"model": {
+"type": "model",
+"model": "item/enchanted_book/in_gui/thick/lunge_3"
+}
+}
+],
+"fallback": {
+"type": "model",
+"model": "item/enchanted_book/thick/lunge_3"
+}
+},
+"on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "knockback"
+}
+],
+"on_true": {
+"type": "select",
+"property": "display_context",
+"cases": [
+{
+"when": "gui",
+"model": {
+"type": "model",
+"model": "item/enchanted_book/in_gui/thick/lunge_3"
+}
+}
+],
+"fallback": {
+"type": "model",
+"model": "item/enchanted_book/thick/lunge_3"
+}
+},
+"on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "looting"
+}
+],
+"on_true": {
+"type": "select",
+"property": "display_context",
+"cases": [
+{
+"when": "gui",
+"model": {
+"type": "model",
+"model": "item/enchanted_book/in_gui/thick/lunge_3"
+}
+}
+],
+"fallback": {
+"type": "model",
+"model": "item/enchanted_book/thick/lunge_3"
+}
+},
+"on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "loyalty"
+}
+],
+"on_true": {
+"type": "select",
+"property": "display_context",
+"cases": [
+{
+"when": "gui",
+"model": {
+"type": "model",
+"model": "item/enchanted_book/in_gui/thick/lunge_3"
+}
+}
+],
+"fallback": {
+"type": "model",
+"model": "item/enchanted_book/thick/lunge_3"
+}
+},
+"on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "luck_of_the_sea"
+}
+],
+"on_true": {
+"type": "select",
+"property": "display_context",
+"cases": [
+{
+"when": "gui",
+"model": {
+"type": "model",
+"model": "item/enchanted_book/in_gui/thick/lunge_3"
+}
+}
+],
+"fallback": {
+"type": "model",
+"model": "item/enchanted_book/thick/lunge_3"
+}
+},
+"on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "lure"
+}
+],
+"on_true": {
+"type": "select",
+"property": "display_context",
+"cases": [
+{
+"when": "gui",
+"model": {
+"type": "model",
+"model": "item/enchanted_book/in_gui/thick/lunge_3"
+}
+}
+],
+"fallback": {
+"type": "model",
+"model": "item/enchanted_book/thick/lunge_3"
+}
+},
+"on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "mending"
+}
+],
+"on_true": {
+"type": "select",
+"property": "display_context",
+"cases": [
+{
+"when": "gui",
+"model": {
+"type": "model",
+"model": "item/enchanted_book/in_gui/thick/lunge_3"
+}
+}
+],
+"fallback": {
+"type": "model",
+"model": "item/enchanted_book/thick/lunge_3"
+}
+},
+"on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "multishot"
+}
+],
+"on_true": {
+"type": "select",
+"property": "display_context",
+"cases": [
+{
+"when": "gui",
+"model": {
+"type": "model",
+"model": "item/enchanted_book/in_gui/thick/lunge_3"
+}
+}
+],
+"fallback": {
+"type": "model",
+"model": "item/enchanted_book/thick/lunge_3"
+}
+},
+"on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "piercing"
+}
+],
+"on_true": {
+"type": "select",
+"property": "display_context",
+"cases": [
+{
+"when": "gui",
+"model": {
+"type": "model",
+"model": "item/enchanted_book/in_gui/thick/lunge_3"
+}
+}
+],
+"fallback": {
+"type": "model",
+"model": "item/enchanted_book/thick/lunge_3"
+}
+},
+"on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "power"
+}
+],
+"on_true": {
+"type": "select",
+"property": "display_context",
+"cases": [
+{
+"when": "gui",
+"model": {
+"type": "model",
+"model": "item/enchanted_book/in_gui/thick/lunge_3"
+}
+}
+],
+"fallback": {
+"type": "model",
+"model": "item/enchanted_book/thick/lunge_3"
+}
+},
+"on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "projectile_protection"
+}
+],
+"on_true": {
+"type": "select",
+"property": "display_context",
+"cases": [
+{
+"when": "gui",
+"model": {
+"type": "model",
+"model": "item/enchanted_book/in_gui/thick/lunge_3"
+}
+}
+],
+"fallback": {
+"type": "model",
+"model": "item/enchanted_book/thick/lunge_3"
+}
+},
+"on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "protection"
+}
+],
+"on_true": {
+"type": "select",
+"property": "display_context",
+"cases": [
+{
+"when": "gui",
+"model": {
+"type": "model",
+"model": "item/enchanted_book/in_gui/thick/lunge_3"
+}
+}
+],
+"fallback": {
+"type": "model",
+"model": "item/enchanted_book/thick/lunge_3"
+}
+},
+"on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "punch"
+}
+],
+"on_true": {
+"type": "select",
+"property": "display_context",
+"cases": [
+{
+"when": "gui",
+"model": {
+"type": "model",
+"model": "item/enchanted_book/in_gui/thick/lunge_3"
+}
+}
+],
+"fallback": {
+"type": "model",
+"model": "item/enchanted_book/thick/lunge_3"
+}
+},
+"on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "quick_charge"
+}
+],
+"on_true": {
+"type": "select",
+"property": "display_context",
+"cases": [
+{
+"when": "gui",
+"model": {
+"type": "model",
+"model": "item/enchanted_book/in_gui/thick/lunge_3"
+}
+}
+],
+"fallback": {
+"type": "model",
+"model": "item/enchanted_book/thick/lunge_3"
+}
+},
+"on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "respiration"
+}
+],
+"on_true": {
+"type": "select",
+"property": "display_context",
+"cases": [
+{
+"when": "gui",
+"model": {
+"type": "model",
+"model": "item/enchanted_book/in_gui/thick/lunge_3"
+}
+}
+],
+"fallback": {
+"type": "model",
+"model": "item/enchanted_book/thick/lunge_3"
+}
+},
+"on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "riptide"
+}
+],
+"on_true": {
+"type": "select",
+"property": "display_context",
+"cases": [
+{
+"when": "gui",
+"model": {
+"type": "model",
+"model": "item/enchanted_book/in_gui/thick/lunge_3"
+}
+}
+],
+"fallback": {
+"type": "model",
+"model": "item/enchanted_book/thick/lunge_3"
+}
+},
+"on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "sharpness"
+}
+],
+"on_true": {
+"type": "select",
+"property": "display_context",
+"cases": [
+{
+"when": "gui",
+"model": {
+"type": "model",
+"model": "item/enchanted_book/in_gui/thick/lunge_3"
+}
+}
+],
+"fallback": {
+"type": "model",
+"model": "item/enchanted_book/thick/lunge_3"
+}
+},
+"on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "silk_touch"
+}
+],
+"on_true": {
+"type": "select",
+"property": "display_context",
+"cases": [
+{
+"when": "gui",
+"model": {
+"type": "model",
+"model": "item/enchanted_book/in_gui/thick/lunge_3"
+}
+}
+],
+"fallback": {
+"type": "model",
+"model": "item/enchanted_book/thick/lunge_3"
+}
+},
+"on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "smite"
+}
+],
+"on_true": {
+"type": "select",
+"property": "display_context",
+"cases": [
+{
+"when": "gui",
+"model": {
+"type": "model",
+"model": "item/enchanted_book/in_gui/thick/lunge_3"
+}
+}
+],
+"fallback": {
+"type": "model",
+"model": "item/enchanted_book/thick/lunge_3"
+}
+},
+"on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "soul_speed"
+}
+],
+"on_true": {
+"type": "select",
+"property": "display_context",
+"cases": [
+{
+"when": "gui",
+"model": {
+"type": "model",
+"model": "item/enchanted_book/in_gui/thick/lunge_3"
+}
+}
+],
+"fallback": {
+"type": "model",
+"model": "item/enchanted_book/thick/lunge_3"
+}
+},
+"on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "sweeping_edge"
+}
+],
+"on_true": {
+"type": "select",
+"property": "display_context",
+"cases": [
+{
+"when": "gui",
+"model": {
+"type": "model",
+"model": "item/enchanted_book/in_gui/thick/lunge_3"
+}
+}
+],
+"fallback": {
+"type": "model",
+"model": "item/enchanted_book/thick/lunge_3"
+}
+},
+"on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "swift_sneak"
+}
+],
+"on_true": {
+"type": "select",
+"property": "display_context",
+"cases": [
+{
+"when": "gui",
+"model": {
+"type": "model",
+"model": "item/enchanted_book/in_gui/thick/lunge_3"
+}
+}
+],
+"fallback": {
+"type": "model",
+"model": "item/enchanted_book/thick/lunge_3"
+}
+},
+"on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "thorns"
+}
+],
+"on_true": {
+"type": "select",
+"property": "display_context",
+"cases": [
+{
+"when": "gui",
+"model": {
+"type": "model",
+"model": "item/enchanted_book/in_gui/thick/lunge_3"
+}
+}
+],
+"fallback": {
+"type": "model",
+"model": "item/enchanted_book/thick/lunge_3"
+}
+},
+"on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "unbreaking"
+}
+],
+"on_true": {
+"type": "select",
+"property": "display_context",
+"cases": [
+{
+"when": "gui",
+"model": {
+"type": "model",
+"model": "item/enchanted_book/in_gui/thick/lunge_3"
+}
+}
+],
+"fallback": {
+"type": "model",
+"model": "item/enchanted_book/thick/lunge_3"
+}
+},
+"on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "vanishing_curse"
+}
+],
+"on_true": {
+"type": "select",
+"property": "display_context",
+"cases": [
+{
+"when": "gui",
+"model": {
+"type": "model",
+"model": "item/enchanted_book/in_gui/thick/lunge_3"
+}
+}
+],
+"fallback": {
+"type": "model",
+"model": "item/enchanted_book/thick/lunge_3"
+}
+},
+"on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "density"
+}
+],
+"on_true": {
+"type": "select",
+"property": "display_context",
+"cases": [
+{
+"when": "gui",
+"model": {
+"type": "model",
+"model": "item/enchanted_book/in_gui/thick/lunge_3"
+}
+}
+],
+"fallback": {
+"type": "model",
+"model": "item/enchanted_book/thick/lunge_3"
+}
+},
+"on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "breach"
+}
+],
+"on_true": {
+"type": "select",
+"property": "display_context",
+"cases": [
+{
+"when": "gui",
+"model": {
+"type": "model",
+"model": "item/enchanted_book/in_gui/thick/lunge_3"
+}
+}
+],
+"fallback": {
+"type": "model",
+"model": "item/enchanted_book/thick/lunge_3"
+}
+},
+"on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "wind_burst"
+}
+],
+"on_true": {
+"type": "select",
+"property": "display_context",
+"cases": [
+{
+"when": "gui",
+"model": {
+"type": "model",
+"model": "item/enchanted_book/in_gui/thick/lunge_3"
+}
+}
+],
+"fallback": {
+"type": "model",
+"model": "item/enchanted_book/thick/lunge_3"
+}
+},
+"on_false": {
+"type": "select",
+"property": "display_context",
+"cases": [
+{
+"when": "gui",
+"model": {
+"type": "model",
+"model": "item/enchanted_book/in_gui/lunge_3"
+}
+}
+],
+"fallback": {
+"type": "model",
+"model": "item/enchanted_book/lunge_3"
+}
 }
 }
 }
@@ -107756,6 +112618,32 @@
 }
 },
 "on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "lunge"
+}
+],
+"on_true": {
+"type": "select",
+"property": "display_context",
+"cases": [
+{
+"when": "gui",
+"model": {
+"type": "model",
+"model": "item/enchanted_book/in_gui/thick/bane_of_arthropods_2"
+}
+}
+],
+"fallback": {
+"type": "model",
+"model": "item/enchanted_book/thick/bane_of_arthropods_2"
+}
+},
+"on_false": {
 "type": "select",
 "property": "display_context",
 "cases": [
@@ -107770,6 +112658,7 @@
 "fallback": {
 "type": "model",
 "model": "item/enchanted_book/bane_of_arthropods_2"
+}
 }
 }
 }
@@ -108890,6 +113779,32 @@
 }
 },
 "on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "lunge"
+}
+],
+"on_true": {
+"type": "select",
+"property": "display_context",
+"cases": [
+{
+"when": "gui",
+"model": {
+"type": "model",
+"model": "item/enchanted_book/in_gui/thick/blast_protection_2"
+}
+}
+],
+"fallback": {
+"type": "model",
+"model": "item/enchanted_book/thick/blast_protection_2"
+}
+},
+"on_false": {
 "type": "select",
 "property": "display_context",
 "cases": [
@@ -108904,6 +113819,7 @@
 "fallback": {
 "type": "model",
 "model": "item/enchanted_book/blast_protection_2"
+}
 }
 }
 }
@@ -110024,6 +114940,32 @@
 }
 },
 "on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "lunge"
+}
+],
+"on_true": {
+"type": "select",
+"property": "display_context",
+"cases": [
+{
+"when": "gui",
+"model": {
+"type": "model",
+"model": "item/enchanted_book/in_gui/thick/depth_strider_2"
+}
+}
+],
+"fallback": {
+"type": "model",
+"model": "item/enchanted_book/thick/depth_strider_2"
+}
+},
+"on_false": {
 "type": "select",
 "property": "display_context",
 "cases": [
@@ -110038,6 +114980,7 @@
 "fallback": {
 "type": "model",
 "model": "item/enchanted_book/depth_strider_2"
+}
 }
 }
 }
@@ -111158,6 +116101,32 @@
 }
 },
 "on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "lunge"
+}
+],
+"on_true": {
+"type": "select",
+"property": "display_context",
+"cases": [
+{
+"when": "gui",
+"model": {
+"type": "model",
+"model": "item/enchanted_book/in_gui/thick/efficiency_2"
+}
+}
+],
+"fallback": {
+"type": "model",
+"model": "item/enchanted_book/thick/efficiency_2"
+}
+},
+"on_false": {
 "type": "select",
 "property": "display_context",
 "cases": [
@@ -111172,6 +116141,7 @@
 "fallback": {
 "type": "model",
 "model": "item/enchanted_book/efficiency_2"
+}
 }
 }
 }
@@ -112292,6 +117262,32 @@
 }
 },
 "on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "lunge"
+}
+],
+"on_true": {
+"type": "select",
+"property": "display_context",
+"cases": [
+{
+"when": "gui",
+"model": {
+"type": "model",
+"model": "item/enchanted_book/in_gui/thick/feather_falling_2"
+}
+}
+],
+"fallback": {
+"type": "model",
+"model": "item/enchanted_book/thick/feather_falling_2"
+}
+},
+"on_false": {
 "type": "select",
 "property": "display_context",
 "cases": [
@@ -112306,6 +117302,7 @@
 "fallback": {
 "type": "model",
 "model": "item/enchanted_book/feather_falling_2"
+}
 }
 }
 }
@@ -113426,6 +118423,32 @@
 }
 },
 "on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "lunge"
+}
+],
+"on_true": {
+"type": "select",
+"property": "display_context",
+"cases": [
+{
+"when": "gui",
+"model": {
+"type": "model",
+"model": "item/enchanted_book/in_gui/thick/fire_aspect_2"
+}
+}
+],
+"fallback": {
+"type": "model",
+"model": "item/enchanted_book/thick/fire_aspect_2"
+}
+},
+"on_false": {
 "type": "select",
 "property": "display_context",
 "cases": [
@@ -113440,6 +118463,7 @@
 "fallback": {
 "type": "model",
 "model": "item/enchanted_book/fire_aspect_2"
+}
 }
 }
 }
@@ -114560,6 +119584,32 @@
 }
 },
 "on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "lunge"
+}
+],
+"on_true": {
+"type": "select",
+"property": "display_context",
+"cases": [
+{
+"when": "gui",
+"model": {
+"type": "model",
+"model": "item/enchanted_book/in_gui/thick/fire_protection_2"
+}
+}
+],
+"fallback": {
+"type": "model",
+"model": "item/enchanted_book/thick/fire_protection_2"
+}
+},
+"on_false": {
 "type": "select",
 "property": "display_context",
 "cases": [
@@ -114574,6 +119624,7 @@
 "fallback": {
 "type": "model",
 "model": "item/enchanted_book/fire_protection_2"
+}
 }
 }
 }
@@ -115694,6 +120745,32 @@
 }
 },
 "on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "lunge"
+}
+],
+"on_true": {
+"type": "select",
+"property": "display_context",
+"cases": [
+{
+"when": "gui",
+"model": {
+"type": "model",
+"model": "item/enchanted_book/in_gui/thick/fortune_2"
+}
+}
+],
+"fallback": {
+"type": "model",
+"model": "item/enchanted_book/thick/fortune_2"
+}
+},
+"on_false": {
 "type": "select",
 "property": "display_context",
 "cases": [
@@ -115708,6 +120785,7 @@
 "fallback": {
 "type": "model",
 "model": "item/enchanted_book/fortune_2"
+}
 }
 }
 }
@@ -116828,6 +121906,32 @@
 }
 },
 "on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "lunge"
+}
+],
+"on_true": {
+"type": "select",
+"property": "display_context",
+"cases": [
+{
+"when": "gui",
+"model": {
+"type": "model",
+"model": "item/enchanted_book/in_gui/thick/frost_walker_2"
+}
+}
+],
+"fallback": {
+"type": "model",
+"model": "item/enchanted_book/thick/frost_walker_2"
+}
+},
+"on_false": {
 "type": "select",
 "property": "display_context",
 "cases": [
@@ -116842,6 +121946,7 @@
 "fallback": {
 "type": "model",
 "model": "item/enchanted_book/frost_walker_2"
+}
 }
 }
 }
@@ -117962,6 +123067,32 @@
 }
 },
 "on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "lunge"
+}
+],
+"on_true": {
+"type": "select",
+"property": "display_context",
+"cases": [
+{
+"when": "gui",
+"model": {
+"type": "model",
+"model": "item/enchanted_book/in_gui/thick/impaling_2"
+}
+}
+],
+"fallback": {
+"type": "model",
+"model": "item/enchanted_book/thick/impaling_2"
+}
+},
+"on_false": {
 "type": "select",
 "property": "display_context",
 "cases": [
@@ -117976,6 +123107,7 @@
 "fallback": {
 "type": "model",
 "model": "item/enchanted_book/impaling_2"
+}
 }
 }
 }
@@ -119096,6 +124228,32 @@
 }
 },
 "on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "lunge"
+}
+],
+"on_true": {
+"type": "select",
+"property": "display_context",
+"cases": [
+{
+"when": "gui",
+"model": {
+"type": "model",
+"model": "item/enchanted_book/in_gui/thick/knockback_2"
+}
+}
+],
+"fallback": {
+"type": "model",
+"model": "item/enchanted_book/thick/knockback_2"
+}
+},
+"on_false": {
 "type": "select",
 "property": "display_context",
 "cases": [
@@ -119110,6 +124268,7 @@
 "fallback": {
 "type": "model",
 "model": "item/enchanted_book/knockback_2"
+}
 }
 }
 }
@@ -120230,6 +125389,32 @@
 }
 },
 "on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "lunge"
+}
+],
+"on_true": {
+"type": "select",
+"property": "display_context",
+"cases": [
+{
+"when": "gui",
+"model": {
+"type": "model",
+"model": "item/enchanted_book/in_gui/thick/looting_2"
+}
+}
+],
+"fallback": {
+"type": "model",
+"model": "item/enchanted_book/thick/looting_2"
+}
+},
+"on_false": {
 "type": "select",
 "property": "display_context",
 "cases": [
@@ -120244,6 +125429,7 @@
 "fallback": {
 "type": "model",
 "model": "item/enchanted_book/looting_2"
+}
 }
 }
 }
@@ -121364,6 +126550,32 @@
 }
 },
 "on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "lunge"
+}
+],
+"on_true": {
+"type": "select",
+"property": "display_context",
+"cases": [
+{
+"when": "gui",
+"model": {
+"type": "model",
+"model": "item/enchanted_book/in_gui/thick/loyalty_2"
+}
+}
+],
+"fallback": {
+"type": "model",
+"model": "item/enchanted_book/thick/loyalty_2"
+}
+},
+"on_false": {
 "type": "select",
 "property": "display_context",
 "cases": [
@@ -121378,6 +126590,7 @@
 "fallback": {
 "type": "model",
 "model": "item/enchanted_book/loyalty_2"
+}
 }
 }
 }
@@ -122498,6 +127711,32 @@
 }
 },
 "on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "lunge"
+}
+],
+"on_true": {
+"type": "select",
+"property": "display_context",
+"cases": [
+{
+"when": "gui",
+"model": {
+"type": "model",
+"model": "item/enchanted_book/in_gui/thick/luck_of_the_sea_2"
+}
+}
+],
+"fallback": {
+"type": "model",
+"model": "item/enchanted_book/thick/luck_of_the_sea_2"
+}
+},
+"on_false": {
 "type": "select",
 "property": "display_context",
 "cases": [
@@ -122512,6 +127751,7 @@
 "fallback": {
 "type": "model",
 "model": "item/enchanted_book/luck_of_the_sea_2"
+}
 }
 }
 }
@@ -123632,6 +128872,32 @@
 }
 },
 "on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "lunge"
+}
+],
+"on_true": {
+"type": "select",
+"property": "display_context",
+"cases": [
+{
+"when": "gui",
+"model": {
+"type": "model",
+"model": "item/enchanted_book/in_gui/thick/lure_2"
+}
+}
+],
+"fallback": {
+"type": "model",
+"model": "item/enchanted_book/thick/lure_2"
+}
+},
+"on_false": {
 "type": "select",
 "property": "display_context",
 "cases": [
@@ -123646,6 +128912,7 @@
 "fallback": {
 "type": "model",
 "model": "item/enchanted_book/lure_2"
+}
 }
 }
 }
@@ -124766,6 +130033,32 @@
 }
 },
 "on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "lunge"
+}
+],
+"on_true": {
+"type": "select",
+"property": "display_context",
+"cases": [
+{
+"when": "gui",
+"model": {
+"type": "model",
+"model": "item/enchanted_book/in_gui/thick/piercing_2"
+}
+}
+],
+"fallback": {
+"type": "model",
+"model": "item/enchanted_book/thick/piercing_2"
+}
+},
+"on_false": {
 "type": "select",
 "property": "display_context",
 "cases": [
@@ -124780,6 +130073,7 @@
 "fallback": {
 "type": "model",
 "model": "item/enchanted_book/piercing_2"
+}
 }
 }
 }
@@ -125900,6 +131194,32 @@
 }
 },
 "on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "lunge"
+}
+],
+"on_true": {
+"type": "select",
+"property": "display_context",
+"cases": [
+{
+"when": "gui",
+"model": {
+"type": "model",
+"model": "item/enchanted_book/in_gui/thick/power_2"
+}
+}
+],
+"fallback": {
+"type": "model",
+"model": "item/enchanted_book/thick/power_2"
+}
+},
+"on_false": {
 "type": "select",
 "property": "display_context",
 "cases": [
@@ -125914,6 +131234,7 @@
 "fallback": {
 "type": "model",
 "model": "item/enchanted_book/power_2"
+}
 }
 }
 }
@@ -127034,6 +132355,32 @@
 }
 },
 "on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "lunge"
+}
+],
+"on_true": {
+"type": "select",
+"property": "display_context",
+"cases": [
+{
+"when": "gui",
+"model": {
+"type": "model",
+"model": "item/enchanted_book/in_gui/thick/projectile_protection_2"
+}
+}
+],
+"fallback": {
+"type": "model",
+"model": "item/enchanted_book/thick/projectile_protection_2"
+}
+},
+"on_false": {
 "type": "select",
 "property": "display_context",
 "cases": [
@@ -127048,6 +132395,7 @@
 "fallback": {
 "type": "model",
 "model": "item/enchanted_book/projectile_protection_2"
+}
 }
 }
 }
@@ -128168,6 +133516,32 @@
 }
 },
 "on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "lunge"
+}
+],
+"on_true": {
+"type": "select",
+"property": "display_context",
+"cases": [
+{
+"when": "gui",
+"model": {
+"type": "model",
+"model": "item/enchanted_book/in_gui/thick/protection_2"
+}
+}
+],
+"fallback": {
+"type": "model",
+"model": "item/enchanted_book/thick/protection_2"
+}
+},
+"on_false": {
 "type": "select",
 "property": "display_context",
 "cases": [
@@ -128182,6 +133556,7 @@
 "fallback": {
 "type": "model",
 "model": "item/enchanted_book/protection_2"
+}
 }
 }
 }
@@ -129302,6 +134677,32 @@
 }
 },
 "on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "lunge"
+}
+],
+"on_true": {
+"type": "select",
+"property": "display_context",
+"cases": [
+{
+"when": "gui",
+"model": {
+"type": "model",
+"model": "item/enchanted_book/in_gui/thick/punch_2"
+}
+}
+],
+"fallback": {
+"type": "model",
+"model": "item/enchanted_book/thick/punch_2"
+}
+},
+"on_false": {
 "type": "select",
 "property": "display_context",
 "cases": [
@@ -129316,6 +134717,7 @@
 "fallback": {
 "type": "model",
 "model": "item/enchanted_book/punch_2"
+}
 }
 }
 }
@@ -130436,6 +135838,32 @@
 }
 },
 "on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "lunge"
+}
+],
+"on_true": {
+"type": "select",
+"property": "display_context",
+"cases": [
+{
+"when": "gui",
+"model": {
+"type": "model",
+"model": "item/enchanted_book/in_gui/thick/quick_charge_2"
+}
+}
+],
+"fallback": {
+"type": "model",
+"model": "item/enchanted_book/thick/quick_charge_2"
+}
+},
+"on_false": {
 "type": "select",
 "property": "display_context",
 "cases": [
@@ -130450,6 +135878,7 @@
 "fallback": {
 "type": "model",
 "model": "item/enchanted_book/quick_charge_2"
+}
 }
 }
 }
@@ -131570,6 +136999,32 @@
 }
 },
 "on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "lunge"
+}
+],
+"on_true": {
+"type": "select",
+"property": "display_context",
+"cases": [
+{
+"when": "gui",
+"model": {
+"type": "model",
+"model": "item/enchanted_book/in_gui/thick/respiration_2"
+}
+}
+],
+"fallback": {
+"type": "model",
+"model": "item/enchanted_book/thick/respiration_2"
+}
+},
+"on_false": {
 "type": "select",
 "property": "display_context",
 "cases": [
@@ -131584,6 +137039,7 @@
 "fallback": {
 "type": "model",
 "model": "item/enchanted_book/respiration_2"
+}
 }
 }
 }
@@ -132704,6 +138160,32 @@
 }
 },
 "on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "lunge"
+}
+],
+"on_true": {
+"type": "select",
+"property": "display_context",
+"cases": [
+{
+"when": "gui",
+"model": {
+"type": "model",
+"model": "item/enchanted_book/in_gui/thick/riptide_2"
+}
+}
+],
+"fallback": {
+"type": "model",
+"model": "item/enchanted_book/thick/riptide_2"
+}
+},
+"on_false": {
 "type": "select",
 "property": "display_context",
 "cases": [
@@ -132718,6 +138200,7 @@
 "fallback": {
 "type": "model",
 "model": "item/enchanted_book/riptide_2"
+}
 }
 }
 }
@@ -133838,6 +139321,32 @@
 }
 },
 "on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "lunge"
+}
+],
+"on_true": {
+"type": "select",
+"property": "display_context",
+"cases": [
+{
+"when": "gui",
+"model": {
+"type": "model",
+"model": "item/enchanted_book/in_gui/thick/sharpness_2"
+}
+}
+],
+"fallback": {
+"type": "model",
+"model": "item/enchanted_book/thick/sharpness_2"
+}
+},
+"on_false": {
 "type": "select",
 "property": "display_context",
 "cases": [
@@ -133852,6 +139361,7 @@
 "fallback": {
 "type": "model",
 "model": "item/enchanted_book/sharpness_2"
+}
 }
 }
 }
@@ -134972,6 +140482,32 @@
 }
 },
 "on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "lunge"
+}
+],
+"on_true": {
+"type": "select",
+"property": "display_context",
+"cases": [
+{
+"when": "gui",
+"model": {
+"type": "model",
+"model": "item/enchanted_book/in_gui/thick/smite_2"
+}
+}
+],
+"fallback": {
+"type": "model",
+"model": "item/enchanted_book/thick/smite_2"
+}
+},
+"on_false": {
 "type": "select",
 "property": "display_context",
 "cases": [
@@ -134986,6 +140522,7 @@
 "fallback": {
 "type": "model",
 "model": "item/enchanted_book/smite_2"
+}
 }
 }
 }
@@ -136106,6 +141643,32 @@
 }
 },
 "on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "lunge"
+}
+],
+"on_true": {
+"type": "select",
+"property": "display_context",
+"cases": [
+{
+"when": "gui",
+"model": {
+"type": "model",
+"model": "item/enchanted_book/in_gui/thick/soul_speed_2"
+}
+}
+],
+"fallback": {
+"type": "model",
+"model": "item/enchanted_book/thick/soul_speed_2"
+}
+},
+"on_false": {
 "type": "select",
 "property": "display_context",
 "cases": [
@@ -136120,6 +141683,7 @@
 "fallback": {
 "type": "model",
 "model": "item/enchanted_book/soul_speed_2"
+}
 }
 }
 }
@@ -137240,6 +142804,32 @@
 }
 },
 "on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "lunge"
+}
+],
+"on_true": {
+"type": "select",
+"property": "display_context",
+"cases": [
+{
+"when": "gui",
+"model": {
+"type": "model",
+"model": "item/enchanted_book/in_gui/thick/sweeping_edge_2"
+}
+}
+],
+"fallback": {
+"type": "model",
+"model": "item/enchanted_book/thick/sweeping_edge_2"
+}
+},
+"on_false": {
 "type": "select",
 "property": "display_context",
 "cases": [
@@ -137254,6 +142844,7 @@
 "fallback": {
 "type": "model",
 "model": "item/enchanted_book/sweeping_edge_2"
+}
 }
 }
 }
@@ -138374,6 +143965,32 @@
 }
 },
 "on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "lunge"
+}
+],
+"on_true": {
+"type": "select",
+"property": "display_context",
+"cases": [
+{
+"when": "gui",
+"model": {
+"type": "model",
+"model": "item/enchanted_book/in_gui/thick/swift_sneak_2"
+}
+}
+],
+"fallback": {
+"type": "model",
+"model": "item/enchanted_book/thick/swift_sneak_2"
+}
+},
+"on_false": {
 "type": "select",
 "property": "display_context",
 "cases": [
@@ -138388,6 +144005,7 @@
 "fallback": {
 "type": "model",
 "model": "item/enchanted_book/swift_sneak_2"
+}
 }
 }
 }
@@ -139508,6 +145126,32 @@
 }
 },
 "on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "lunge"
+}
+],
+"on_true": {
+"type": "select",
+"property": "display_context",
+"cases": [
+{
+"when": "gui",
+"model": {
+"type": "model",
+"model": "item/enchanted_book/in_gui/thick/thorns_2"
+}
+}
+],
+"fallback": {
+"type": "model",
+"model": "item/enchanted_book/thick/thorns_2"
+}
+},
+"on_false": {
 "type": "select",
 "property": "display_context",
 "cases": [
@@ -139522,6 +145166,7 @@
 "fallback": {
 "type": "model",
 "model": "item/enchanted_book/thorns_2"
+}
 }
 }
 }
@@ -140642,6 +146287,32 @@
 }
 },
 "on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "lunge"
+}
+],
+"on_true": {
+"type": "select",
+"property": "display_context",
+"cases": [
+{
+"when": "gui",
+"model": {
+"type": "model",
+"model": "item/enchanted_book/in_gui/thick/unbreaking_2"
+}
+}
+],
+"fallback": {
+"type": "model",
+"model": "item/enchanted_book/thick/unbreaking_2"
+}
+},
+"on_false": {
 "type": "select",
 "property": "display_context",
 "cases": [
@@ -140656,6 +146327,7 @@
 "fallback": {
 "type": "model",
 "model": "item/enchanted_book/unbreaking_2"
+}
 }
 }
 }
@@ -141776,6 +147448,32 @@
 }
 },
 "on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "lunge"
+}
+],
+"on_true": {
+"type": "select",
+"property": "display_context",
+"cases": [
+{
+"when": "gui",
+"model": {
+"type": "model",
+"model": "item/enchanted_book/in_gui/thick/density_2"
+}
+}
+],
+"fallback": {
+"type": "model",
+"model": "item/enchanted_book/thick/density_2"
+}
+},
+"on_false": {
 "type": "select",
 "property": "display_context",
 "cases": [
@@ -141790,6 +147488,7 @@
 "fallback": {
 "type": "model",
 "model": "item/enchanted_book/density_2"
+}
 }
 }
 }
@@ -142910,6 +148609,32 @@
 }
 },
 "on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "lunge"
+}
+],
+"on_true": {
+"type": "select",
+"property": "display_context",
+"cases": [
+{
+"when": "gui",
+"model": {
+"type": "model",
+"model": "item/enchanted_book/in_gui/thick/breach_2"
+}
+}
+],
+"fallback": {
+"type": "model",
+"model": "item/enchanted_book/thick/breach_2"
+}
+},
+"on_false": {
 "type": "select",
 "property": "display_context",
 "cases": [
@@ -142924,6 +148649,7 @@
 "fallback": {
 "type": "model",
 "model": "item/enchanted_book/breach_2"
+}
 }
 }
 }
@@ -144044,6 +149770,32 @@
 }
 },
 "on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "lunge"
+}
+],
+"on_true": {
+"type": "select",
+"property": "display_context",
+"cases": [
+{
+"when": "gui",
+"model": {
+"type": "model",
+"model": "item/enchanted_book/in_gui/thick/wind_burst_2"
+}
+}
+],
+"fallback": {
+"type": "model",
+"model": "item/enchanted_book/thick/wind_burst_2"
+}
+},
+"on_false": {
 "type": "select",
 "property": "display_context",
 "cases": [
@@ -144058,6 +149810,1168 @@
 "fallback": {
 "type": "model",
 "model": "item/enchanted_book/wind_burst_2"
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+},
+"on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "lunge",
+"levels": 2
+}
+],
+"on_true": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "aqua_affinity"
+}
+],
+"on_true": {
+"type": "select",
+"property": "display_context",
+"cases": [
+{
+"when": "gui",
+"model": {
+"type": "model",
+"model": "item/enchanted_book/in_gui/thick/lunge_2"
+}
+}
+],
+"fallback": {
+"type": "model",
+"model": "item/enchanted_book/thick/lunge_2"
+}
+},
+"on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "bane_of_arthropods"
+}
+],
+"on_true": {
+"type": "select",
+"property": "display_context",
+"cases": [
+{
+"when": "gui",
+"model": {
+"type": "model",
+"model": "item/enchanted_book/in_gui/thick/lunge_2"
+}
+}
+],
+"fallback": {
+"type": "model",
+"model": "item/enchanted_book/thick/lunge_2"
+}
+},
+"on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "binding_curse"
+}
+],
+"on_true": {
+"type": "select",
+"property": "display_context",
+"cases": [
+{
+"when": "gui",
+"model": {
+"type": "model",
+"model": "item/enchanted_book/in_gui/thick/lunge_2"
+}
+}
+],
+"fallback": {
+"type": "model",
+"model": "item/enchanted_book/thick/lunge_2"
+}
+},
+"on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "blast_protection"
+}
+],
+"on_true": {
+"type": "select",
+"property": "display_context",
+"cases": [
+{
+"when": "gui",
+"model": {
+"type": "model",
+"model": "item/enchanted_book/in_gui/thick/lunge_2"
+}
+}
+],
+"fallback": {
+"type": "model",
+"model": "item/enchanted_book/thick/lunge_2"
+}
+},
+"on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "channeling"
+}
+],
+"on_true": {
+"type": "select",
+"property": "display_context",
+"cases": [
+{
+"when": "gui",
+"model": {
+"type": "model",
+"model": "item/enchanted_book/in_gui/thick/lunge_2"
+}
+}
+],
+"fallback": {
+"type": "model",
+"model": "item/enchanted_book/thick/lunge_2"
+}
+},
+"on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "depth_strider"
+}
+],
+"on_true": {
+"type": "select",
+"property": "display_context",
+"cases": [
+{
+"when": "gui",
+"model": {
+"type": "model",
+"model": "item/enchanted_book/in_gui/thick/lunge_2"
+}
+}
+],
+"fallback": {
+"type": "model",
+"model": "item/enchanted_book/thick/lunge_2"
+}
+},
+"on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "efficiency"
+}
+],
+"on_true": {
+"type": "select",
+"property": "display_context",
+"cases": [
+{
+"when": "gui",
+"model": {
+"type": "model",
+"model": "item/enchanted_book/in_gui/thick/lunge_2"
+}
+}
+],
+"fallback": {
+"type": "model",
+"model": "item/enchanted_book/thick/lunge_2"
+}
+},
+"on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "feather_falling"
+}
+],
+"on_true": {
+"type": "select",
+"property": "display_context",
+"cases": [
+{
+"when": "gui",
+"model": {
+"type": "model",
+"model": "item/enchanted_book/in_gui/thick/lunge_2"
+}
+}
+],
+"fallback": {
+"type": "model",
+"model": "item/enchanted_book/thick/lunge_2"
+}
+},
+"on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "fire_aspect"
+}
+],
+"on_true": {
+"type": "select",
+"property": "display_context",
+"cases": [
+{
+"when": "gui",
+"model": {
+"type": "model",
+"model": "item/enchanted_book/in_gui/thick/lunge_2"
+}
+}
+],
+"fallback": {
+"type": "model",
+"model": "item/enchanted_book/thick/lunge_2"
+}
+},
+"on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "fire_protection"
+}
+],
+"on_true": {
+"type": "select",
+"property": "display_context",
+"cases": [
+{
+"when": "gui",
+"model": {
+"type": "model",
+"model": "item/enchanted_book/in_gui/thick/lunge_2"
+}
+}
+],
+"fallback": {
+"type": "model",
+"model": "item/enchanted_book/thick/lunge_2"
+}
+},
+"on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "flame"
+}
+],
+"on_true": {
+"type": "select",
+"property": "display_context",
+"cases": [
+{
+"when": "gui",
+"model": {
+"type": "model",
+"model": "item/enchanted_book/in_gui/thick/lunge_2"
+}
+}
+],
+"fallback": {
+"type": "model",
+"model": "item/enchanted_book/thick/lunge_2"
+}
+},
+"on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "fortune"
+}
+],
+"on_true": {
+"type": "select",
+"property": "display_context",
+"cases": [
+{
+"when": "gui",
+"model": {
+"type": "model",
+"model": "item/enchanted_book/in_gui/thick/lunge_2"
+}
+}
+],
+"fallback": {
+"type": "model",
+"model": "item/enchanted_book/thick/lunge_2"
+}
+},
+"on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "frost_walker"
+}
+],
+"on_true": {
+"type": "select",
+"property": "display_context",
+"cases": [
+{
+"when": "gui",
+"model": {
+"type": "model",
+"model": "item/enchanted_book/in_gui/thick/lunge_2"
+}
+}
+],
+"fallback": {
+"type": "model",
+"model": "item/enchanted_book/thick/lunge_2"
+}
+},
+"on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "impaling"
+}
+],
+"on_true": {
+"type": "select",
+"property": "display_context",
+"cases": [
+{
+"when": "gui",
+"model": {
+"type": "model",
+"model": "item/enchanted_book/in_gui/thick/lunge_2"
+}
+}
+],
+"fallback": {
+"type": "model",
+"model": "item/enchanted_book/thick/lunge_2"
+}
+},
+"on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "infinity"
+}
+],
+"on_true": {
+"type": "select",
+"property": "display_context",
+"cases": [
+{
+"when": "gui",
+"model": {
+"type": "model",
+"model": "item/enchanted_book/in_gui/thick/lunge_2"
+}
+}
+],
+"fallback": {
+"type": "model",
+"model": "item/enchanted_book/thick/lunge_2"
+}
+},
+"on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "knockback"
+}
+],
+"on_true": {
+"type": "select",
+"property": "display_context",
+"cases": [
+{
+"when": "gui",
+"model": {
+"type": "model",
+"model": "item/enchanted_book/in_gui/thick/lunge_2"
+}
+}
+],
+"fallback": {
+"type": "model",
+"model": "item/enchanted_book/thick/lunge_2"
+}
+},
+"on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "looting"
+}
+],
+"on_true": {
+"type": "select",
+"property": "display_context",
+"cases": [
+{
+"when": "gui",
+"model": {
+"type": "model",
+"model": "item/enchanted_book/in_gui/thick/lunge_2"
+}
+}
+],
+"fallback": {
+"type": "model",
+"model": "item/enchanted_book/thick/lunge_2"
+}
+},
+"on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "loyalty"
+}
+],
+"on_true": {
+"type": "select",
+"property": "display_context",
+"cases": [
+{
+"when": "gui",
+"model": {
+"type": "model",
+"model": "item/enchanted_book/in_gui/thick/lunge_2"
+}
+}
+],
+"fallback": {
+"type": "model",
+"model": "item/enchanted_book/thick/lunge_2"
+}
+},
+"on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "luck_of_the_sea"
+}
+],
+"on_true": {
+"type": "select",
+"property": "display_context",
+"cases": [
+{
+"when": "gui",
+"model": {
+"type": "model",
+"model": "item/enchanted_book/in_gui/thick/lunge_2"
+}
+}
+],
+"fallback": {
+"type": "model",
+"model": "item/enchanted_book/thick/lunge_2"
+}
+},
+"on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "lure"
+}
+],
+"on_true": {
+"type": "select",
+"property": "display_context",
+"cases": [
+{
+"when": "gui",
+"model": {
+"type": "model",
+"model": "item/enchanted_book/in_gui/thick/lunge_2"
+}
+}
+],
+"fallback": {
+"type": "model",
+"model": "item/enchanted_book/thick/lunge_2"
+}
+},
+"on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "mending"
+}
+],
+"on_true": {
+"type": "select",
+"property": "display_context",
+"cases": [
+{
+"when": "gui",
+"model": {
+"type": "model",
+"model": "item/enchanted_book/in_gui/thick/lunge_2"
+}
+}
+],
+"fallback": {
+"type": "model",
+"model": "item/enchanted_book/thick/lunge_2"
+}
+},
+"on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "multishot"
+}
+],
+"on_true": {
+"type": "select",
+"property": "display_context",
+"cases": [
+{
+"when": "gui",
+"model": {
+"type": "model",
+"model": "item/enchanted_book/in_gui/thick/lunge_2"
+}
+}
+],
+"fallback": {
+"type": "model",
+"model": "item/enchanted_book/thick/lunge_2"
+}
+},
+"on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "piercing"
+}
+],
+"on_true": {
+"type": "select",
+"property": "display_context",
+"cases": [
+{
+"when": "gui",
+"model": {
+"type": "model",
+"model": "item/enchanted_book/in_gui/thick/lunge_2"
+}
+}
+],
+"fallback": {
+"type": "model",
+"model": "item/enchanted_book/thick/lunge_2"
+}
+},
+"on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "power"
+}
+],
+"on_true": {
+"type": "select",
+"property": "display_context",
+"cases": [
+{
+"when": "gui",
+"model": {
+"type": "model",
+"model": "item/enchanted_book/in_gui/thick/lunge_2"
+}
+}
+],
+"fallback": {
+"type": "model",
+"model": "item/enchanted_book/thick/lunge_2"
+}
+},
+"on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "projectile_protection"
+}
+],
+"on_true": {
+"type": "select",
+"property": "display_context",
+"cases": [
+{
+"when": "gui",
+"model": {
+"type": "model",
+"model": "item/enchanted_book/in_gui/thick/lunge_2"
+}
+}
+],
+"fallback": {
+"type": "model",
+"model": "item/enchanted_book/thick/lunge_2"
+}
+},
+"on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "protection"
+}
+],
+"on_true": {
+"type": "select",
+"property": "display_context",
+"cases": [
+{
+"when": "gui",
+"model": {
+"type": "model",
+"model": "item/enchanted_book/in_gui/thick/lunge_2"
+}
+}
+],
+"fallback": {
+"type": "model",
+"model": "item/enchanted_book/thick/lunge_2"
+}
+},
+"on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "punch"
+}
+],
+"on_true": {
+"type": "select",
+"property": "display_context",
+"cases": [
+{
+"when": "gui",
+"model": {
+"type": "model",
+"model": "item/enchanted_book/in_gui/thick/lunge_2"
+}
+}
+],
+"fallback": {
+"type": "model",
+"model": "item/enchanted_book/thick/lunge_2"
+}
+},
+"on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "quick_charge"
+}
+],
+"on_true": {
+"type": "select",
+"property": "display_context",
+"cases": [
+{
+"when": "gui",
+"model": {
+"type": "model",
+"model": "item/enchanted_book/in_gui/thick/lunge_2"
+}
+}
+],
+"fallback": {
+"type": "model",
+"model": "item/enchanted_book/thick/lunge_2"
+}
+},
+"on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "respiration"
+}
+],
+"on_true": {
+"type": "select",
+"property": "display_context",
+"cases": [
+{
+"when": "gui",
+"model": {
+"type": "model",
+"model": "item/enchanted_book/in_gui/thick/lunge_2"
+}
+}
+],
+"fallback": {
+"type": "model",
+"model": "item/enchanted_book/thick/lunge_2"
+}
+},
+"on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "riptide"
+}
+],
+"on_true": {
+"type": "select",
+"property": "display_context",
+"cases": [
+{
+"when": "gui",
+"model": {
+"type": "model",
+"model": "item/enchanted_book/in_gui/thick/lunge_2"
+}
+}
+],
+"fallback": {
+"type": "model",
+"model": "item/enchanted_book/thick/lunge_2"
+}
+},
+"on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "sharpness"
+}
+],
+"on_true": {
+"type": "select",
+"property": "display_context",
+"cases": [
+{
+"when": "gui",
+"model": {
+"type": "model",
+"model": "item/enchanted_book/in_gui/thick/lunge_2"
+}
+}
+],
+"fallback": {
+"type": "model",
+"model": "item/enchanted_book/thick/lunge_2"
+}
+},
+"on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "silk_touch"
+}
+],
+"on_true": {
+"type": "select",
+"property": "display_context",
+"cases": [
+{
+"when": "gui",
+"model": {
+"type": "model",
+"model": "item/enchanted_book/in_gui/thick/lunge_2"
+}
+}
+],
+"fallback": {
+"type": "model",
+"model": "item/enchanted_book/thick/lunge_2"
+}
+},
+"on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "smite"
+}
+],
+"on_true": {
+"type": "select",
+"property": "display_context",
+"cases": [
+{
+"when": "gui",
+"model": {
+"type": "model",
+"model": "item/enchanted_book/in_gui/thick/lunge_2"
+}
+}
+],
+"fallback": {
+"type": "model",
+"model": "item/enchanted_book/thick/lunge_2"
+}
+},
+"on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "soul_speed"
+}
+],
+"on_true": {
+"type": "select",
+"property": "display_context",
+"cases": [
+{
+"when": "gui",
+"model": {
+"type": "model",
+"model": "item/enchanted_book/in_gui/thick/lunge_2"
+}
+}
+],
+"fallback": {
+"type": "model",
+"model": "item/enchanted_book/thick/lunge_2"
+}
+},
+"on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "sweeping_edge"
+}
+],
+"on_true": {
+"type": "select",
+"property": "display_context",
+"cases": [
+{
+"when": "gui",
+"model": {
+"type": "model",
+"model": "item/enchanted_book/in_gui/thick/lunge_2"
+}
+}
+],
+"fallback": {
+"type": "model",
+"model": "item/enchanted_book/thick/lunge_2"
+}
+},
+"on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "swift_sneak"
+}
+],
+"on_true": {
+"type": "select",
+"property": "display_context",
+"cases": [
+{
+"when": "gui",
+"model": {
+"type": "model",
+"model": "item/enchanted_book/in_gui/thick/lunge_2"
+}
+}
+],
+"fallback": {
+"type": "model",
+"model": "item/enchanted_book/thick/lunge_2"
+}
+},
+"on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "thorns"
+}
+],
+"on_true": {
+"type": "select",
+"property": "display_context",
+"cases": [
+{
+"when": "gui",
+"model": {
+"type": "model",
+"model": "item/enchanted_book/in_gui/thick/lunge_2"
+}
+}
+],
+"fallback": {
+"type": "model",
+"model": "item/enchanted_book/thick/lunge_2"
+}
+},
+"on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "unbreaking"
+}
+],
+"on_true": {
+"type": "select",
+"property": "display_context",
+"cases": [
+{
+"when": "gui",
+"model": {
+"type": "model",
+"model": "item/enchanted_book/in_gui/thick/lunge_2"
+}
+}
+],
+"fallback": {
+"type": "model",
+"model": "item/enchanted_book/thick/lunge_2"
+}
+},
+"on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "vanishing_curse"
+}
+],
+"on_true": {
+"type": "select",
+"property": "display_context",
+"cases": [
+{
+"when": "gui",
+"model": {
+"type": "model",
+"model": "item/enchanted_book/in_gui/thick/lunge_2"
+}
+}
+],
+"fallback": {
+"type": "model",
+"model": "item/enchanted_book/thick/lunge_2"
+}
+},
+"on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "density"
+}
+],
+"on_true": {
+"type": "select",
+"property": "display_context",
+"cases": [
+{
+"when": "gui",
+"model": {
+"type": "model",
+"model": "item/enchanted_book/in_gui/thick/lunge_2"
+}
+}
+],
+"fallback": {
+"type": "model",
+"model": "item/enchanted_book/thick/lunge_2"
+}
+},
+"on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "breach"
+}
+],
+"on_true": {
+"type": "select",
+"property": "display_context",
+"cases": [
+{
+"when": "gui",
+"model": {
+"type": "model",
+"model": "item/enchanted_book/in_gui/thick/lunge_2"
+}
+}
+],
+"fallback": {
+"type": "model",
+"model": "item/enchanted_book/thick/lunge_2"
+}
+},
+"on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "wind_burst"
+}
+],
+"on_true": {
+"type": "select",
+"property": "display_context",
+"cases": [
+{
+"when": "gui",
+"model": {
+"type": "model",
+"model": "item/enchanted_book/in_gui/thick/lunge_2"
+}
+}
+],
+"fallback": {
+"type": "model",
+"model": "item/enchanted_book/thick/lunge_2"
+}
+},
+"on_false": {
+"type": "select",
+"property": "display_context",
+"cases": [
+{
+"when": "gui",
+"model": {
+"type": "model",
+"model": "item/enchanted_book/in_gui/lunge_2"
+}
+}
+],
+"fallback": {
+"type": "model",
+"model": "item/enchanted_book/lunge_2"
+}
 }
 }
 }
@@ -145178,6 +152092,32 @@
 }
 },
 "on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "lunge"
+}
+],
+"on_true": {
+"type": "select",
+"property": "display_context",
+"cases": [
+{
+"when": "gui",
+"model": {
+"type": "model",
+"model": "item/enchanted_book/in_gui/thick/aqua_affinity_1"
+}
+}
+],
+"fallback": {
+"type": "model",
+"model": "item/enchanted_book/thick/aqua_affinity_1"
+}
+},
+"on_false": {
 "type": "select",
 "property": "display_context",
 "cases": [
@@ -145192,6 +152132,7 @@
 "fallback": {
 "type": "model",
 "model": "item/enchanted_book/aqua_affinity_1"
+}
 }
 }
 }
@@ -146312,6 +153253,32 @@
 }
 },
 "on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "lunge"
+}
+],
+"on_true": {
+"type": "select",
+"property": "display_context",
+"cases": [
+{
+"when": "gui",
+"model": {
+"type": "model",
+"model": "item/enchanted_book/in_gui/thick/bane_of_arthropods_1"
+}
+}
+],
+"fallback": {
+"type": "model",
+"model": "item/enchanted_book/thick/bane_of_arthropods_1"
+}
+},
+"on_false": {
 "type": "select",
 "property": "display_context",
 "cases": [
@@ -146326,6 +153293,7 @@
 "fallback": {
 "type": "model",
 "model": "item/enchanted_book/bane_of_arthropods_1"
+}
 }
 }
 }
@@ -147446,6 +154414,32 @@
 }
 },
 "on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "lunge"
+}
+],
+"on_true": {
+"type": "select",
+"property": "display_context",
+"cases": [
+{
+"when": "gui",
+"model": {
+"type": "model",
+"model": "item/enchanted_book/in_gui/thick/blast_protection_1"
+}
+}
+],
+"fallback": {
+"type": "model",
+"model": "item/enchanted_book/thick/blast_protection_1"
+}
+},
+"on_false": {
 "type": "select",
 "property": "display_context",
 "cases": [
@@ -147460,6 +154454,7 @@
 "fallback": {
 "type": "model",
 "model": "item/enchanted_book/blast_protection_1"
+}
 }
 }
 }
@@ -148580,6 +155575,32 @@
 }
 },
 "on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "lunge"
+}
+],
+"on_true": {
+"type": "select",
+"property": "display_context",
+"cases": [
+{
+"when": "gui",
+"model": {
+"type": "model",
+"model": "item/enchanted_book/in_gui/thick/channeling_1"
+}
+}
+],
+"fallback": {
+"type": "model",
+"model": "item/enchanted_book/thick/channeling_1"
+}
+},
+"on_false": {
 "type": "select",
 "property": "display_context",
 "cases": [
@@ -148594,6 +155615,7 @@
 "fallback": {
 "type": "model",
 "model": "item/enchanted_book/channeling_1"
+}
 }
 }
 }
@@ -149714,6 +156736,32 @@
 }
 },
 "on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "lunge"
+}
+],
+"on_true": {
+"type": "select",
+"property": "display_context",
+"cases": [
+{
+"when": "gui",
+"model": {
+"type": "model",
+"model": "item/enchanted_book/in_gui/thick/depth_strider_1"
+}
+}
+],
+"fallback": {
+"type": "model",
+"model": "item/enchanted_book/thick/depth_strider_1"
+}
+},
+"on_false": {
 "type": "select",
 "property": "display_context",
 "cases": [
@@ -149728,6 +156776,7 @@
 "fallback": {
 "type": "model",
 "model": "item/enchanted_book/depth_strider_1"
+}
 }
 }
 }
@@ -150848,6 +157897,32 @@
 }
 },
 "on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "lunge"
+}
+],
+"on_true": {
+"type": "select",
+"property": "display_context",
+"cases": [
+{
+"when": "gui",
+"model": {
+"type": "model",
+"model": "item/enchanted_book/in_gui/thick/efficiency_1"
+}
+}
+],
+"fallback": {
+"type": "model",
+"model": "item/enchanted_book/thick/efficiency_1"
+}
+},
+"on_false": {
 "type": "select",
 "property": "display_context",
 "cases": [
@@ -150862,6 +157937,7 @@
 "fallback": {
 "type": "model",
 "model": "item/enchanted_book/efficiency_1"
+}
 }
 }
 }
@@ -151982,6 +159058,32 @@
 }
 },
 "on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "lunge"
+}
+],
+"on_true": {
+"type": "select",
+"property": "display_context",
+"cases": [
+{
+"when": "gui",
+"model": {
+"type": "model",
+"model": "item/enchanted_book/in_gui/thick/feather_falling_1"
+}
+}
+],
+"fallback": {
+"type": "model",
+"model": "item/enchanted_book/thick/feather_falling_1"
+}
+},
+"on_false": {
 "type": "select",
 "property": "display_context",
 "cases": [
@@ -151996,6 +159098,7 @@
 "fallback": {
 "type": "model",
 "model": "item/enchanted_book/feather_falling_1"
+}
 }
 }
 }
@@ -153116,6 +160219,32 @@
 }
 },
 "on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "lunge"
+}
+],
+"on_true": {
+"type": "select",
+"property": "display_context",
+"cases": [
+{
+"when": "gui",
+"model": {
+"type": "model",
+"model": "item/enchanted_book/in_gui/thick/fire_aspect_1"
+}
+}
+],
+"fallback": {
+"type": "model",
+"model": "item/enchanted_book/thick/fire_aspect_1"
+}
+},
+"on_false": {
 "type": "select",
 "property": "display_context",
 "cases": [
@@ -153130,6 +160259,7 @@
 "fallback": {
 "type": "model",
 "model": "item/enchanted_book/fire_aspect_1"
+}
 }
 }
 }
@@ -154250,6 +161380,32 @@
 }
 },
 "on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "lunge"
+}
+],
+"on_true": {
+"type": "select",
+"property": "display_context",
+"cases": [
+{
+"when": "gui",
+"model": {
+"type": "model",
+"model": "item/enchanted_book/in_gui/thick/fire_protection_1"
+}
+}
+],
+"fallback": {
+"type": "model",
+"model": "item/enchanted_book/thick/fire_protection_1"
+}
+},
+"on_false": {
 "type": "select",
 "property": "display_context",
 "cases": [
@@ -154264,6 +161420,7 @@
 "fallback": {
 "type": "model",
 "model": "item/enchanted_book/fire_protection_1"
+}
 }
 }
 }
@@ -155384,6 +162541,32 @@
 }
 },
 "on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "lunge"
+}
+],
+"on_true": {
+"type": "select",
+"property": "display_context",
+"cases": [
+{
+"when": "gui",
+"model": {
+"type": "model",
+"model": "item/enchanted_book/in_gui/thick/flame_1"
+}
+}
+],
+"fallback": {
+"type": "model",
+"model": "item/enchanted_book/thick/flame_1"
+}
+},
+"on_false": {
 "type": "select",
 "property": "display_context",
 "cases": [
@@ -155398,6 +162581,7 @@
 "fallback": {
 "type": "model",
 "model": "item/enchanted_book/flame_1"
+}
 }
 }
 }
@@ -156518,6 +163702,32 @@
 }
 },
 "on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "lunge"
+}
+],
+"on_true": {
+"type": "select",
+"property": "display_context",
+"cases": [
+{
+"when": "gui",
+"model": {
+"type": "model",
+"model": "item/enchanted_book/in_gui/thick/fortune_1"
+}
+}
+],
+"fallback": {
+"type": "model",
+"model": "item/enchanted_book/thick/fortune_1"
+}
+},
+"on_false": {
 "type": "select",
 "property": "display_context",
 "cases": [
@@ -156532,6 +163742,7 @@
 "fallback": {
 "type": "model",
 "model": "item/enchanted_book/fortune_1"
+}
 }
 }
 }
@@ -157652,6 +164863,32 @@
 }
 },
 "on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "lunge"
+}
+],
+"on_true": {
+"type": "select",
+"property": "display_context",
+"cases": [
+{
+"when": "gui",
+"model": {
+"type": "model",
+"model": "item/enchanted_book/in_gui/thick/frost_walker_1"
+}
+}
+],
+"fallback": {
+"type": "model",
+"model": "item/enchanted_book/thick/frost_walker_1"
+}
+},
+"on_false": {
 "type": "select",
 "property": "display_context",
 "cases": [
@@ -157666,6 +164903,7 @@
 "fallback": {
 "type": "model",
 "model": "item/enchanted_book/frost_walker_1"
+}
 }
 }
 }
@@ -158786,6 +166024,32 @@
 }
 },
 "on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "lunge"
+}
+],
+"on_true": {
+"type": "select",
+"property": "display_context",
+"cases": [
+{
+"when": "gui",
+"model": {
+"type": "model",
+"model": "item/enchanted_book/in_gui/thick/impaling_1"
+}
+}
+],
+"fallback": {
+"type": "model",
+"model": "item/enchanted_book/thick/impaling_1"
+}
+},
+"on_false": {
 "type": "select",
 "property": "display_context",
 "cases": [
@@ -158800,6 +166064,7 @@
 "fallback": {
 "type": "model",
 "model": "item/enchanted_book/impaling_1"
+}
 }
 }
 }
@@ -159920,6 +167185,32 @@
 }
 },
 "on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "lunge"
+}
+],
+"on_true": {
+"type": "select",
+"property": "display_context",
+"cases": [
+{
+"when": "gui",
+"model": {
+"type": "model",
+"model": "item/enchanted_book/in_gui/thick/infinity_1"
+}
+}
+],
+"fallback": {
+"type": "model",
+"model": "item/enchanted_book/thick/infinity_1"
+}
+},
+"on_false": {
 "type": "select",
 "property": "display_context",
 "cases": [
@@ -159934,6 +167225,7 @@
 "fallback": {
 "type": "model",
 "model": "item/enchanted_book/infinity_1"
+}
 }
 }
 }
@@ -161054,6 +168346,32 @@
 }
 },
 "on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "lunge"
+}
+],
+"on_true": {
+"type": "select",
+"property": "display_context",
+"cases": [
+{
+"when": "gui",
+"model": {
+"type": "model",
+"model": "item/enchanted_book/in_gui/thick/knockback_1"
+}
+}
+],
+"fallback": {
+"type": "model",
+"model": "item/enchanted_book/thick/knockback_1"
+}
+},
+"on_false": {
 "type": "select",
 "property": "display_context",
 "cases": [
@@ -161068,6 +168386,7 @@
 "fallback": {
 "type": "model",
 "model": "item/enchanted_book/knockback_1"
+}
 }
 }
 }
@@ -162188,6 +169507,32 @@
 }
 },
 "on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "lunge"
+}
+],
+"on_true": {
+"type": "select",
+"property": "display_context",
+"cases": [
+{
+"when": "gui",
+"model": {
+"type": "model",
+"model": "item/enchanted_book/in_gui/thick/looting_1"
+}
+}
+],
+"fallback": {
+"type": "model",
+"model": "item/enchanted_book/thick/looting_1"
+}
+},
+"on_false": {
 "type": "select",
 "property": "display_context",
 "cases": [
@@ -162202,6 +169547,7 @@
 "fallback": {
 "type": "model",
 "model": "item/enchanted_book/looting_1"
+}
 }
 }
 }
@@ -163322,6 +170668,32 @@
 }
 },
 "on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "lunge"
+}
+],
+"on_true": {
+"type": "select",
+"property": "display_context",
+"cases": [
+{
+"when": "gui",
+"model": {
+"type": "model",
+"model": "item/enchanted_book/in_gui/thick/loyalty_1"
+}
+}
+],
+"fallback": {
+"type": "model",
+"model": "item/enchanted_book/thick/loyalty_1"
+}
+},
+"on_false": {
 "type": "select",
 "property": "display_context",
 "cases": [
@@ -163336,6 +170708,7 @@
 "fallback": {
 "type": "model",
 "model": "item/enchanted_book/loyalty_1"
+}
 }
 }
 }
@@ -164456,6 +171829,32 @@
 }
 },
 "on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "lunge"
+}
+],
+"on_true": {
+"type": "select",
+"property": "display_context",
+"cases": [
+{
+"when": "gui",
+"model": {
+"type": "model",
+"model": "item/enchanted_book/in_gui/thick/luck_of_the_sea_1"
+}
+}
+],
+"fallback": {
+"type": "model",
+"model": "item/enchanted_book/thick/luck_of_the_sea_1"
+}
+},
+"on_false": {
 "type": "select",
 "property": "display_context",
 "cases": [
@@ -164470,6 +171869,7 @@
 "fallback": {
 "type": "model",
 "model": "item/enchanted_book/luck_of_the_sea_1"
+}
 }
 }
 }
@@ -165590,6 +172990,32 @@
 }
 },
 "on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "lunge"
+}
+],
+"on_true": {
+"type": "select",
+"property": "display_context",
+"cases": [
+{
+"when": "gui",
+"model": {
+"type": "model",
+"model": "item/enchanted_book/in_gui/thick/lure_1"
+}
+}
+],
+"fallback": {
+"type": "model",
+"model": "item/enchanted_book/thick/lure_1"
+}
+},
+"on_false": {
 "type": "select",
 "property": "display_context",
 "cases": [
@@ -165604,6 +173030,7 @@
 "fallback": {
 "type": "model",
 "model": "item/enchanted_book/lure_1"
+}
 }
 }
 }
@@ -166724,6 +174151,32 @@
 }
 },
 "on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "lunge"
+}
+],
+"on_true": {
+"type": "select",
+"property": "display_context",
+"cases": [
+{
+"when": "gui",
+"model": {
+"type": "model",
+"model": "item/enchanted_book/in_gui/thick/mending_1"
+}
+}
+],
+"fallback": {
+"type": "model",
+"model": "item/enchanted_book/thick/mending_1"
+}
+},
+"on_false": {
 "type": "select",
 "property": "display_context",
 "cases": [
@@ -166738,6 +174191,7 @@
 "fallback": {
 "type": "model",
 "model": "item/enchanted_book/mending_1"
+}
 }
 }
 }
@@ -167858,6 +175312,32 @@
 }
 },
 "on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "lunge"
+}
+],
+"on_true": {
+"type": "select",
+"property": "display_context",
+"cases": [
+{
+"when": "gui",
+"model": {
+"type": "model",
+"model": "item/enchanted_book/in_gui/thick/multishot_1"
+}
+}
+],
+"fallback": {
+"type": "model",
+"model": "item/enchanted_book/thick/multishot_1"
+}
+},
+"on_false": {
 "type": "select",
 "property": "display_context",
 "cases": [
@@ -167872,6 +175352,7 @@
 "fallback": {
 "type": "model",
 "model": "item/enchanted_book/multishot_1"
+}
 }
 }
 }
@@ -168992,6 +176473,32 @@
 }
 },
 "on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "lunge"
+}
+],
+"on_true": {
+"type": "select",
+"property": "display_context",
+"cases": [
+{
+"when": "gui",
+"model": {
+"type": "model",
+"model": "item/enchanted_book/in_gui/thick/piercing_1"
+}
+}
+],
+"fallback": {
+"type": "model",
+"model": "item/enchanted_book/thick/piercing_1"
+}
+},
+"on_false": {
 "type": "select",
 "property": "display_context",
 "cases": [
@@ -169006,6 +176513,7 @@
 "fallback": {
 "type": "model",
 "model": "item/enchanted_book/piercing_1"
+}
 }
 }
 }
@@ -170126,6 +177634,32 @@
 }
 },
 "on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "lunge"
+}
+],
+"on_true": {
+"type": "select",
+"property": "display_context",
+"cases": [
+{
+"when": "gui",
+"model": {
+"type": "model",
+"model": "item/enchanted_book/in_gui/thick/power_1"
+}
+}
+],
+"fallback": {
+"type": "model",
+"model": "item/enchanted_book/thick/power_1"
+}
+},
+"on_false": {
 "type": "select",
 "property": "display_context",
 "cases": [
@@ -170140,6 +177674,7 @@
 "fallback": {
 "type": "model",
 "model": "item/enchanted_book/power_1"
+}
 }
 }
 }
@@ -171260,6 +178795,32 @@
 }
 },
 "on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "lunge"
+}
+],
+"on_true": {
+"type": "select",
+"property": "display_context",
+"cases": [
+{
+"when": "gui",
+"model": {
+"type": "model",
+"model": "item/enchanted_book/in_gui/thick/projectile_protection_1"
+}
+}
+],
+"fallback": {
+"type": "model",
+"model": "item/enchanted_book/thick/projectile_protection_1"
+}
+},
+"on_false": {
 "type": "select",
 "property": "display_context",
 "cases": [
@@ -171274,6 +178835,7 @@
 "fallback": {
 "type": "model",
 "model": "item/enchanted_book/projectile_protection_1"
+}
 }
 }
 }
@@ -172394,6 +179956,32 @@
 }
 },
 "on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "lunge"
+}
+],
+"on_true": {
+"type": "select",
+"property": "display_context",
+"cases": [
+{
+"when": "gui",
+"model": {
+"type": "model",
+"model": "item/enchanted_book/in_gui/thick/protection_1"
+}
+}
+],
+"fallback": {
+"type": "model",
+"model": "item/enchanted_book/thick/protection_1"
+}
+},
+"on_false": {
 "type": "select",
 "property": "display_context",
 "cases": [
@@ -172408,6 +179996,7 @@
 "fallback": {
 "type": "model",
 "model": "item/enchanted_book/protection_1"
+}
 }
 }
 }
@@ -173528,6 +181117,32 @@
 }
 },
 "on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "lunge"
+}
+],
+"on_true": {
+"type": "select",
+"property": "display_context",
+"cases": [
+{
+"when": "gui",
+"model": {
+"type": "model",
+"model": "item/enchanted_book/in_gui/thick/punch_1"
+}
+}
+],
+"fallback": {
+"type": "model",
+"model": "item/enchanted_book/thick/punch_1"
+}
+},
+"on_false": {
 "type": "select",
 "property": "display_context",
 "cases": [
@@ -173542,6 +181157,7 @@
 "fallback": {
 "type": "model",
 "model": "item/enchanted_book/punch_1"
+}
 }
 }
 }
@@ -174662,6 +182278,32 @@
 }
 },
 "on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "lunge"
+}
+],
+"on_true": {
+"type": "select",
+"property": "display_context",
+"cases": [
+{
+"when": "gui",
+"model": {
+"type": "model",
+"model": "item/enchanted_book/in_gui/thick/quick_charge_1"
+}
+}
+],
+"fallback": {
+"type": "model",
+"model": "item/enchanted_book/thick/quick_charge_1"
+}
+},
+"on_false": {
 "type": "select",
 "property": "display_context",
 "cases": [
@@ -174676,6 +182318,7 @@
 "fallback": {
 "type": "model",
 "model": "item/enchanted_book/quick_charge_1"
+}
 }
 }
 }
@@ -175796,6 +183439,32 @@
 }
 },
 "on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "lunge"
+}
+],
+"on_true": {
+"type": "select",
+"property": "display_context",
+"cases": [
+{
+"when": "gui",
+"model": {
+"type": "model",
+"model": "item/enchanted_book/in_gui/thick/respiration_1"
+}
+}
+],
+"fallback": {
+"type": "model",
+"model": "item/enchanted_book/thick/respiration_1"
+}
+},
+"on_false": {
 "type": "select",
 "property": "display_context",
 "cases": [
@@ -175810,6 +183479,7 @@
 "fallback": {
 "type": "model",
 "model": "item/enchanted_book/respiration_1"
+}
 }
 }
 }
@@ -176930,6 +184600,32 @@
 }
 },
 "on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "lunge"
+}
+],
+"on_true": {
+"type": "select",
+"property": "display_context",
+"cases": [
+{
+"when": "gui",
+"model": {
+"type": "model",
+"model": "item/enchanted_book/in_gui/thick/riptide_1"
+}
+}
+],
+"fallback": {
+"type": "model",
+"model": "item/enchanted_book/thick/riptide_1"
+}
+},
+"on_false": {
 "type": "select",
 "property": "display_context",
 "cases": [
@@ -176944,6 +184640,7 @@
 "fallback": {
 "type": "model",
 "model": "item/enchanted_book/riptide_1"
+}
 }
 }
 }
@@ -178064,6 +185761,32 @@
 }
 },
 "on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "lunge"
+}
+],
+"on_true": {
+"type": "select",
+"property": "display_context",
+"cases": [
+{
+"when": "gui",
+"model": {
+"type": "model",
+"model": "item/enchanted_book/in_gui/thick/sharpness_1"
+}
+}
+],
+"fallback": {
+"type": "model",
+"model": "item/enchanted_book/thick/sharpness_1"
+}
+},
+"on_false": {
 "type": "select",
 "property": "display_context",
 "cases": [
@@ -178078,6 +185801,7 @@
 "fallback": {
 "type": "model",
 "model": "item/enchanted_book/sharpness_1"
+}
 }
 }
 }
@@ -179198,6 +186922,32 @@
 }
 },
 "on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "lunge"
+}
+],
+"on_true": {
+"type": "select",
+"property": "display_context",
+"cases": [
+{
+"when": "gui",
+"model": {
+"type": "model",
+"model": "item/enchanted_book/in_gui/thick/silk_touch_1"
+}
+}
+],
+"fallback": {
+"type": "model",
+"model": "item/enchanted_book/thick/silk_touch_1"
+}
+},
+"on_false": {
 "type": "select",
 "property": "display_context",
 "cases": [
@@ -179212,6 +186962,7 @@
 "fallback": {
 "type": "model",
 "model": "item/enchanted_book/silk_touch_1"
+}
 }
 }
 }
@@ -180332,6 +188083,32 @@
 }
 },
 "on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "lunge"
+}
+],
+"on_true": {
+"type": "select",
+"property": "display_context",
+"cases": [
+{
+"when": "gui",
+"model": {
+"type": "model",
+"model": "item/enchanted_book/in_gui/thick/smite_1"
+}
+}
+],
+"fallback": {
+"type": "model",
+"model": "item/enchanted_book/thick/smite_1"
+}
+},
+"on_false": {
 "type": "select",
 "property": "display_context",
 "cases": [
@@ -180346,6 +188123,7 @@
 "fallback": {
 "type": "model",
 "model": "item/enchanted_book/smite_1"
+}
 }
 }
 }
@@ -181466,6 +189244,32 @@
 }
 },
 "on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "lunge"
+}
+],
+"on_true": {
+"type": "select",
+"property": "display_context",
+"cases": [
+{
+"when": "gui",
+"model": {
+"type": "model",
+"model": "item/enchanted_book/in_gui/thick/soul_speed_1"
+}
+}
+],
+"fallback": {
+"type": "model",
+"model": "item/enchanted_book/thick/soul_speed_1"
+}
+},
+"on_false": {
 "type": "select",
 "property": "display_context",
 "cases": [
@@ -181480,6 +189284,7 @@
 "fallback": {
 "type": "model",
 "model": "item/enchanted_book/soul_speed_1"
+}
 }
 }
 }
@@ -182600,6 +190405,32 @@
 }
 },
 "on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "lunge"
+}
+],
+"on_true": {
+"type": "select",
+"property": "display_context",
+"cases": [
+{
+"when": "gui",
+"model": {
+"type": "model",
+"model": "item/enchanted_book/in_gui/thick/sweeping_edge_1"
+}
+}
+],
+"fallback": {
+"type": "model",
+"model": "item/enchanted_book/thick/sweeping_edge_1"
+}
+},
+"on_false": {
 "type": "select",
 "property": "display_context",
 "cases": [
@@ -182614,6 +190445,7 @@
 "fallback": {
 "type": "model",
 "model": "item/enchanted_book/sweeping_edge_1"
+}
 }
 }
 }
@@ -183734,6 +191566,32 @@
 }
 },
 "on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "lunge"
+}
+],
+"on_true": {
+"type": "select",
+"property": "display_context",
+"cases": [
+{
+"when": "gui",
+"model": {
+"type": "model",
+"model": "item/enchanted_book/in_gui/thick/swift_sneak_1"
+}
+}
+],
+"fallback": {
+"type": "model",
+"model": "item/enchanted_book/thick/swift_sneak_1"
+}
+},
+"on_false": {
 "type": "select",
 "property": "display_context",
 "cases": [
@@ -183748,6 +191606,7 @@
 "fallback": {
 "type": "model",
 "model": "item/enchanted_book/swift_sneak_1"
+}
 }
 }
 }
@@ -184868,6 +192727,32 @@
 }
 },
 "on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "lunge"
+}
+],
+"on_true": {
+"type": "select",
+"property": "display_context",
+"cases": [
+{
+"when": "gui",
+"model": {
+"type": "model",
+"model": "item/enchanted_book/in_gui/thick/thorns_1"
+}
+}
+],
+"fallback": {
+"type": "model",
+"model": "item/enchanted_book/thick/thorns_1"
+}
+},
+"on_false": {
 "type": "select",
 "property": "display_context",
 "cases": [
@@ -184882,6 +192767,7 @@
 "fallback": {
 "type": "model",
 "model": "item/enchanted_book/thorns_1"
+}
 }
 }
 }
@@ -186002,6 +193888,32 @@
 }
 },
 "on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "lunge"
+}
+],
+"on_true": {
+"type": "select",
+"property": "display_context",
+"cases": [
+{
+"when": "gui",
+"model": {
+"type": "model",
+"model": "item/enchanted_book/in_gui/thick/unbreaking_1"
+}
+}
+],
+"fallback": {
+"type": "model",
+"model": "item/enchanted_book/thick/unbreaking_1"
+}
+},
+"on_false": {
 "type": "select",
 "property": "display_context",
 "cases": [
@@ -186016,6 +193928,7 @@
 "fallback": {
 "type": "model",
 "model": "item/enchanted_book/unbreaking_1"
+}
 }
 }
 }
@@ -187136,6 +195049,32 @@
 }
 },
 "on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "lunge"
+}
+],
+"on_true": {
+"type": "select",
+"property": "display_context",
+"cases": [
+{
+"when": "gui",
+"model": {
+"type": "model",
+"model": "item/enchanted_book/in_gui/thick/density_1"
+}
+}
+],
+"fallback": {
+"type": "model",
+"model": "item/enchanted_book/thick/density_1"
+}
+},
+"on_false": {
 "type": "select",
 "property": "display_context",
 "cases": [
@@ -187150,6 +195089,7 @@
 "fallback": {
 "type": "model",
 "model": "item/enchanted_book/density_1"
+}
 }
 }
 }
@@ -188270,6 +196210,32 @@
 }
 },
 "on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "lunge"
+}
+],
+"on_true": {
+"type": "select",
+"property": "display_context",
+"cases": [
+{
+"when": "gui",
+"model": {
+"type": "model",
+"model": "item/enchanted_book/in_gui/thick/breach_1"
+}
+}
+],
+"fallback": {
+"type": "model",
+"model": "item/enchanted_book/thick/breach_1"
+}
+},
+"on_false": {
 "type": "select",
 "property": "display_context",
 "cases": [
@@ -188284,6 +196250,7 @@
 "fallback": {
 "type": "model",
 "model": "item/enchanted_book/breach_1"
+}
 }
 }
 }
@@ -189404,6 +197371,32 @@
 }
 },
 "on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "lunge"
+}
+],
+"on_true": {
+"type": "select",
+"property": "display_context",
+"cases": [
+{
+"when": "gui",
+"model": {
+"type": "model",
+"model": "item/enchanted_book/in_gui/thick/wind_burst_1"
+}
+}
+],
+"fallback": {
+"type": "model",
+"model": "item/enchanted_book/thick/wind_burst_1"
+}
+},
+"on_false": {
 "type": "select",
 "property": "display_context",
 "cases": [
@@ -189418,6 +197411,1168 @@
 "fallback": {
 "type": "model",
 "model": "item/enchanted_book/wind_burst_1"
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+},
+"on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "lunge",
+"levels": 1
+}
+],
+"on_true": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "aqua_affinity"
+}
+],
+"on_true": {
+"type": "select",
+"property": "display_context",
+"cases": [
+{
+"when": "gui",
+"model": {
+"type": "model",
+"model": "item/enchanted_book/in_gui/thick/lunge_1"
+}
+}
+],
+"fallback": {
+"type": "model",
+"model": "item/enchanted_book/thick/lunge_1"
+}
+},
+"on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "bane_of_arthropods"
+}
+],
+"on_true": {
+"type": "select",
+"property": "display_context",
+"cases": [
+{
+"when": "gui",
+"model": {
+"type": "model",
+"model": "item/enchanted_book/in_gui/thick/lunge_1"
+}
+}
+],
+"fallback": {
+"type": "model",
+"model": "item/enchanted_book/thick/lunge_1"
+}
+},
+"on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "binding_curse"
+}
+],
+"on_true": {
+"type": "select",
+"property": "display_context",
+"cases": [
+{
+"when": "gui",
+"model": {
+"type": "model",
+"model": "item/enchanted_book/in_gui/thick/lunge_1"
+}
+}
+],
+"fallback": {
+"type": "model",
+"model": "item/enchanted_book/thick/lunge_1"
+}
+},
+"on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "blast_protection"
+}
+],
+"on_true": {
+"type": "select",
+"property": "display_context",
+"cases": [
+{
+"when": "gui",
+"model": {
+"type": "model",
+"model": "item/enchanted_book/in_gui/thick/lunge_1"
+}
+}
+],
+"fallback": {
+"type": "model",
+"model": "item/enchanted_book/thick/lunge_1"
+}
+},
+"on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "channeling"
+}
+],
+"on_true": {
+"type": "select",
+"property": "display_context",
+"cases": [
+{
+"when": "gui",
+"model": {
+"type": "model",
+"model": "item/enchanted_book/in_gui/thick/lunge_1"
+}
+}
+],
+"fallback": {
+"type": "model",
+"model": "item/enchanted_book/thick/lunge_1"
+}
+},
+"on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "depth_strider"
+}
+],
+"on_true": {
+"type": "select",
+"property": "display_context",
+"cases": [
+{
+"when": "gui",
+"model": {
+"type": "model",
+"model": "item/enchanted_book/in_gui/thick/lunge_1"
+}
+}
+],
+"fallback": {
+"type": "model",
+"model": "item/enchanted_book/thick/lunge_1"
+}
+},
+"on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "efficiency"
+}
+],
+"on_true": {
+"type": "select",
+"property": "display_context",
+"cases": [
+{
+"when": "gui",
+"model": {
+"type": "model",
+"model": "item/enchanted_book/in_gui/thick/lunge_1"
+}
+}
+],
+"fallback": {
+"type": "model",
+"model": "item/enchanted_book/thick/lunge_1"
+}
+},
+"on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "feather_falling"
+}
+],
+"on_true": {
+"type": "select",
+"property": "display_context",
+"cases": [
+{
+"when": "gui",
+"model": {
+"type": "model",
+"model": "item/enchanted_book/in_gui/thick/lunge_1"
+}
+}
+],
+"fallback": {
+"type": "model",
+"model": "item/enchanted_book/thick/lunge_1"
+}
+},
+"on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "fire_aspect"
+}
+],
+"on_true": {
+"type": "select",
+"property": "display_context",
+"cases": [
+{
+"when": "gui",
+"model": {
+"type": "model",
+"model": "item/enchanted_book/in_gui/thick/lunge_1"
+}
+}
+],
+"fallback": {
+"type": "model",
+"model": "item/enchanted_book/thick/lunge_1"
+}
+},
+"on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "fire_protection"
+}
+],
+"on_true": {
+"type": "select",
+"property": "display_context",
+"cases": [
+{
+"when": "gui",
+"model": {
+"type": "model",
+"model": "item/enchanted_book/in_gui/thick/lunge_1"
+}
+}
+],
+"fallback": {
+"type": "model",
+"model": "item/enchanted_book/thick/lunge_1"
+}
+},
+"on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "flame"
+}
+],
+"on_true": {
+"type": "select",
+"property": "display_context",
+"cases": [
+{
+"when": "gui",
+"model": {
+"type": "model",
+"model": "item/enchanted_book/in_gui/thick/lunge_1"
+}
+}
+],
+"fallback": {
+"type": "model",
+"model": "item/enchanted_book/thick/lunge_1"
+}
+},
+"on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "fortune"
+}
+],
+"on_true": {
+"type": "select",
+"property": "display_context",
+"cases": [
+{
+"when": "gui",
+"model": {
+"type": "model",
+"model": "item/enchanted_book/in_gui/thick/lunge_1"
+}
+}
+],
+"fallback": {
+"type": "model",
+"model": "item/enchanted_book/thick/lunge_1"
+}
+},
+"on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "frost_walker"
+}
+],
+"on_true": {
+"type": "select",
+"property": "display_context",
+"cases": [
+{
+"when": "gui",
+"model": {
+"type": "model",
+"model": "item/enchanted_book/in_gui/thick/lunge_1"
+}
+}
+],
+"fallback": {
+"type": "model",
+"model": "item/enchanted_book/thick/lunge_1"
+}
+},
+"on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "impaling"
+}
+],
+"on_true": {
+"type": "select",
+"property": "display_context",
+"cases": [
+{
+"when": "gui",
+"model": {
+"type": "model",
+"model": "item/enchanted_book/in_gui/thick/lunge_1"
+}
+}
+],
+"fallback": {
+"type": "model",
+"model": "item/enchanted_book/thick/lunge_1"
+}
+},
+"on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "infinity"
+}
+],
+"on_true": {
+"type": "select",
+"property": "display_context",
+"cases": [
+{
+"when": "gui",
+"model": {
+"type": "model",
+"model": "item/enchanted_book/in_gui/thick/lunge_1"
+}
+}
+],
+"fallback": {
+"type": "model",
+"model": "item/enchanted_book/thick/lunge_1"
+}
+},
+"on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "knockback"
+}
+],
+"on_true": {
+"type": "select",
+"property": "display_context",
+"cases": [
+{
+"when": "gui",
+"model": {
+"type": "model",
+"model": "item/enchanted_book/in_gui/thick/lunge_1"
+}
+}
+],
+"fallback": {
+"type": "model",
+"model": "item/enchanted_book/thick/lunge_1"
+}
+},
+"on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "looting"
+}
+],
+"on_true": {
+"type": "select",
+"property": "display_context",
+"cases": [
+{
+"when": "gui",
+"model": {
+"type": "model",
+"model": "item/enchanted_book/in_gui/thick/lunge_1"
+}
+}
+],
+"fallback": {
+"type": "model",
+"model": "item/enchanted_book/thick/lunge_1"
+}
+},
+"on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "loyalty"
+}
+],
+"on_true": {
+"type": "select",
+"property": "display_context",
+"cases": [
+{
+"when": "gui",
+"model": {
+"type": "model",
+"model": "item/enchanted_book/in_gui/thick/lunge_1"
+}
+}
+],
+"fallback": {
+"type": "model",
+"model": "item/enchanted_book/thick/lunge_1"
+}
+},
+"on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "luck_of_the_sea"
+}
+],
+"on_true": {
+"type": "select",
+"property": "display_context",
+"cases": [
+{
+"when": "gui",
+"model": {
+"type": "model",
+"model": "item/enchanted_book/in_gui/thick/lunge_1"
+}
+}
+],
+"fallback": {
+"type": "model",
+"model": "item/enchanted_book/thick/lunge_1"
+}
+},
+"on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "lure"
+}
+],
+"on_true": {
+"type": "select",
+"property": "display_context",
+"cases": [
+{
+"when": "gui",
+"model": {
+"type": "model",
+"model": "item/enchanted_book/in_gui/thick/lunge_1"
+}
+}
+],
+"fallback": {
+"type": "model",
+"model": "item/enchanted_book/thick/lunge_1"
+}
+},
+"on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "mending"
+}
+],
+"on_true": {
+"type": "select",
+"property": "display_context",
+"cases": [
+{
+"when": "gui",
+"model": {
+"type": "model",
+"model": "item/enchanted_book/in_gui/thick/lunge_1"
+}
+}
+],
+"fallback": {
+"type": "model",
+"model": "item/enchanted_book/thick/lunge_1"
+}
+},
+"on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "multishot"
+}
+],
+"on_true": {
+"type": "select",
+"property": "display_context",
+"cases": [
+{
+"when": "gui",
+"model": {
+"type": "model",
+"model": "item/enchanted_book/in_gui/thick/lunge_1"
+}
+}
+],
+"fallback": {
+"type": "model",
+"model": "item/enchanted_book/thick/lunge_1"
+}
+},
+"on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "piercing"
+}
+],
+"on_true": {
+"type": "select",
+"property": "display_context",
+"cases": [
+{
+"when": "gui",
+"model": {
+"type": "model",
+"model": "item/enchanted_book/in_gui/thick/lunge_1"
+}
+}
+],
+"fallback": {
+"type": "model",
+"model": "item/enchanted_book/thick/lunge_1"
+}
+},
+"on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "power"
+}
+],
+"on_true": {
+"type": "select",
+"property": "display_context",
+"cases": [
+{
+"when": "gui",
+"model": {
+"type": "model",
+"model": "item/enchanted_book/in_gui/thick/lunge_1"
+}
+}
+],
+"fallback": {
+"type": "model",
+"model": "item/enchanted_book/thick/lunge_1"
+}
+},
+"on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "projectile_protection"
+}
+],
+"on_true": {
+"type": "select",
+"property": "display_context",
+"cases": [
+{
+"when": "gui",
+"model": {
+"type": "model",
+"model": "item/enchanted_book/in_gui/thick/lunge_1"
+}
+}
+],
+"fallback": {
+"type": "model",
+"model": "item/enchanted_book/thick/lunge_1"
+}
+},
+"on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "protection"
+}
+],
+"on_true": {
+"type": "select",
+"property": "display_context",
+"cases": [
+{
+"when": "gui",
+"model": {
+"type": "model",
+"model": "item/enchanted_book/in_gui/thick/lunge_1"
+}
+}
+],
+"fallback": {
+"type": "model",
+"model": "item/enchanted_book/thick/lunge_1"
+}
+},
+"on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "punch"
+}
+],
+"on_true": {
+"type": "select",
+"property": "display_context",
+"cases": [
+{
+"when": "gui",
+"model": {
+"type": "model",
+"model": "item/enchanted_book/in_gui/thick/lunge_1"
+}
+}
+],
+"fallback": {
+"type": "model",
+"model": "item/enchanted_book/thick/lunge_1"
+}
+},
+"on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "quick_charge"
+}
+],
+"on_true": {
+"type": "select",
+"property": "display_context",
+"cases": [
+{
+"when": "gui",
+"model": {
+"type": "model",
+"model": "item/enchanted_book/in_gui/thick/lunge_1"
+}
+}
+],
+"fallback": {
+"type": "model",
+"model": "item/enchanted_book/thick/lunge_1"
+}
+},
+"on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "respiration"
+}
+],
+"on_true": {
+"type": "select",
+"property": "display_context",
+"cases": [
+{
+"when": "gui",
+"model": {
+"type": "model",
+"model": "item/enchanted_book/in_gui/thick/lunge_1"
+}
+}
+],
+"fallback": {
+"type": "model",
+"model": "item/enchanted_book/thick/lunge_1"
+}
+},
+"on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "riptide"
+}
+],
+"on_true": {
+"type": "select",
+"property": "display_context",
+"cases": [
+{
+"when": "gui",
+"model": {
+"type": "model",
+"model": "item/enchanted_book/in_gui/thick/lunge_1"
+}
+}
+],
+"fallback": {
+"type": "model",
+"model": "item/enchanted_book/thick/lunge_1"
+}
+},
+"on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "sharpness"
+}
+],
+"on_true": {
+"type": "select",
+"property": "display_context",
+"cases": [
+{
+"when": "gui",
+"model": {
+"type": "model",
+"model": "item/enchanted_book/in_gui/thick/lunge_1"
+}
+}
+],
+"fallback": {
+"type": "model",
+"model": "item/enchanted_book/thick/lunge_1"
+}
+},
+"on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "silk_touch"
+}
+],
+"on_true": {
+"type": "select",
+"property": "display_context",
+"cases": [
+{
+"when": "gui",
+"model": {
+"type": "model",
+"model": "item/enchanted_book/in_gui/thick/lunge_1"
+}
+}
+],
+"fallback": {
+"type": "model",
+"model": "item/enchanted_book/thick/lunge_1"
+}
+},
+"on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "smite"
+}
+],
+"on_true": {
+"type": "select",
+"property": "display_context",
+"cases": [
+{
+"when": "gui",
+"model": {
+"type": "model",
+"model": "item/enchanted_book/in_gui/thick/lunge_1"
+}
+}
+],
+"fallback": {
+"type": "model",
+"model": "item/enchanted_book/thick/lunge_1"
+}
+},
+"on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "soul_speed"
+}
+],
+"on_true": {
+"type": "select",
+"property": "display_context",
+"cases": [
+{
+"when": "gui",
+"model": {
+"type": "model",
+"model": "item/enchanted_book/in_gui/thick/lunge_1"
+}
+}
+],
+"fallback": {
+"type": "model",
+"model": "item/enchanted_book/thick/lunge_1"
+}
+},
+"on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "sweeping_edge"
+}
+],
+"on_true": {
+"type": "select",
+"property": "display_context",
+"cases": [
+{
+"when": "gui",
+"model": {
+"type": "model",
+"model": "item/enchanted_book/in_gui/thick/lunge_1"
+}
+}
+],
+"fallback": {
+"type": "model",
+"model": "item/enchanted_book/thick/lunge_1"
+}
+},
+"on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "swift_sneak"
+}
+],
+"on_true": {
+"type": "select",
+"property": "display_context",
+"cases": [
+{
+"when": "gui",
+"model": {
+"type": "model",
+"model": "item/enchanted_book/in_gui/thick/lunge_1"
+}
+}
+],
+"fallback": {
+"type": "model",
+"model": "item/enchanted_book/thick/lunge_1"
+}
+},
+"on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "thorns"
+}
+],
+"on_true": {
+"type": "select",
+"property": "display_context",
+"cases": [
+{
+"when": "gui",
+"model": {
+"type": "model",
+"model": "item/enchanted_book/in_gui/thick/lunge_1"
+}
+}
+],
+"fallback": {
+"type": "model",
+"model": "item/enchanted_book/thick/lunge_1"
+}
+},
+"on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "unbreaking"
+}
+],
+"on_true": {
+"type": "select",
+"property": "display_context",
+"cases": [
+{
+"when": "gui",
+"model": {
+"type": "model",
+"model": "item/enchanted_book/in_gui/thick/lunge_1"
+}
+}
+],
+"fallback": {
+"type": "model",
+"model": "item/enchanted_book/thick/lunge_1"
+}
+},
+"on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "vanishing_curse"
+}
+],
+"on_true": {
+"type": "select",
+"property": "display_context",
+"cases": [
+{
+"when": "gui",
+"model": {
+"type": "model",
+"model": "item/enchanted_book/in_gui/thick/lunge_1"
+}
+}
+],
+"fallback": {
+"type": "model",
+"model": "item/enchanted_book/thick/lunge_1"
+}
+},
+"on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "density"
+}
+],
+"on_true": {
+"type": "select",
+"property": "display_context",
+"cases": [
+{
+"when": "gui",
+"model": {
+"type": "model",
+"model": "item/enchanted_book/in_gui/thick/lunge_1"
+}
+}
+],
+"fallback": {
+"type": "model",
+"model": "item/enchanted_book/thick/lunge_1"
+}
+},
+"on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "breach"
+}
+],
+"on_true": {
+"type": "select",
+"property": "display_context",
+"cases": [
+{
+"when": "gui",
+"model": {
+"type": "model",
+"model": "item/enchanted_book/in_gui/thick/lunge_1"
+}
+}
+],
+"fallback": {
+"type": "model",
+"model": "item/enchanted_book/thick/lunge_1"
+}
+},
+"on_false": {
+"type": "condition",
+"property": "component",
+"predicate": "stored_enchantments",
+"value": [
+{
+"enchantments": "wind_burst"
+}
+],
+"on_true": {
+"type": "select",
+"property": "display_context",
+"cases": [
+{
+"when": "gui",
+"model": {
+"type": "model",
+"model": "item/enchanted_book/in_gui/thick/lunge_1"
+}
+}
+],
+"fallback": {
+"type": "model",
+"model": "item/enchanted_book/thick/lunge_1"
+}
+},
+"on_false": {
+"type": "select",
+"property": "display_context",
+"cases": [
+{
+"when": "gui",
+"model": {
+"type": "model",
+"model": "item/enchanted_book/in_gui/lunge_1"
+}
+}
+],
+"fallback": {
+"type": "model",
+"model": "item/enchanted_book/lunge_1"
+}
 }
 }
 }
@@ -189476,6 +198631,10 @@
 "fallback": {
 "type": "model",
 "model": "item/enchanted_book"
+}
+}
+}
+}
 }
 }
 }
