@@ -1,11 +1,10 @@
 {
   "enchantment.minecraft.aqua_affinity": "\u00a7f\ueff9\u00a7r Kitteh no like water",
   "enchantment.minecraft.bane_of_arthropods": "\u00a7f\uefa1\u00a7r Spidey killey thingy",
-  "enchantment.minecraft.binding_curse": "\u00a7f\uefa4\u00a7r \u00a7ccant taek dis off",
+  "enchantment.minecraft.binding_curse": "\u00a7f\uefa4\u00a7r cant taek dis off",
   "enchantment.minecraft.blast_protection": "\u00a7f\uefe5\u00a7r Blast Protecshun",
-  "enchantment.minecraft.breach": "\u00a7f\uefe3\u00a7r Bleach",
   "enchantment.minecraft.channeling": "\u00a7f\uefa2\u00a7r Being thor",
-  "enchantment.minecraft.cleaving": "\u00a7f\uefa3\u00a7r Cleaving",
+  "enchantment.minecraft.cleaving": "\u00a7f\uefa3\u00a7r Cleavin",
   "enchantment.minecraft.depth_strider": "\u00a7f\uefa5\u00a7r Fuzt Watur Wullken",
   "enchantment.minecraft.efficiency": "\u00a7f\uefa6\u00a7r Effishincy",
   "enchantment.minecraft.feather_falling": "\u00a7f\uefa7\u00a7r Fall on your feet",
@@ -22,7 +21,7 @@
   "enchantment.minecraft.luck_of_the_sea": "\u00a7f\uefb9\u00a7r Luk ov tha See",
   "enchantment.minecraft.lure": "\u00a7f\uefc1\u00a7r Luer",
   "enchantment.minecraft.mending": "\u00a7f\uefc2\u00a7r Mendin",
-  "enchantment.minecraft.multishot": "\u00a7f\uefc3\u00a7r Manyshot",
+  "enchantment.minecraft.multishot": "\u00a7f\uefc3\u00a7r Manysot",
   "enchantment.minecraft.piercing": "\u00a7f\uefc4\u00a7r Errow gous thru",
   "enchantment.minecraft.power": "\u00a7f\uefc5\u00a7r Powir",
   "enchantment.minecraft.projectile_protection": "\u00a7f\uefc6\u00a7r Projektile Protecshun",
@@ -39,7 +38,9 @@
   "enchantment.minecraft.swift_sneak": "\u00a7f\uefd8\u00a7r SNEK SPEEDRUN!!",
   "enchantment.minecraft.thorns": "\u00a7f\uefd9\u00a7r Spiky",
   "enchantment.minecraft.unbreaking": "\u00a7f\uefe1\u00a7r Unbraking",
-  "enchantment.minecraft.vanishing_curse": "\u00a7f\uefe6\u00a7r \u00a7cwen u getrekt its gon",
+  "enchantment.minecraft.vanishing_curse": "\u00a7f\uefe6\u00a7r wen u getrekt its gon",
   "enchantment.minecraft.density": "\u00a7f\uefe2\u00a7r Thiccnez",
-  "enchantment.minecraft.wind_burst": "\u00a7f\uefe4\u00a7r Wind Booom"
+  "enchantment.minecraft.breach": "\u00a7f\uefe3\u00a7r Bleach",
+  "enchantment.minecraft.wind_burst": "\u00a7f\uefe4\u00a7r Wind Booom",
+  "enchantment.minecraft.lunge": "\u00a7f\uefe7\u00a7r Propelur"
 }
